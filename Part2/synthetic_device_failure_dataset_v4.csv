@@ -1,0 +1,3001 @@
+device_id,device_name,manufacturer,device_age_years,usage_hours_per_week,maintenance_frequency_per_year,last_maintenance_gap_days,error_logs_past_month,environment,criticality_level,spare_parts_availability,failures_past_year,manufacturer_support_rating,failure_within_year
+1,Ventilator,Fujifilm,7,27,4,117,7,Ward,Medium,Poor,0,2,0
+2,CT Scanner,Siemens,6,86,4,107,13,ICU,Low,Moderate,0,5,0
+3,Ultrasound,GE Healthcare,8,84,2,202,17,ICU,Low,Good,0,5,1
+4,CT Scanner,Mindray,5,66,6,72,12,Diagnostic Center,Medium,Moderate,0,1,0
+5,CT Scanner,GE Healthcare,6,75,6,74,16,ICU,Medium,Poor,0,3,0
+6,CT Scanner,Philips,11,46,12,69,11,Operating Room,High,Poor,0,4,0
+7,Infusion Pump,Medtronic,5,94,4,105,7,Diagnostic Center,High,Good,0,3,0
+8,ECG,Siemens,12,50,2,212,12,ICU,High,Poor,0,3,1
+9,Patient Monitor,Siemens,8,37,2,207,7,Ward,Low,Poor,0,5,0
+10,Ventilator,Philips,4,45,2,174,15,ICU,Medium,Poor,0,4,1
+11,Patient Monitor,Canon Medical,4,80,2,188,15,Diagnostic Center,High,Moderate,0,3,1
+12,Ventilator,Fujifilm,2,98,2,202,11,ICU,High,Good,0,3,1
+13,Ventilator,Canon Medical,3,64,6,88,5,Diagnostic Center,High,Moderate,1,4,0
+14,Infusion Pump,Medtronic,4,38,2,218,9,Ward,High,Poor,1,3,1
+15,X-Ray,Medtronic,5,81,4,82,10,Ward,High,Good,0,3,0
+16,CT Scanner,Philips,6,35,6,88,7,ICU,High,Moderate,0,2,0
+17,X-Ray,Philips,5,62,4,105,4,Lab,Medium,Moderate,0,4,0
+18,Patient Monitor,GE Healthcare,5,69,4,107,11,ICU,High,Poor,0,4,1
+19,MRI Scanner,Siemens,6,64,2,197,13,Operating Room,High,Moderate,0,4,1
+20,Ultrasound,Canon Medical,5,71,6,59,4,ICU,High,Good,1,3,0
+21,Infusion Pump,Canon Medical,6,80,4,91,13,Lab,Medium,Moderate,0,2,1
+22,Ventilator,Philips,5,78,2,198,15,Ward,Medium,Moderate,0,3,1
+23,CT Scanner,GE Healthcare,4,75,4,103,9,ICU,High,Poor,0,3,0
+24,X-Ray,Siemens,7,11,12,25,5,Ward,High,Moderate,0,5,0
+25,X-Ray,Philips,7,51,2,209,9,Ward,High,Good,0,3,1
+26,Infusion Pump,Philips,7,52,4,93,15,Ward,High,Good,0,4,1
+27,Infusion Pump,Philips,10,66,4,92,5,ICU,High,Moderate,0,4,0
+28,CT Scanner,Siemens,5,64,4,83,9,Ward,High,Poor,0,4,0
+29,Patient Monitor,Medtronic,11,37,6,92,9,ICU,Medium,Poor,0,2,1
+30,CT Scanner,Canon Medical,4,61,6,91,6,Operating Room,Low,Poor,0,4,0
+31,Patient Monitor,Philips,8,32,6,93,6,Diagnostic Center,High,Good,1,4,1
+32,Infusion Pump,Medtronic,9,69,12,43,6,Operating Room,Low,Moderate,0,3,0
+33,MRI Scanner,GE Healthcare,10,110,2,198,18,Ward,High,Poor,0,3,1
+34,MRI Scanner,Fujifilm,5,42,4,97,7,Ward,Medium,Poor,0,2,0
+35,Ultrasound,Philips,7,36,4,114,7,ICU,Medium,Good,1,2,0
+36,Infusion Pump,Siemens,12,53,1,374,22,Ward,Medium,Poor,0,5,1
+37,CT Scanner,Canon Medical,5,85,4,119,8,Ward,Medium,Good,0,3,0
+38,Infusion Pump,Canon Medical,6,95,0,399,23,Diagnostic Center,Medium,Good,0,4,1
+39,Infusion Pump,Canon Medical,4,53,6,65,8,ICU,Medium,Moderate,0,2,0
+40,Patient Monitor,Mindray,5,66,12,23,3,ICU,High,Moderate,0,3,0
+41,Patient Monitor,Mindray,3,47,6,76,5,Ward,High,Good,0,3,0
+42,Ventilator,Mindray,8,78,4,87,5,Ward,High,Poor,0,2,0
+43,Ultrasound,GE Healthcare,9,44,4,102,12,Ward,Medium,Poor,0,4,1
+44,CT Scanner,Mindray,6,38,6,61,2,Diagnostic Center,High,Good,0,1,0
+45,Ultrasound,Philips,4,29,4,120,8,Lab,Medium,Moderate,0,3,0
+46,Ultrasound,Philips,1,31,2,189,6,Diagnostic Center,Medium,Poor,0,4,0
+47,Patient Monitor,Medtronic,4,55,4,88,7,Ward,Medium,Poor,0,2,0
+48,ECG,Fujifilm,5,52,4,83,11,Operating Room,Low,Good,0,4,0
+49,Ultrasound,Canon Medical,7,51,4,114,6,ICU,High,Poor,0,3,1
+50,ECG,Mindray,3,62,2,205,10,Ward,Medium,Poor,0,1,0
+51,CT Scanner,Canon Medical,5,65,4,116,10,Diagnostic Center,Medium,Moderate,0,2,1
+52,X-Ray,Mindray,9,45,4,130,15,Diagnostic Center,High,Good,0,3,1
+53,ECG,Philips,6,31,4,118,9,ICU,Medium,Moderate,0,3,0
+54,Infusion Pump,GE Healthcare,7,69,4,120,10,ICU,Medium,Good,0,3,1
+55,ECG,Siemens,2,83,6,68,2,Operating Room,Medium,Poor,0,3,0
+56,X-Ray,Siemens,6,80,6,65,4,Operating Room,Low,Moderate,0,4,0
+57,Ultrasound,Philips,3,49,1,393,13,Diagnostic Center,Low,Good,1,3,1
+58,CT Scanner,Mindray,6,40,4,98,11,Ward,Medium,Poor,0,1,1
+59,Ultrasound,Mindray,4,83,6,78,8,ICU,Medium,Moderate,0,2,0
+60,Infusion Pump,Mindray,6,76,0,382,23,ICU,Medium,Moderate,0,2,1
+61,Ultrasound,Mindray,4,91,6,95,9,ICU,High,Good,0,2,0
+62,Ventilator,Mindray,7,60,4,97,8,ICU,Medium,Poor,0,3,0
+63,Ultrasound,Medtronic,7,75,12,33,8,ICU,High,Moderate,0,3,0
+64,Infusion Pump,Mindray,6,51,6,63,8,Ward,High,Moderate,0,1,0
+65,Ventilator,Siemens,5,61,12,25,6,Operating Room,Medium,Poor,1,5,0
+66,ECG,GE Healthcare,6,59,6,51,6,Ward,High,Poor,0,4,0
+67,X-Ray,GE Healthcare,5,64,6,66,10,Lab,Medium,Moderate,0,3,0
+68,X-Ray,Canon Medical,3,79,6,63,7,ICU,High,Moderate,0,2,0
+69,Ventilator,Medtronic,4,44,6,77,4,ICU,Medium,Poor,0,2,0
+70,Ventilator,Medtronic,8,67,4,84,6,Ward,Medium,Good,0,3,0
+71,Infusion Pump,GE Healthcare,6,76,4,98,7,Diagnostic Center,Low,Poor,0,4,0
+72,Ventilator,Mindray,4,30,6,53,4,Ward,Low,Poor,0,2,0
+73,X-Ray,Mindray,2,55,2,179,8,Ward,Low,Poor,0,2,1
+74,Ventilator,Fujifilm,5,48,4,116,10,Operating Room,Medium,Moderate,0,2,1
+75,MRI Scanner,GE Healthcare,8,80,4,89,9,ICU,Medium,Good,0,3,0
+76,Ventilator,Fujifilm,5,68,6,57,7,Diagnostic Center,Low,Moderate,0,3,0
+77,Ultrasound,Siemens,4,54,12,53,4,ICU,Medium,Moderate,1,5,0
+78,Ultrasound,Siemens,4,46,4,98,9,ICU,Medium,Good,0,4,0
+79,Ultrasound,GE Healthcare,12,37,2,175,14,Operating Room,High,Poor,0,5,1
+80,Infusion Pump,GE Healthcare,9,36,12,28,8,Diagnostic Center,Medium,Moderate,0,5,0
+81,X-Ray,Philips,11,50,6,99,8,Diagnostic Center,High,Poor,0,2,1
+82,Ventilator,Mindray,6,78,4,119,9,ICU,Medium,Good,1,1,0
+83,MRI Scanner,Medtronic,3,64,12,23,8,Ward,Medium,Good,0,2,0
+84,X-Ray,Canon Medical,9,84,4,114,14,Lab,Medium,Good,0,2,1
+85,Ventilator,GE Healthcare,4,59,1,394,17,Operating Room,Medium,Good,0,4,1
+86,ECG,Medtronic,6,33,2,192,8,ICU,High,Moderate,0,3,1
+87,Infusion Pump,Siemens,4,77,2,198,10,ICU,High,Moderate,0,4,1
+88,MRI Scanner,Medtronic,5,70,1,404,19,Operating Room,High,Moderate,0,4,1
+89,ECG,Medtronic,7,57,6,98,11,Lab,Medium,Poor,0,2,1
+90,Ventilator,Canon Medical,3,42,2,182,13,Diagnostic Center,Low,Moderate,0,2,1
+91,Ventilator,Mindray,4,46,6,59,8,Ward,Low,Moderate,0,2,0
+92,MRI Scanner,Fujifilm,6,45,6,56,9,Ward,High,Poor,0,2,1
+93,Infusion Pump,Mindray,7,49,2,205,17,Diagnostic Center,Medium,Moderate,1,3,1
+94,ECG,Mindray,4,69,4,99,11,Operating Room,Medium,Moderate,0,1,1
+95,ECG,Canon Medical,7,76,6,62,11,Operating Room,Medium,Poor,0,3,0
+96,CT Scanner,Canon Medical,7,51,4,95,6,Operating Room,High,Moderate,0,4,0
+97,Ultrasound,GE Healthcare,4,89,6,64,4,Ward,High,Good,0,5,0
+98,Infusion Pump,Mindray,10,48,4,127,16,ICU,High,Poor,0,3,1
+99,ECG,Mindray,5,77,12,46,9,Ward,Medium,Good,0,3,0
+100,Infusion Pump,Medtronic,6,43,6,67,8,Operating Room,Low,Moderate,0,4,0
+101,X-Ray,Philips,6,63,6,70,10,Diagnostic Center,Medium,Moderate,0,4,0
+102,Ventilator,Philips,6,55,2,205,17,Lab,Medium,Moderate,0,4,1
+103,ECG,Siemens,9,86,12,25,7,Diagnostic Center,Medium,Good,0,5,0
+104,CT Scanner,Siemens,1,67,12,46,7,ICU,High,Good,0,5,0
+105,MRI Scanner,GE Healthcare,6,63,4,126,10,ICU,Low,Moderate,0,5,0
+106,Ventilator,Medtronic,5,34,2,221,6,Ward,High,Moderate,0,4,1
+107,MRI Scanner,Canon Medical,9,42,6,90,12,Ward,High,Moderate,0,2,1
+108,Infusion Pump,Mindray,3,21,6,71,4,Diagnostic Center,High,Moderate,0,1,0
+109,Ultrasound,Siemens,8,59,4,83,16,Lab,Medium,Moderate,0,5,0
+110,X-Ray,Canon Medical,7,38,4,100,6,ICU,Medium,Moderate,0,4,0
+111,Patient Monitor,Mindray,10,70,4,86,11,Diagnostic Center,Medium,Moderate,0,1,1
+112,Infusion Pump,GE Healthcare,5,60,4,91,1,Ward,Low,Good,1,5,0
+113,CT Scanner,GE Healthcare,6,41,6,63,5,Ward,High,Moderate,0,4,0
+114,X-Ray,Mindray,2,88,6,95,4,Operating Room,High,Moderate,0,1,0
+115,Infusion Pump,Fujifilm,8,77,12,53,9,Ward,Medium,Moderate,0,3,0
+116,Patient Monitor,Fujifilm,4,57,4,94,6,Diagnostic Center,High,Good,1,3,0
+117,Infusion Pump,Mindray,9,34,1,377,18,Ward,High,Poor,0,2,1
+118,Infusion Pump,Philips,9,35,4,107,7,Ward,Low,Poor,0,4,0
+119,Ventilator,Mindray,10,46,4,81,14,ICU,Medium,Moderate,0,3,1
+120,Ultrasound,Philips,12,89,2,183,13,Diagnostic Center,Medium,Moderate,0,4,1
+121,ECG,GE Healthcare,4,70,6,88,6,Diagnostic Center,Medium,Good,0,5,0
+122,Infusion Pump,GE Healthcare,9,65,4,119,12,ICU,Medium,Good,0,5,0
+123,Infusion Pump,Mindray,6,73,12,20,0,ICU,Medium,Moderate,0,3,0
+124,CT Scanner,Fujifilm,3,77,4,122,11,Diagnostic Center,High,Poor,0,3,1
+125,CT Scanner,Mindray,5,41,4,109,2,Lab,Medium,Poor,0,1,0
+126,X-Ray,Canon Medical,6,63,6,65,9,Diagnostic Center,Medium,Moderate,1,3,0
+127,CT Scanner,Siemens,8,55,2,211,13,Diagnostic Center,High,Moderate,0,5,1
+128,Infusion Pump,GE Healthcare,6,82,12,48,8,Ward,Medium,Poor,0,4,0
+129,Infusion Pump,Mindray,5,47,2,220,13,Operating Room,High,Poor,0,3,1
+130,Patient Monitor,GE Healthcare,10,82,6,80,12,Diagnostic Center,Low,Good,0,4,0
+131,Ultrasound,Mindray,7,65,2,185,9,Operating Room,High,Moderate,0,2,1
+132,ECG,GE Healthcare,9,59,6,56,5,Lab,Medium,Poor,0,5,0
+133,Patient Monitor,Fujifilm,8,53,2,184,12,Lab,High,Moderate,0,2,1
+134,Infusion Pump,Philips,2,67,0,372,17,ICU,High,Poor,1,3,1
+135,ECG,GE Healthcare,6,18,4,107,4,ICU,Medium,Poor,0,3,0
+136,Infusion Pump,Mindray,7,18,2,194,10,Diagnostic Center,High,Moderate,0,2,1
+137,Infusion Pump,Canon Medical,4,50,6,83,13,Lab,Medium,Moderate,0,3,0
+138,Ultrasound,Medtronic,5,96,4,86,17,Operating Room,High,Poor,0,3,1
+139,MRI Scanner,Siemens,6,72,4,87,1,Ward,High,Moderate,0,3,0
+140,Infusion Pump,Siemens,4,65,1,366,10,Lab,High,Poor,0,4,1
+141,Infusion Pump,Canon Medical,4,43,4,125,11,Lab,High,Poor,0,3,0
+142,Infusion Pump,Mindray,7,77,4,116,10,ICU,Low,Poor,1,2,1
+143,Infusion Pump,Mindray,5,58,4,98,12,Ward,Medium,Good,1,2,1
+144,Infusion Pump,Siemens,4,17,12,56,3,ICU,Medium,Good,1,4,0
+145,Ventilator,Medtronic,7,46,6,73,8,ICU,High,Good,0,2,0
+146,X-Ray,Philips,8,56,6,59,11,Ward,Medium,Good,0,4,0
+147,Infusion Pump,Fujifilm,6,32,12,27,6,ICU,High,Moderate,0,3,0
+148,Patient Monitor,Siemens,8,79,2,197,13,Diagnostic Center,High,Moderate,0,4,1
+149,X-Ray,Medtronic,8,60,1,355,15,ICU,Low,Moderate,0,2,1
+150,Ventilator,Mindray,7,44,2,214,15,ICU,High,Poor,0,3,1
+151,Ventilator,Fujifilm,7,54,2,202,13,ICU,High,Moderate,0,4,1
+152,MRI Scanner,Siemens,7,103,6,91,12,Diagnostic Center,High,Moderate,1,3,1
+153,Ultrasound,Canon Medical,4,41,1,372,14,Ward,Medium,Moderate,0,4,1
+154,ECG,Philips,5,66,2,193,10,Operating Room,Medium,Poor,0,3,1
+155,Infusion Pump,GE Healthcare,9,45,12,60,8,Lab,High,Moderate,0,4,0
+156,Ventilator,Medtronic,11,64,6,60,9,Ward,High,Poor,0,2,1
+157,Patient Monitor,Philips,3,46,4,101,2,Diagnostic Center,Medium,Poor,0,2,0
+158,Patient Monitor,Siemens,5,21,6,97,7,Ward,High,Moderate,0,5,0
+159,X-Ray,Canon Medical,3,45,2,205,8,Ward,Medium,Good,0,3,0
+160,X-Ray,Mindray,9,67,1,379,21,ICU,High,Moderate,0,3,1
+161,Patient Monitor,Mindray,9,50,4,95,14,Ward,High,Good,1,1,1
+162,X-Ray,Canon Medical,7,80,6,76,9,ICU,Low,Moderate,0,3,0
+163,Infusion Pump,Siemens,5,52,4,93,9,Lab,Low,Moderate,0,3,0
+164,X-Ray,GE Healthcare,7,47,4,84,5,ICU,Medium,Moderate,0,5,0
+165,MRI Scanner,Philips,9,51,4,88,9,ICU,Low,Good,0,2,0
+166,ECG,Canon Medical,13,49,4,97,15,Diagnostic Center,Medium,Moderate,0,3,1
+167,Ventilator,Fujifilm,8,41,2,174,12,ICU,Medium,Poor,0,2,1
+168,X-Ray,Siemens,11,62,1,378,21,Ward,Low,Poor,0,3,1
+169,Ultrasound,Philips,9,31,0,376,15,Operating Room,Low,Poor,0,2,1
+170,Ultrasound,Mindray,7,42,4,94,4,Lab,Medium,Moderate,0,2,0
+171,CT Scanner,Siemens,5,58,6,59,9,Ward,Low,Poor,0,3,0
+172,MRI Scanner,Mindray,8,78,4,126,11,Ward,High,Moderate,0,1,1
+173,ECG,Siemens,2,54,12,42,9,Diagnostic Center,Medium,Moderate,0,3,0
+174,Infusion Pump,Medtronic,5,64,6,89,7,Lab,High,Moderate,0,4,0
+175,CT Scanner,Fujifilm,5,83,4,126,8,ICU,High,Good,0,2,1
+176,MRI Scanner,GE Healthcare,4,69,6,59,1,Operating Room,High,Poor,0,5,0
+177,Ventilator,Philips,2,76,6,82,9,Ward,Low,Poor,1,3,0
+178,MRI Scanner,Fujifilm,3,47,4,113,6,Operating Room,Medium,Moderate,0,3,0
+179,CT Scanner,Mindray,3,54,4,95,6,Diagnostic Center,Medium,Moderate,0,2,0
+180,ECG,GE Healthcare,8,65,0,358,21,Operating Room,High,Poor,0,4,1
+181,Ventilator,Mindray,5,57,6,99,7,Ward,High,Poor,0,2,1
+182,Ultrasound,Fujifilm,5,31,4,96,5,Lab,Medium,Moderate,1,2,0
+183,CT Scanner,GE Healthcare,7,44,6,55,12,Ward,High,Good,0,3,0
+184,Ventilator,GE Healthcare,6,65,6,75,8,Ward,Medium,Moderate,0,3,0
+185,MRI Scanner,Medtronic,5,42,4,84,8,ICU,Medium,Good,0,2,0
+186,Ultrasound,Medtronic,6,23,12,25,5,Ward,Medium,Good,0,2,0
+187,MRI Scanner,Mindray,6,81,6,91,4,Ward,High,Poor,0,3,0
+188,CT Scanner,Mindray,3,65,4,104,7,Ward,High,Moderate,0,1,1
+189,Patient Monitor,Siemens,6,41,4,104,7,ICU,Medium,Good,0,4,0
+190,Ultrasound,Mindray,7,81,2,196,13,Operating Room,High,Poor,0,2,0
+191,ECG,GE Healthcare,8,55,2,172,12,Ward,Low,Good,0,5,1
+192,CT Scanner,Mindray,7,71,6,96,6,ICU,High,Moderate,1,1,1
+193,Ventilator,Siemens,6,68,2,208,14,Ward,Medium,Good,0,5,1
+194,ECG,Siemens,6,55,1,404,19,Lab,Medium,Moderate,0,3,1
+195,ECG,Philips,9,89,12,21,8,Diagnostic Center,Medium,Good,1,3,0
+196,Patient Monitor,Siemens,7,18,2,192,12,Diagnostic Center,Low,Moderate,0,4,0
+197,MRI Scanner,Canon Medical,9,74,12,57,8,Ward,Medium,Moderate,0,4,0
+198,X-Ray,Mindray,2,57,1,373,16,ICU,Low,Good,0,1,1
+199,MRI Scanner,Philips,8,55,4,104,8,Ward,Medium,Poor,0,4,0
+200,Ultrasound,GE Healthcare,2,34,4,105,5,ICU,Medium,Poor,0,3,0
+201,X-Ray,Mindray,9,68,6,51,12,ICU,High,Good,0,1,0
+202,Infusion Pump,Siemens,8,48,4,129,9,ICU,Medium,Good,0,4,0
+203,Ultrasound,Canon Medical,7,66,4,111,12,ICU,Low,Good,0,2,1
+204,Patient Monitor,GE Healthcare,4,67,1,366,17,Ward,Medium,Moderate,0,4,1
+205,Ultrasound,Mindray,3,73,12,35,4,Lab,High,Good,0,1,0
+206,Ventilator,Fujifilm,5,61,12,23,5,Diagnostic Center,Medium,Moderate,0,2,0
+207,Patient Monitor,GE Healthcare,5,53,12,21,5,Lab,Medium,Poor,0,4,0
+208,CT Scanner,Siemens,14,82,6,73,13,Operating Room,High,Poor,0,5,1
+209,ECG,Mindray,3,62,6,50,5,Diagnostic Center,Low,Poor,0,3,0
+210,ECG,Mindray,12,41,6,54,10,ICU,Medium,Poor,0,2,1
+211,X-Ray,Canon Medical,6,50,2,195,10,ICU,Medium,Moderate,0,2,1
+212,Infusion Pump,GE Healthcare,4,33,12,26,4,Diagnostic Center,High,Poor,0,4,0
+213,ECG,GE Healthcare,6,70,4,99,10,Lab,Medium,Good,0,3,0
+214,Infusion Pump,Siemens,9,34,2,203,6,Operating Room,High,Good,0,4,1
+215,MRI Scanner,GE Healthcare,7,45,1,379,19,Ward,High,Good,0,5,1
+216,X-Ray,Siemens,4,66,12,39,8,Ward,High,Moderate,0,3,0
+217,Infusion Pump,Siemens,4,73,6,97,13,ICU,High,Poor,0,4,1
+218,Patient Monitor,Medtronic,9,42,4,94,7,Operating Room,Medium,Moderate,1,3,0
+219,Infusion Pump,Mindray,2,57,12,55,7,Ward,High,Poor,0,2,0
+220,ECG,Siemens,6,58,4,129,10,ICU,Medium,Good,0,4,0
+221,Ventilator,Mindray,5,61,4,130,5,Diagnostic Center,High,Poor,0,3,0
+222,Infusion Pump,Canon Medical,7,36,1,403,21,ICU,Medium,Moderate,1,2,1
+223,CT Scanner,GE Healthcare,7,80,4,124,6,Ward,Medium,Poor,0,3,0
+224,ECG,GE Healthcare,9,67,12,26,7,Operating Room,Medium,Moderate,0,3,0
+225,X-Ray,Mindray,3,75,4,117,10,Diagnostic Center,High,Poor,0,3,1
+226,X-Ray,Medtronic,3,67,12,57,6,Ward,High,Poor,0,4,0
+227,CT Scanner,Mindray,11,52,2,205,10,Ward,High,Moderate,1,3,1
+228,Infusion Pump,Fujifilm,9,59,6,64,10,Diagnostic Center,Medium,Poor,0,2,1
+229,X-Ray,Medtronic,4,40,2,199,12,Operating Room,Medium,Moderate,0,3,1
+230,X-Ray,Fujifilm,5,69,6,63,6,Ward,Medium,Moderate,0,2,0
+231,MRI Scanner,Siemens,5,78,0,377,19,ICU,High,Poor,0,3,1
+232,Infusion Pump,Medtronic,5,35,6,77,11,Operating Room,Low,Good,0,4,0
+233,MRI Scanner,Philips,5,62,0,358,18,Diagnostic Center,Medium,Good,0,3,1
+234,CT Scanner,Philips,13,77,6,78,16,Diagnostic Center,Low,Poor,0,4,1
+235,CT Scanner,Mindray,7,56,4,105,9,Diagnostic Center,Low,Good,0,1,1
+236,ECG,Mindray,5,103,6,86,12,Ward,Medium,Poor,0,1,1
+237,MRI Scanner,Mindray,7,56,12,34,4,Ward,High,Good,0,3,0
+238,ECG,Philips,6,77,4,117,8,Ward,Medium,Poor,0,2,1
+239,Infusion Pump,Canon Medical,7,88,6,72,3,ICU,Medium,Moderate,0,2,0
+240,MRI Scanner,Fujifilm,2,65,6,91,10,ICU,High,Poor,0,3,0
+241,Patient Monitor,GE Healthcare,3,67,4,113,7,ICU,Low,Good,0,4,0
+242,X-Ray,Philips,5,69,4,84,7,Operating Room,Medium,Moderate,0,4,0
+243,Ultrasound,GE Healthcare,2,75,4,117,10,Lab,High,Good,0,4,0
+244,X-Ray,Canon Medical,4,59,6,86,6,Ward,High,Poor,0,4,0
+245,Patient Monitor,Siemens,6,88,4,125,12,ICU,High,Good,0,3,1
+246,MRI Scanner,Canon Medical,6,67,4,82,4,Lab,High,Good,0,4,0
+247,Ultrasound,GE Healthcare,10,50,4,124,5,Lab,Medium,Moderate,0,4,0
+248,Ultrasound,Siemens,6,69,4,111,10,Diagnostic Center,High,Moderate,0,4,0
+249,MRI Scanner,Philips,8,69,2,202,14,Diagnostic Center,Low,Good,0,3,1
+250,Ultrasound,Mindray,5,60,4,96,7,Lab,High,Moderate,0,3,0
+251,Patient Monitor,Medtronic,6,58,4,99,12,Ward,High,Moderate,0,4,1
+252,X-Ray,Canon Medical,6,42,6,84,11,Diagnostic Center,High,Good,0,4,0
+253,X-Ray,Siemens,4,63,12,32,2,ICU,High,Good,0,3,0
+254,X-Ray,Fujifilm,3,62,1,362,13,Operating Room,High,Moderate,0,2,1
+255,Ultrasound,Siemens,4,78,4,87,13,Ward,Medium,Poor,1,3,0
+256,Ultrasound,Canon Medical,7,52,12,39,13,Lab,Medium,Moderate,1,4,0
+257,X-Ray,GE Healthcare,6,75,6,89,9,ICU,High,Good,0,5,0
+258,ECG,Fujifilm,4,49,2,192,8,Lab,High,Poor,0,3,0
+259,CT Scanner,Mindray,4,50,4,116,13,ICU,Low,Good,0,3,0
+260,CT Scanner,Mindray,4,67,12,66,4,Ward,Medium,Moderate,0,2,0
+261,CT Scanner,Siemens,10,67,4,127,12,Operating Room,Medium,Good,0,4,1
+262,CT Scanner,Siemens,2,45,1,394,18,Diagnostic Center,High,Good,0,5,1
+263,Ultrasound,Canon Medical,9,67,6,90,8,Diagnostic Center,High,Moderate,0,4,0
+264,X-Ray,Medtronic,5,47,6,60,9,ICU,Medium,Poor,0,3,0
+265,X-Ray,Mindray,5,48,6,52,15,Operating Room,Medium,Poor,0,1,0
+266,Infusion Pump,Siemens,10,58,6,76,6,Ward,High,Moderate,0,4,0
+267,Ventilator,Medtronic,3,66,4,121,9,Lab,High,Poor,0,3,1
+268,Infusion Pump,Canon Medical,6,75,1,382,18,Operating Room,Medium,Moderate,0,3,1
+269,X-Ray,Fujifilm,2,49,6,74,4,Ward,High,Good,0,4,0
+270,CT Scanner,Siemens,6,58,2,193,11,ICU,High,Poor,0,4,1
+271,CT Scanner,Siemens,2,23,6,86,8,Ward,Low,Moderate,0,5,0
+272,ECG,GE Healthcare,10,41,1,365,21,Diagnostic Center,High,Poor,0,5,1
+273,Ultrasound,Fujifilm,9,70,4,122,13,Diagnostic Center,High,Moderate,0,4,1
+274,X-Ray,Siemens,5,81,4,119,10,Ward,Low,Poor,0,5,0
+275,Infusion Pump,GE Healthcare,3,78,2,202,7,ICU,High,Good,0,4,0
+276,Ultrasound,GE Healthcare,9,53,4,112,12,Ward,High,Good,0,4,1
+277,Ventilator,Philips,7,67,4,91,6,Ward,High,Good,0,2,0
+278,Ventilator,Philips,5,71,2,196,17,Diagnostic Center,Medium,Good,0,3,1
+279,Ventilator,Philips,8,58,12,26,6,Lab,High,Poor,0,4,0
+280,Infusion Pump,GE Healthcare,4,56,4,130,11,Diagnostic Center,Medium,Poor,0,4,0
+281,ECG,Fujifilm,10,80,4,82,7,Operating Room,High,Good,0,4,0
+282,X-Ray,Mindray,3,76,6,80,4,Ward,Low,Poor,0,1,0
+283,CT Scanner,GE Healthcare,10,32,6,77,7,Operating Room,Medium,Moderate,0,3,0
+284,X-Ray,GE Healthcare,8,43,6,60,6,Lab,Medium,Poor,0,4,0
+285,Ventilator,Canon Medical,10,81,2,198,14,Operating Room,Medium,Poor,0,4,1
+286,Ultrasound,Philips,3,60,6,76,6,Operating Room,Medium,Moderate,0,3,0
+287,X-Ray,Canon Medical,3,59,6,80,12,Lab,High,Good,0,4,0
+288,ECG,GE Healthcare,4,35,1,377,20,Lab,Medium,Moderate,0,5,1
+289,Infusion Pump,Mindray,5,65,2,174,9,ICU,Medium,Moderate,0,1,1
+290,Infusion Pump,GE Healthcare,6,35,2,199,9,Ward,Medium,Moderate,0,3,1
+291,ECG,Canon Medical,5,73,4,113,9,Ward,Medium,Poor,0,2,1
+292,ECG,Mindray,4,77,12,30,1,Ward,High,Poor,0,1,0
+293,Infusion Pump,GE Healthcare,5,48,0,369,15,ICU,Medium,Poor,0,4,1
+294,MRI Scanner,Medtronic,5,58,1,400,15,ICU,High,Poor,0,2,1
+295,Patient Monitor,Siemens,4,76,12,63,10,ICU,High,Good,0,4,0
+296,Infusion Pump,Philips,6,97,2,174,13,ICU,Low,Moderate,0,3,1
+297,Infusion Pump,Medtronic,5,91,4,92,7,Lab,Low,Moderate,0,3,0
+298,Ventilator,GE Healthcare,8,80,6,73,10,Ward,High,Moderate,1,3,1
+299,Infusion Pump,Fujifilm,8,42,12,48,10,ICU,Medium,Good,0,4,0
+300,CT Scanner,Philips,9,57,2,204,15,Ward,Low,Poor,0,3,1
+301,MRI Scanner,Mindray,4,65,6,60,6,Operating Room,High,Good,0,1,0
+302,Infusion Pump,GE Healthcare,3,74,6,93,8,Diagnostic Center,Medium,Moderate,0,4,0
+303,Ventilator,Canon Medical,4,74,12,30,6,ICU,High,Moderate,0,3,0
+304,Ultrasound,GE Healthcare,4,74,1,390,18,Diagnostic Center,Medium,Moderate,0,5,1
+305,Patient Monitor,Canon Medical,6,93,4,95,11,Diagnostic Center,High,Moderate,0,3,0
+306,Patient Monitor,GE Healthcare,1,75,6,78,9,Operating Room,High,Poor,1,3,0
+307,MRI Scanner,Medtronic,6,57,6,50,7,ICU,Medium,Good,0,2,0
+308,Infusion Pump,Canon Medical,4,49,4,95,11,Ward,Low,Good,0,3,0
+309,Ventilator,Medtronic,13,86,2,181,17,Lab,High,Good,0,2,1
+310,Ultrasound,GE Healthcare,2,71,12,57,2,Operating Room,Medium,Poor,0,3,0
+311,Ultrasound,Medtronic,5,60,1,393,18,Diagnostic Center,High,Poor,0,3,1
+312,CT Scanner,Mindray,7,70,12,49,8,Lab,Medium,Moderate,0,1,0
+313,MRI Scanner,Canon Medical,1,70,4,105,8,Diagnostic Center,High,Poor,0,3,0
+314,CT Scanner,Canon Medical,11,69,2,201,13,Lab,High,Moderate,1,3,1
+315,Patient Monitor,Canon Medical,7,53,4,86,9,Lab,Medium,Poor,0,4,0
+316,X-Ray,GE Healthcare,5,62,12,27,8,ICU,Medium,Good,0,4,0
+317,MRI Scanner,Siemens,3,28,4,126,3,Operating Room,High,Good,0,5,0
+318,Infusion Pump,Siemens,5,44,2,173,7,Ward,High,Moderate,0,5,0
+319,Ultrasound,Medtronic,7,84,4,116,12,ICU,Low,Good,0,3,1
+320,MRI Scanner,Fujifilm,10,58,12,69,15,Operating Room,High,Poor,0,4,0
+321,Infusion Pump,Mindray,8,69,2,218,20,ICU,Medium,Good,0,3,1
+322,ECG,Mindray,6,48,2,214,14,Ward,High,Moderate,0,2,1
+323,Ventilator,Siemens,10,44,4,123,13,ICU,Low,Poor,0,5,1
+324,X-Ray,Mindray,5,79,4,121,9,Ward,Medium,Poor,0,3,1
+325,Infusion Pump,Fujifilm,9,29,6,87,4,Ward,Medium,Good,0,4,0
+326,Infusion Pump,Philips,6,70,6,74,7,ICU,Medium,Moderate,0,4,0
+327,X-Ray,Canon Medical,9,84,4,111,13,Operating Room,Medium,Poor,0,3,1
+328,Infusion Pump,Canon Medical,8,53,6,66,12,Operating Room,Medium,Moderate,0,3,0
+329,Patient Monitor,Medtronic,7,29,12,59,3,Operating Room,Medium,Good,0,4,0
+330,Ventilator,Mindray,5,44,4,118,4,Diagnostic Center,Medium,Poor,0,3,0
+331,Infusion Pump,Siemens,5,32,4,117,11,ICU,High,Poor,0,3,1
+332,Patient Monitor,GE Healthcare,4,48,4,113,6,Diagnostic Center,High,Moderate,0,5,0
+333,Ultrasound,Medtronic,10,42,4,104,8,Lab,Medium,Poor,0,3,1
+334,Ventilator,Medtronic,5,39,4,128,6,Ward,High,Good,0,3,0
+335,CT Scanner,GE Healthcare,4,76,4,108,10,Ward,High,Poor,0,3,0
+336,CT Scanner,Mindray,10,114,1,392,31,Diagnostic Center,Low,Good,0,2,1
+337,ECG,Fujifilm,7,55,6,50,8,Operating Room,Medium,Moderate,0,4,0
+338,Patient Monitor,Fujifilm,5,65,6,92,3,Operating Room,High,Good,0,2,0
+339,Ventilator,Canon Medical,9,33,6,66,7,ICU,Medium,Poor,0,2,0
+340,Infusion Pump,Siemens,5,51,6,74,6,Operating Room,High,Poor,1,4,0
+341,Ventilator,Canon Medical,2,127,6,76,11,Ward,Medium,Poor,2,3,0
+342,CT Scanner,Fujifilm,6,85,6,79,11,Operating Room,High,Moderate,0,2,1
+343,Infusion Pump,Philips,8,47,0,373,17,Operating Room,Medium,Good,0,4,1
+344,CT Scanner,Philips,4,85,12,36,2,Ward,Medium,Poor,2,2,0
+345,CT Scanner,Canon Medical,6,74,12,55,7,ICU,Medium,Poor,1,3,0
+346,Infusion Pump,GE Healthcare,7,48,4,126,7,ICU,Low,Good,0,5,0
+347,MRI Scanner,Siemens,4,55,4,90,7,Lab,High,Moderate,0,3,0
+348,Ultrasound,GE Healthcare,7,61,2,172,13,Ward,Medium,Poor,0,3,1
+349,ECG,Canon Medical,8,65,6,68,9,ICU,High,Good,0,3,0
+350,X-Ray,GE Healthcare,2,48,2,217,11,Ward,High,Poor,0,3,0
+351,Patient Monitor,Philips,2,65,2,187,11,Diagnostic Center,Medium,Poor,0,2,1
+352,CT Scanner,Philips,6,62,2,184,8,Ward,High,Poor,0,2,1
+353,MRI Scanner,Medtronic,5,48,6,60,14,Ward,High,Moderate,0,3,0
+354,X-Ray,Siemens,7,75,4,81,7,Ward,High,Good,0,3,0
+355,Infusion Pump,Philips,9,46,4,124,9,ICU,Low,Poor,0,3,1
+356,Infusion Pump,Mindray,9,54,1,394,21,Ward,High,Poor,0,2,1
+357,Ventilator,Mindray,9,57,6,84,8,Ward,Medium,Moderate,0,2,0
+358,X-Ray,Fujifilm,1,29,6,58,1,Diagnostic Center,High,Poor,0,4,0
+359,ECG,Fujifilm,4,55,2,190,9,ICU,High,Moderate,0,2,0
+360,MRI Scanner,Siemens,6,51,2,191,15,Diagnostic Center,High,Moderate,0,4,1
+361,X-Ray,GE Healthcare,6,48,6,89,6,Diagnostic Center,High,Poor,0,4,0
+362,Ventilator,Philips,4,42,2,178,14,Ward,High,Good,0,3,1
+363,CT Scanner,Medtronic,8,60,0,366,14,Ward,High,Moderate,0,3,1
+364,Infusion Pump,Medtronic,9,64,1,381,19,Lab,Medium,Good,1,3,1
+365,Ultrasound,GE Healthcare,5,34,12,56,7,Ward,Medium,Poor,0,5,0
+366,X-Ray,Mindray,11,35,6,79,7,ICU,High,Poor,0,2,1
+367,ECG,GE Healthcare,6,43,6,85,12,ICU,Medium,Moderate,0,4,0
+368,MRI Scanner,Mindray,9,70,4,92,10,Ward,Medium,Moderate,0,1,1
+369,MRI Scanner,Mindray,7,47,4,123,11,Lab,Medium,Good,0,1,1
+370,Patient Monitor,GE Healthcare,6,63,6,69,8,Diagnostic Center,High,Good,0,5,0
+371,Ventilator,Siemens,4,109,12,54,10,Ward,High,Moderate,0,4,0
+372,CT Scanner,GE Healthcare,7,83,1,370,17,ICU,High,Moderate,0,5,1
+373,MRI Scanner,Fujifilm,6,66,4,113,12,Operating Room,Medium,Moderate,0,4,0
+374,Ultrasound,Fujifilm,6,82,4,124,15,Ward,Medium,Good,0,3,1
+375,Ultrasound,Fujifilm,7,31,4,97,9,ICU,High,Poor,0,2,1
+376,CT Scanner,Mindray,8,69,12,55,7,ICU,Medium,Moderate,0,2,0
+377,CT Scanner,Siemens,5,78,4,81,5,ICU,Medium,Moderate,0,3,0
+378,Infusion Pump,GE Healthcare,8,65,6,97,9,ICU,Medium,Good,0,3,1
+379,X-Ray,Medtronic,4,41,1,404,15,Operating Room,Medium,Good,0,2,1
+380,Infusion Pump,Siemens,13,97,12,63,13,ICU,Medium,Moderate,1,3,1
+381,Ultrasound,Siemens,8,68,2,196,15,ICU,High,Moderate,0,4,1
+382,CT Scanner,Fujifilm,3,54,4,103,10,ICU,Medium,Moderate,0,2,0
+383,Ventilator,Medtronic,9,35,4,126,10,Operating Room,Medium,Good,0,4,1
+384,Ultrasound,GE Healthcare,6,77,4,91,11,ICU,Medium,Poor,0,3,0
+385,ECG,Siemens,4,35,4,82,4,Diagnostic Center,High,Good,0,5,0
+386,Ultrasound,Fujifilm,9,61,4,94,9,Diagnostic Center,Medium,Moderate,0,4,0
+387,Infusion Pump,Fujifilm,4,63,4,86,1,Ward,Low,Moderate,0,3,0
+388,Ventilator,GE Healthcare,5,44,2,172,7,ICU,High,Moderate,0,3,1
+389,X-Ray,Canon Medical,9,64,4,118,14,Ward,Medium,Moderate,0,2,1
+390,Ultrasound,Mindray,7,45,2,216,8,Lab,Medium,Poor,0,3,1
+391,Patient Monitor,Mindray,5,56,2,176,8,Operating Room,High,Moderate,1,3,1
+392,X-Ray,GE Healthcare,5,38,2,207,13,ICU,High,Good,0,5,1
+393,ECG,GE Healthcare,5,67,6,94,5,Diagnostic Center,Medium,Good,0,5,0
+394,Infusion Pump,Mindray,9,88,6,87,11,ICU,Low,Moderate,0,1,1
+395,Patient Monitor,Siemens,6,80,6,80,4,Diagnostic Center,Low,Good,0,4,0
+396,Patient Monitor,GE Healthcare,6,63,12,28,4,Diagnostic Center,Low,Poor,2,3,0
+397,Ventilator,Siemens,3,69,4,101,8,Ward,High,Good,0,5,0
+398,CT Scanner,Siemens,3,56,4,86,3,Ward,High,Moderate,0,3,0
+399,CT Scanner,Medtronic,5,41,12,64,6,Diagnostic Center,Medium,Poor,0,4,0
+400,CT Scanner,GE Healthcare,5,76,6,79,8,Operating Room,Low,Good,0,4,0
+401,Ventilator,Philips,6,18,6,54,5,ICU,High,Moderate,0,2,0
+402,Ventilator,GE Healthcare,1,34,4,124,10,Ward,Medium,Moderate,0,5,0
+403,CT Scanner,Philips,15,67,6,51,5,ICU,Medium,Good,0,2,1
+404,Ultrasound,Fujifilm,10,87,2,199,10,Lab,High,Poor,0,2,1
+405,MRI Scanner,Philips,7,57,6,77,11,Operating Room,Low,Good,0,2,0
+406,Ultrasound,Medtronic,6,50,4,101,5,Lab,Medium,Poor,0,2,0
+407,X-Ray,Medtronic,7,24,2,203,11,ICU,Medium,Poor,0,4,1
+408,Ventilator,Fujifilm,3,61,4,113,4,ICU,High,Poor,0,3,0
+409,Ultrasound,Philips,6,61,6,95,12,Diagnostic Center,Medium,Poor,0,3,0
+410,Ultrasound,Canon Medical,9,108,6,95,14,Ward,High,Moderate,0,4,1
+411,MRI Scanner,Siemens,9,78,2,191,17,ICU,Low,Good,0,4,1
+412,Ventilator,Medtronic,3,68,2,218,9,Operating Room,Medium,Good,0,2,1
+413,Ultrasound,Siemens,9,22,6,73,9,Diagnostic Center,Medium,Moderate,0,3,0
+414,CT Scanner,Philips,7,42,2,175,11,ICU,Low,Poor,0,3,1
+415,Infusion Pump,Mindray,7,52,6,73,8,Lab,High,Poor,0,1,0
+416,ECG,Philips,4,50,1,380,19,Diagnostic Center,Medium,Moderate,2,2,1
+417,MRI Scanner,Fujifilm,6,34,4,130,12,Diagnostic Center,Medium,Good,0,3,1
+418,Ultrasound,Mindray,2,81,6,74,3,Operating Room,High,Moderate,0,2,0
+419,Ventilator,Siemens,3,70,6,76,4,ICU,Medium,Poor,1,5,0
+420,Infusion Pump,Siemens,8,14,4,90,8,Diagnostic Center,Medium,Moderate,0,5,0
+421,X-Ray,Mindray,11,71,6,68,7,Ward,Medium,Moderate,0,2,1
+422,X-Ray,Mindray,2,92,2,189,6,Diagnostic Center,Medium,Good,0,2,0
+423,Infusion Pump,Siemens,5,38,2,172,9,Lab,High,Good,0,3,0
+424,Ventilator,Canon Medical,2,82,4,125,4,ICU,Low,Moderate,0,2,0
+425,ECG,Siemens,5,68,6,64,3,Diagnostic Center,Medium,Moderate,0,4,0
+426,CT Scanner,Canon Medical,3,83,6,69,7,Ward,Medium,Good,0,3,0
+427,MRI Scanner,Mindray,6,69,1,388,20,Lab,Medium,Moderate,1,3,1
+428,Infusion Pump,Philips,4,79,2,197,14,ICU,High,Moderate,0,2,1
+429,Ventilator,Philips,4,73,6,81,12,ICU,Low,Good,0,4,0
+430,CT Scanner,Philips,4,15,1,396,17,Diagnostic Center,High,Good,0,2,1
+431,Ultrasound,Fujifilm,6,49,4,120,3,Operating Room,Low,Poor,1,4,0
+432,CT Scanner,Philips,5,44,2,205,13,Ward,High,Moderate,0,3,1
+433,Ventilator,Fujifilm,6,75,1,364,21,Diagnostic Center,High,Moderate,0,4,1
+434,X-Ray,Philips,10,65,1,387,20,ICU,Medium,Poor,0,4,1
+435,CT Scanner,Siemens,4,58,6,96,7,ICU,Medium,Poor,0,5,0
+436,ECG,GE Healthcare,5,101,6,66,13,Diagnostic Center,High,Moderate,0,5,0
+437,ECG,Siemens,5,39,2,210,11,Ward,Medium,Poor,0,3,1
+438,MRI Scanner,Siemens,6,56,1,379,13,Diagnostic Center,High,Moderate,0,4,1
+439,Patient Monitor,Mindray,12,69,4,102,9,ICU,Low,Poor,1,1,1
+440,ECG,GE Healthcare,10,58,4,130,12,Diagnostic Center,High,Moderate,0,5,1
+441,Ventilator,Fujifilm,7,26,1,399,15,Diagnostic Center,High,Good,2,3,1
+442,Ultrasound,Canon Medical,12,52,12,53,11,ICU,High,Poor,0,2,1
+443,Ventilator,Canon Medical,7,55,6,86,17,Lab,High,Good,0,2,1
+444,X-Ray,GE Healthcare,8,29,1,371,17,Ward,Medium,Good,0,5,1
+445,Infusion Pump,GE Healthcare,5,55,4,101,13,Operating Room,High,Moderate,0,4,0
+446,X-Ray,Philips,8,73,6,72,15,Ward,Medium,Moderate,1,2,1
+447,Ventilator,Siemens,6,54,4,128,5,Operating Room,High,Poor,0,3,0
+448,Infusion Pump,Mindray,10,74,12,65,6,Ward,High,Moderate,0,3,0
+449,Ventilator,Mindray,5,36,4,106,9,Ward,High,Moderate,0,1,1
+450,Infusion Pump,Philips,5,39,12,46,7,Ward,High,Poor,0,3,0
+451,ECG,Canon Medical,1,45,12,44,8,ICU,High,Poor,0,4,0
+452,Ventilator,Siemens,5,62,4,124,14,Diagnostic Center,Low,Good,0,5,0
+453,Ultrasound,Medtronic,5,63,12,64,6,Ward,High,Poor,0,2,0
+454,Infusion Pump,Medtronic,7,70,12,35,5,Diagnostic Center,Medium,Good,1,2,0
+455,Ultrasound,Medtronic,9,41,4,127,18,ICU,Medium,Poor,0,2,1
+456,Ultrasound,Siemens,8,54,6,82,6,ICU,Low,Poor,0,5,0
+457,Ultrasound,Canon Medical,9,78,2,200,17,Lab,Medium,Moderate,0,2,1
+458,X-Ray,Mindray,8,57,12,43,7,Operating Room,High,Poor,0,2,0
+459,Infusion Pump,Mindray,5,62,6,81,5,Diagnostic Center,Medium,Good,0,2,0
+460,Ultrasound,GE Healthcare,3,68,6,83,7,ICU,Low,Moderate,0,5,0
+461,Infusion Pump,GE Healthcare,5,81,12,58,1,Diagnostic Center,High,Moderate,0,5,0
+462,CT Scanner,GE Healthcare,8,64,4,110,15,Ward,High,Moderate,0,3,1
+463,Ventilator,Philips,7,57,2,196,12,Diagnostic Center,High,Moderate,0,2,1
+464,CT Scanner,GE Healthcare,6,58,2,173,9,Lab,High,Moderate,1,5,0
+465,MRI Scanner,Fujifilm,4,79,6,64,6,ICU,High,Moderate,0,4,0
+466,X-Ray,Canon Medical,5,102,4,127,10,Ward,High,Poor,0,2,1
+467,Patient Monitor,Canon Medical,5,62,6,77,6,ICU,Low,Moderate,0,4,0
+468,CT Scanner,Mindray,2,99,4,115,15,Ward,Low,Good,0,1,1
+469,Ventilator,GE Healthcare,8,95,6,81,6,Diagnostic Center,Medium,Good,0,4,0
+470,Infusion Pump,Fujifilm,4,63,4,113,10,Diagnostic Center,High,Poor,1,3,1
+471,Ventilator,Medtronic,6,70,6,91,6,Ward,High,Moderate,1,2,1
+472,ECG,Canon Medical,5,42,12,56,10,Operating Room,High,Moderate,0,3,0
+473,Ventilator,Philips,13,82,6,54,12,Ward,High,Good,1,3,1
+474,Ventilator,Canon Medical,8,58,6,64,7,Operating Room,Medium,Moderate,0,3,0
+475,MRI Scanner,GE Healthcare,3,68,2,209,12,Ward,Medium,Moderate,1,4,1
+476,MRI Scanner,Fujifilm,5,73,6,74,6,Ward,High,Good,0,3,0
+477,MRI Scanner,Mindray,7,54,0,372,22,ICU,High,Moderate,0,3,1
+478,CT Scanner,Philips,5,70,6,75,3,Ward,Medium,Poor,0,2,0
+479,CT Scanner,Fujifilm,6,70,6,83,9,ICU,Medium,Good,0,4,0
+480,X-Ray,Canon Medical,9,35,6,98,10,Diagnostic Center,High,Good,1,2,1
+481,Ultrasound,Siemens,6,89,4,95,10,Ward,Medium,Poor,1,5,0
+482,Patient Monitor,Siemens,6,57,4,111,13,Diagnostic Center,Medium,Moderate,0,3,1
+483,ECG,Canon Medical,8,68,2,199,10,ICU,Low,Good,1,3,1
+484,X-Ray,GE Healthcare,4,32,1,404,14,Ward,Medium,Good,0,4,1
+485,MRI Scanner,GE Healthcare,8,71,2,192,11,Ward,Low,Moderate,0,5,1
+486,CT Scanner,Philips,6,69,12,57,2,Operating Room,Medium,Good,0,3,0
+487,ECG,Medtronic,7,47,1,364,17,ICU,High,Good,0,3,1
+488,MRI Scanner,Philips,8,67,1,399,20,ICU,Medium,Good,0,2,1
+489,ECG,Philips,6,81,6,83,7,ICU,Medium,Poor,0,2,0
+490,X-Ray,Mindray,4,50,6,64,5,Diagnostic Center,High,Poor,0,2,0
+491,Infusion Pump,Medtronic,9,113,2,202,16,Ward,Medium,Moderate,0,2,1
+492,ECG,Medtronic,7,74,1,397,22,ICU,Low,Moderate,1,4,1
+493,Ultrasound,Siemens,8,54,4,112,13,Ward,Low,Moderate,0,3,1
+494,Ultrasound,Medtronic,8,65,12,20,9,Lab,Medium,Poor,0,3,0
+495,CT Scanner,Mindray,5,95,1,392,19,Ward,Medium,Poor,0,1,1
+496,CT Scanner,Mindray,7,63,4,87,11,Lab,Medium,Good,0,3,0
+497,Ultrasound,Philips,5,50,4,87,13,ICU,High,Good,0,4,0
+498,Ventilator,Siemens,11,70,6,72,12,Ward,Low,Good,0,4,0
+499,MRI Scanner,GE Healthcare,4,79,2,190,11,Operating Room,Medium,Moderate,0,3,0
+500,MRI Scanner,Canon Medical,5,33,6,74,3,Ward,Medium,Moderate,0,4,0
+501,Ultrasound,Mindray,8,84,2,212,17,Ward,Medium,Good,0,1,1
+502,Infusion Pump,GE Healthcare,4,45,4,97,5,ICU,High,Poor,0,5,0
+503,X-Ray,Fujifilm,6,77,6,60,7,Lab,High,Poor,0,2,0
+504,MRI Scanner,Fujifilm,9,80,2,219,15,Operating Room,Medium,Good,0,3,1
+505,MRI Scanner,Fujifilm,11,65,2,190,18,Lab,High,Moderate,0,4,1
+506,Ventilator,Medtronic,5,71,12,60,15,Diagnostic Center,High,Good,0,4,0
+507,MRI Scanner,Medtronic,8,68,4,112,13,Lab,Low,Good,0,2,1
+508,Infusion Pump,Siemens,1,40,4,105,5,Ward,Medium,Poor,0,5,0
+509,Ventilator,Medtronic,6,51,6,75,7,Operating Room,Medium,Good,0,3,0
+510,Infusion Pump,GE Healthcare,2,80,6,82,9,Ward,Medium,Poor,0,4,0
+511,Ultrasound,Philips,5,65,4,99,9,ICU,Medium,Good,0,3,0
+512,X-Ray,GE Healthcare,2,71,4,123,12,Ward,High,Moderate,0,4,0
+513,Infusion Pump,Mindray,0,52,6,98,0,Operating Room,Medium,Good,0,2,0
+514,Patient Monitor,GE Healthcare,7,84,12,46,7,ICU,High,Good,1,3,0
+515,X-Ray,Mindray,7,30,4,81,7,ICU,Low,Poor,1,2,1
+516,Patient Monitor,Mindray,7,69,1,386,18,ICU,Medium,Poor,0,2,1
+517,X-Ray,Medtronic,4,53,1,378,21,Lab,Low,Moderate,0,4,1
+518,Patient Monitor,GE Healthcare,9,102,6,62,13,Lab,Medium,Moderate,0,5,0
+519,Ultrasound,Philips,5,82,0,367,22,ICU,Medium,Good,0,4,1
+520,Ventilator,GE Healthcare,3,72,12,66,5,ICU,Low,Moderate,1,3,0
+521,X-Ray,Siemens,6,53,6,59,14,ICU,High,Moderate,0,3,0
+522,Ultrasound,Siemens,9,61,6,73,13,Diagnostic Center,Low,Moderate,0,4,0
+523,Patient Monitor,Siemens,5,27,2,190,10,Operating Room,Medium,Moderate,0,4,1
+524,Ultrasound,Fujifilm,7,42,2,181,10,ICU,High,Poor,1,2,1
+525,CT Scanner,Siemens,10,62,6,98,17,Diagnostic Center,High,Moderate,1,5,1
+526,ECG,Fujifilm,8,55,2,191,11,Diagnostic Center,Medium,Moderate,0,3,1
+527,X-Ray,Mindray,5,65,4,127,13,Ward,Medium,Poor,0,1,0
+528,X-Ray,Mindray,2,60,2,189,13,ICU,High,Good,0,1,1
+529,MRI Scanner,Philips,4,65,2,217,13,Ward,Medium,Good,0,2,1
+530,Ventilator,GE Healthcare,8,47,4,117,8,Ward,Medium,Good,0,5,0
+531,Infusion Pump,Canon Medical,0,58,6,60,0,Lab,High,Moderate,0,4,0
+532,CT Scanner,GE Healthcare,4,36,4,101,8,Operating Room,High,Moderate,0,4,0
+533,X-Ray,Canon Medical,6,44,4,130,4,Diagnostic Center,Medium,Poor,0,2,0
+534,Ventilator,Philips,7,58,2,199,18,ICU,Medium,Poor,0,2,1
+535,Ultrasound,Philips,6,58,2,208,10,ICU,Low,Poor,0,4,1
+536,Patient Monitor,GE Healthcare,8,69,2,215,14,Diagnostic Center,High,Poor,0,3,1
+537,X-Ray,Mindray,9,90,4,130,10,Diagnostic Center,Medium,Poor,0,3,1
+538,Ultrasound,Siemens,3,30,6,96,7,Diagnostic Center,Medium,Good,0,3,0
+539,X-Ray,Siemens,5,67,6,51,6,Operating Room,Medium,Moderate,0,3,0
+540,X-Ray,Canon Medical,7,81,6,76,5,Ward,Medium,Moderate,1,2,0
+541,CT Scanner,Mindray,8,99,4,126,12,Diagnostic Center,Medium,Good,0,3,0
+542,CT Scanner,Medtronic,8,51,12,22,10,Lab,Medium,Moderate,0,3,0
+543,ECG,Canon Medical,8,65,6,97,11,ICU,High,Moderate,0,3,0
+544,ECG,Mindray,9,29,0,378,24,Diagnostic Center,High,Good,0,1,1
+545,MRI Scanner,Philips,7,76,4,115,11,ICU,High,Good,1,3,1
+546,Patient Monitor,GE Healthcare,8,38,4,109,14,Ward,Medium,Poor,0,3,1
+547,ECG,Mindray,4,55,12,60,7,ICU,High,Good,0,3,0
+548,Infusion Pump,Siemens,4,79,4,110,12,Lab,Medium,Poor,0,4,0
+549,Patient Monitor,Fujifilm,6,43,6,85,9,ICU,High,Poor,0,2,0
+550,ECG,Medtronic,5,33,4,95,3,Operating Room,High,Moderate,0,3,0
+551,MRI Scanner,Mindray,4,50,4,108,6,Lab,High,Moderate,0,1,0
+552,CT Scanner,Philips,4,67,1,370,8,Diagnostic Center,High,Poor,0,3,1
+553,ECG,Fujifilm,7,59,1,366,21,ICU,Medium,Moderate,0,2,1
+554,ECG,Mindray,5,80,6,51,5,Ward,Low,Moderate,0,3,0
+555,Infusion Pump,GE Healthcare,3,54,1,381,17,Lab,High,Moderate,0,4,1
+556,ECG,Mindray,2,66,4,99,9,Diagnostic Center,Low,Moderate,0,3,0
+557,ECG,Mindray,7,36,12,27,2,Ward,High,Moderate,0,1,0
+558,MRI Scanner,Fujifilm,4,27,2,183,3,Lab,Medium,Good,2,4,0
+559,Infusion Pump,GE Healthcare,8,79,12,62,11,Lab,High,Moderate,1,4,1
+560,X-Ray,Canon Medical,7,59,6,55,11,Diagnostic Center,Low,Moderate,0,2,0
+561,Ventilator,Canon Medical,6,38,4,89,10,Diagnostic Center,High,Moderate,0,2,0
+562,Ventilator,Mindray,4,56,4,93,0,Ward,Medium,Good,0,2,0
+563,Ultrasound,GE Healthcare,1,65,6,85,4,Ward,High,Good,0,5,0
+564,X-Ray,Siemens,9,67,12,58,9,ICU,High,Moderate,0,4,0
+565,Ventilator,Fujifilm,8,58,6,86,10,Lab,High,Moderate,1,3,1
+566,X-Ray,Mindray,7,46,4,126,14,Operating Room,Medium,Moderate,0,3,1
+567,Patient Monitor,GE Healthcare,7,36,4,125,10,ICU,High,Good,0,4,1
+568,MRI Scanner,GE Healthcare,2,37,12,35,0,Diagnostic Center,Low,Poor,0,4,0
+569,X-Ray,GE Healthcare,6,60,4,88,7,ICU,High,Moderate,0,4,0
+570,Ventilator,Philips,5,78,4,116,10,Lab,Medium,Poor,0,4,0
+571,Ultrasound,GE Healthcare,6,35,2,174,12,ICU,High,Poor,0,3,1
+572,Patient Monitor,Canon Medical,4,54,12,68,4,Lab,Medium,Poor,1,2,0
+573,Patient Monitor,Mindray,6,61,4,89,5,ICU,High,Good,0,3,0
+574,X-Ray,Siemens,5,38,6,79,1,Ward,Medium,Good,0,3,0
+575,MRI Scanner,Fujifilm,11,110,12,32,10,ICU,High,Good,0,4,0
+576,Infusion Pump,Medtronic,4,65,12,36,9,ICU,Medium,Poor,0,3,0
+577,Patient Monitor,GE Healthcare,7,78,4,82,8,Ward,High,Moderate,0,5,0
+578,Infusion Pump,Siemens,6,45,6,59,5,Ward,Low,Good,0,3,0
+579,MRI Scanner,Philips,5,60,4,102,11,ICU,High,Poor,0,3,1
+580,CT Scanner,Fujifilm,5,45,6,56,7,Lab,Medium,Moderate,0,4,0
+581,MRI Scanner,Siemens,7,47,6,74,10,Ward,Medium,Moderate,0,3,0
+582,Infusion Pump,Canon Medical,4,73,1,395,19,Ward,Medium,Poor,0,2,1
+583,ECG,Mindray,6,77,4,88,7,ICU,Medium,Moderate,0,2,0
+584,X-Ray,GE Healthcare,5,52,6,71,6,ICU,Medium,Moderate,0,5,0
+585,ECG,GE Healthcare,6,81,4,83,11,Diagnostic Center,High,Poor,0,4,0
+586,Patient Monitor,Mindray,1,21,2,207,8,ICU,High,Good,0,1,0
+587,MRI Scanner,Philips,11,43,6,50,12,Diagnostic Center,High,Good,0,2,1
+588,X-Ray,Mindray,10,63,2,183,16,Diagnostic Center,High,Poor,0,1,1
+589,Ventilator,Mindray,9,66,4,126,16,Diagnostic Center,High,Good,0,2,1
+590,ECG,GE Healthcare,5,35,12,65,6,Ward,Medium,Moderate,0,3,0
+591,Ultrasound,Siemens,7,47,6,88,9,Ward,High,Moderate,0,5,0
+592,X-Ray,Canon Medical,4,81,6,99,4,Operating Room,High,Poor,0,4,0
+593,ECG,Philips,6,13,2,182,5,ICU,High,Moderate,0,2,1
+594,Ultrasound,Mindray,2,89,6,75,6,Ward,High,Poor,0,2,0
+595,Infusion Pump,Mindray,8,56,4,90,8,ICU,High,Moderate,1,2,1
+596,ECG,Philips,7,82,4,89,12,Ward,High,Good,0,4,0
+597,X-Ray,Mindray,9,41,6,91,8,Lab,Medium,Poor,0,1,1
+598,Infusion Pump,GE Healthcare,7,68,6,91,11,Diagnostic Center,High,Poor,0,3,1
+599,MRI Scanner,Canon Medical,10,48,2,182,10,Ward,Medium,Good,0,2,1
+600,ECG,Canon Medical,4,49,2,183,7,Ward,Medium,Moderate,0,3,0
+601,CT Scanner,Mindray,8,84,4,114,16,Diagnostic Center,High,Poor,0,1,1
+602,Ultrasound,GE Healthcare,6,60,6,59,5,Diagnostic Center,High,Poor,0,4,0
+603,CT Scanner,Mindray,9,63,12,23,7,Ward,Medium,Moderate,0,1,0
+604,Infusion Pump,GE Healthcare,10,72,6,69,15,ICU,Low,Good,0,4,0
+605,Ventilator,Medtronic,5,59,0,400,17,Ward,High,Poor,0,2,1
+606,X-Ray,Fujifilm,11,32,6,61,5,Ward,Medium,Moderate,0,2,0
+607,CT Scanner,Fujifilm,6,57,12,66,7,ICU,Medium,Good,0,3,0
+608,Patient Monitor,Siemens,8,84,2,200,8,ICU,High,Good,0,5,0
+609,X-Ray,Medtronic,8,54,1,370,16,Lab,High,Moderate,0,2,1
+610,Ultrasound,Medtronic,9,73,2,211,16,ICU,Medium,Good,0,3,1
+611,Ultrasound,GE Healthcare,7,52,12,35,9,Ward,High,Moderate,0,4,0
+612,Ventilator,Siemens,7,54,12,43,7,Lab,High,Moderate,0,3,0
+613,Infusion Pump,Philips,5,38,4,119,4,Diagnostic Center,Medium,Moderate,0,4,0
+614,Ultrasound,GE Healthcare,9,79,6,58,14,Lab,Medium,Good,0,3,0
+615,MRI Scanner,GE Healthcare,6,64,2,202,9,Ward,High,Moderate,0,3,0
+616,CT Scanner,Fujifilm,4,42,2,174,9,Diagnostic Center,Medium,Good,0,4,0
+617,MRI Scanner,GE Healthcare,7,90,0,371,20,Diagnostic Center,Medium,Moderate,0,5,1
+618,MRI Scanner,Medtronic,3,31,1,390,14,Diagnostic Center,High,Poor,0,3,1
+619,Patient Monitor,Canon Medical,8,53,12,20,5,Diagnostic Center,Low,Poor,1,3,0
+620,X-Ray,Philips,11,51,1,355,25,Ward,High,Good,0,2,1
+621,Ultrasound,GE Healthcare,8,42,1,359,14,Operating Room,Low,Good,0,4,1
+622,Ultrasound,Siemens,8,61,6,59,6,Ward,Medium,Poor,0,5,0
+623,X-Ray,Mindray,3,80,6,88,5,ICU,High,Poor,1,2,1
+624,Patient Monitor,GE Healthcare,2,40,12,39,6,Operating Room,Medium,Good,0,5,0
+625,Ventilator,Fujifilm,2,61,6,57,3,Operating Room,Medium,Poor,0,3,0
+626,Ultrasound,Philips,4,50,4,100,8,Lab,Medium,Poor,1,4,0
+627,X-Ray,Mindray,1,50,6,55,11,Ward,High,Good,0,2,0
+628,Patient Monitor,GE Healthcare,2,89,4,86,10,Diagnostic Center,Low,Poor,0,3,0
+629,X-Ray,Mindray,8,46,2,206,14,ICU,High,Moderate,1,2,1
+630,Ultrasound,Philips,7,37,4,97,3,Ward,Medium,Good,0,4,0
+631,MRI Scanner,Mindray,7,46,12,54,9,Diagnostic Center,High,Good,0,1,1
+632,Patient Monitor,GE Healthcare,6,34,6,61,3,Diagnostic Center,High,Poor,0,5,0
+633,Ventilator,Medtronic,9,80,6,94,4,ICU,High,Poor,0,4,0
+634,CT Scanner,Canon Medical,5,49,6,68,10,Diagnostic Center,High,Poor,0,2,0
+635,Infusion Pump,Mindray,3,44,6,66,5,ICU,Medium,Good,0,1,0
+636,Infusion Pump,GE Healthcare,9,68,4,117,13,Diagnostic Center,High,Moderate,0,3,1
+637,Infusion Pump,Philips,4,87,2,187,15,Ward,Medium,Poor,0,4,0
+638,X-Ray,Fujifilm,6,35,4,108,6,Ward,Medium,Poor,0,3,0
+639,Ventilator,Fujifilm,7,45,6,90,8,Diagnostic Center,High,Moderate,0,3,0
+640,Ventilator,Philips,9,51,4,106,12,ICU,Medium,Moderate,0,4,1
+641,Infusion Pump,Fujifilm,10,77,6,56,9,ICU,Medium,Moderate,0,4,0
+642,Infusion Pump,GE Healthcare,5,59,4,103,13,Diagnostic Center,Medium,Moderate,0,5,0
+643,Ventilator,Medtronic,8,27,2,190,11,ICU,Medium,Good,0,4,1
+644,X-Ray,GE Healthcare,3,72,12,66,6,ICU,Medium,Moderate,1,5,0
+645,CT Scanner,Philips,5,82,6,70,8,Ward,High,Poor,0,4,0
+646,CT Scanner,Canon Medical,8,45,4,83,8,Ward,High,Moderate,0,3,0
+647,X-Ray,Siemens,5,46,1,357,14,Operating Room,Medium,Moderate,0,3,1
+648,Patient Monitor,Canon Medical,5,86,0,373,16,ICU,Low,Moderate,0,3,1
+649,X-Ray,Mindray,4,38,2,196,9,ICU,High,Poor,0,2,1
+650,Infusion Pump,GE Healthcare,8,77,6,99,11,Operating Room,Low,Moderate,0,3,0
+651,Ventilator,Siemens,3,47,4,82,10,Ward,High,Good,0,4,0
+652,Patient Monitor,Philips,6,67,4,115,10,ICU,High,Moderate,0,3,1
+653,Patient Monitor,Medtronic,10,29,12,22,11,Ward,Medium,Poor,0,3,0
+654,ECG,Philips,7,58,1,386,18,Ward,High,Moderate,0,3,1
+655,Ultrasound,Mindray,8,74,4,112,9,Ward,High,Good,0,2,1
+656,X-Ray,GE Healthcare,5,49,12,56,6,ICU,High,Moderate,0,5,0
+657,X-Ray,Fujifilm,10,97,4,100,13,Lab,High,Good,0,4,1
+658,CT Scanner,Canon Medical,7,64,0,392,23,Operating Room,Low,Moderate,0,4,1
+659,X-Ray,Mindray,4,45,2,179,6,Ward,Medium,Moderate,0,3,0
+660,MRI Scanner,Canon Medical,6,56,1,401,19,Ward,High,Good,0,3,1
+661,X-Ray,Medtronic,7,65,2,192,13,ICU,Low,Moderate,0,3,1
+662,X-Ray,Siemens,6,26,6,59,7,Operating Room,High,Good,1,3,0
+663,Ventilator,Canon Medical,13,73,4,111,9,Ward,Medium,Moderate,0,2,1
+664,Ultrasound,GE Healthcare,5,58,2,210,15,ICU,Low,Moderate,0,5,1
+665,X-Ray,Canon Medical,7,32,2,181,12,Diagnostic Center,Medium,Poor,0,4,1
+666,Infusion Pump,Mindray,6,80,2,173,15,Ward,Medium,Poor,0,1,1
+667,Ventilator,GE Healthcare,7,49,6,79,5,ICU,High,Good,0,3,0
+668,Ultrasound,Philips,6,34,2,181,9,Diagnostic Center,Medium,Good,0,4,1
+669,MRI Scanner,Mindray,5,64,4,107,13,Ward,Medium,Poor,0,3,1
+670,ECG,Canon Medical,7,60,6,81,11,ICU,Medium,Good,0,4,0
+671,Infusion Pump,Mindray,6,64,4,120,8,Diagnostic Center,Medium,Moderate,0,1,1
+672,CT Scanner,Medtronic,4,46,2,207,10,Lab,High,Moderate,0,2,1
+673,Ventilator,Medtronic,3,79,2,196,19,ICU,High,Poor,0,2,1
+674,Patient Monitor,GE Healthcare,9,50,6,88,9,Operating Room,Medium,Poor,0,3,1
+675,Ventilator,Mindray,7,57,12,60,5,Ward,Medium,Moderate,0,1,0
+676,Patient Monitor,Canon Medical,2,69,2,213,10,ICU,Medium,Poor,0,4,0
+677,Patient Monitor,Fujifilm,5,64,6,63,8,ICU,Low,Good,0,3,0
+678,X-Ray,Philips,4,55,4,129,11,Ward,High,Moderate,0,3,1
+679,Infusion Pump,Philips,9,46,4,96,9,ICU,Medium,Poor,0,4,0
+680,X-Ray,Canon Medical,7,61,4,121,12,Diagnostic Center,High,Moderate,0,2,1
+681,Ventilator,Mindray,7,54,2,203,13,Lab,Medium,Good,0,1,1
+682,Ventilator,Canon Medical,7,78,12,28,8,Diagnostic Center,High,Good,0,2,0
+683,CT Scanner,GE Healthcare,4,32,4,92,4,ICU,High,Moderate,1,4,0
+684,Infusion Pump,Medtronic,7,71,6,75,13,ICU,High,Good,1,4,1
+685,Patient Monitor,Mindray,2,47,4,128,3,Ward,Medium,Moderate,0,1,0
+686,Ultrasound,Philips,4,75,1,364,18,Diagnostic Center,High,Moderate,0,2,1
+687,Patient Monitor,Mindray,9,71,4,109,12,Diagnostic Center,High,Moderate,1,1,1
+688,ECG,GE Healthcare,7,56,2,189,13,Operating Room,Medium,Poor,0,3,1
+689,Ultrasound,Mindray,7,58,2,178,13,Operating Room,High,Moderate,0,2,1
+690,ECG,Philips,3,55,12,47,7,ICU,Medium,Moderate,0,4,0
+691,MRI Scanner,Canon Medical,6,56,4,92,9,Ward,Medium,Moderate,0,4,0
+692,X-Ray,GE Healthcare,4,61,6,54,5,ICU,High,Moderate,1,3,0
+693,MRI Scanner,Medtronic,2,67,6,92,8,Diagnostic Center,Medium,Moderate,0,2,0
+694,Infusion Pump,Medtronic,6,59,2,199,11,Lab,Low,Moderate,0,2,1
+695,ECG,Mindray,5,49,2,184,13,Ward,Medium,Moderate,1,3,1
+696,Ultrasound,Medtronic,5,48,2,195,11,Ward,Medium,Good,0,3,0
+697,Infusion Pump,Mindray,6,64,12,44,5,ICU,High,Good,0,2,0
+698,Ultrasound,Mindray,4,64,4,99,10,Diagnostic Center,Medium,Moderate,0,1,0
+699,CT Scanner,Fujifilm,9,94,6,84,13,Lab,High,Poor,0,2,1
+700,Patient Monitor,Mindray,4,80,4,95,8,Ward,High,Poor,0,1,1
+701,X-Ray,Philips,7,76,4,86,8,ICU,High,Poor,0,3,0
+702,Patient Monitor,GE Healthcare,7,74,4,122,10,ICU,Medium,Moderate,0,5,0
+703,Patient Monitor,Fujifilm,7,66,2,201,13,ICU,High,Moderate,0,2,1
+704,Patient Monitor,Mindray,10,57,1,362,15,ICU,High,Good,0,3,1
+705,Patient Monitor,Philips,5,73,2,212,15,Ward,High,Moderate,0,4,0
+706,X-Ray,Mindray,11,44,4,101,8,Operating Room,Medium,Good,0,3,0
+707,Patient Monitor,Mindray,10,66,4,100,10,Ward,High,Moderate,0,2,1
+708,Ultrasound,Canon Medical,5,24,4,122,9,ICU,Medium,Moderate,0,3,0
+709,Patient Monitor,Fujifilm,4,69,4,108,4,ICU,Low,Moderate,0,4,0
+710,Ultrasound,Philips,5,53,4,115,12,Lab,High,Moderate,0,4,0
+711,X-Ray,Mindray,9,76,4,88,8,Operating Room,High,Good,0,2,0
+712,MRI Scanner,Canon Medical,8,39,4,129,17,ICU,Low,Moderate,0,3,1
+713,Ventilator,Siemens,4,69,6,51,10,Ward,Medium,Good,0,5,0
+714,X-Ray,Medtronic,1,66,12,22,7,Operating Room,Low,Moderate,0,4,0
+715,ECG,Canon Medical,8,55,6,62,9,ICU,Medium,Moderate,0,2,0
+716,CT Scanner,Siemens,7,84,4,102,13,Operating Room,High,Poor,0,3,1
+717,Ventilator,Medtronic,5,42,4,91,9,ICU,High,Poor,0,2,1
+718,CT Scanner,Mindray,4,80,4,84,8,ICU,High,Good,0,3,0
+719,Infusion Pump,Canon Medical,12,44,6,75,10,Lab,Medium,Moderate,0,2,1
+720,MRI Scanner,Philips,13,41,2,210,10,Ward,Medium,Poor,0,4,1
+721,MRI Scanner,Siemens,5,56,4,104,12,Ward,Medium,Good,0,3,0
+722,CT Scanner,Philips,11,53,4,108,10,Diagnostic Center,High,Moderate,0,2,1
+723,Patient Monitor,Canon Medical,9,57,4,100,14,Ward,High,Moderate,0,3,1
+724,CT Scanner,Mindray,6,72,4,110,9,Ward,Low,Poor,0,1,1
+725,Ventilator,Mindray,6,56,2,215,12,Diagnostic Center,High,Moderate,0,2,1
+726,X-Ray,Philips,3,60,4,117,5,Lab,High,Poor,0,3,0
+727,ECG,Fujifilm,8,57,12,41,7,Lab,High,Moderate,0,3,0
+728,X-Ray,Canon Medical,6,60,6,75,3,Ward,High,Moderate,0,3,0
+729,Ultrasound,Philips,9,98,6,72,10,Ward,High,Good,0,4,0
+730,CT Scanner,Medtronic,5,64,4,122,15,Diagnostic Center,Low,Moderate,0,4,0
+731,Ultrasound,GE Healthcare,8,79,6,94,6,Operating Room,High,Good,0,3,0
+732,MRI Scanner,Mindray,4,94,0,387,20,Diagnostic Center,Medium,Moderate,1,1,1
+733,Patient Monitor,Mindray,1,53,4,88,4,Operating Room,Low,Good,0,2,0
+734,Ultrasound,Siemens,5,78,4,117,7,Lab,High,Moderate,0,3,0
+735,Patient Monitor,Siemens,8,80,4,105,11,Lab,High,Moderate,0,5,1
+736,Infusion Pump,Siemens,6,66,6,94,9,Diagnostic Center,High,Moderate,0,5,0
+737,ECG,Canon Medical,3,63,6,93,0,ICU,High,Moderate,0,3,0
+738,Ultrasound,Mindray,4,92,4,119,10,Operating Room,High,Good,0,3,1
+739,Infusion Pump,Siemens,9,67,6,77,4,ICU,High,Moderate,0,3,0
+740,Infusion Pump,Siemens,3,48,4,123,9,Diagnostic Center,Medium,Poor,0,4,0
+741,Patient Monitor,Fujifilm,5,86,4,87,7,Diagnostic Center,Medium,Poor,0,2,0
+742,Ventilator,Medtronic,2,81,12,48,8,Diagnostic Center,Medium,Moderate,0,2,0
+743,Infusion Pump,Philips,4,70,1,358,19,Ward,Medium,Moderate,0,4,1
+744,Ultrasound,GE Healthcare,4,68,6,71,10,Ward,Medium,Poor,0,4,0
+745,CT Scanner,GE Healthcare,4,61,12,22,7,Diagnostic Center,Low,Moderate,0,5,0
+746,Ventilator,Medtronic,8,63,4,114,13,Diagnostic Center,High,Good,0,3,1
+747,Ultrasound,Medtronic,10,42,1,367,22,Ward,Medium,Good,0,4,1
+748,Infusion Pump,GE Healthcare,5,51,4,118,5,Operating Room,Low,Poor,0,5,0
+749,Infusion Pump,Mindray,5,36,2,221,14,ICU,High,Good,0,3,1
+750,CT Scanner,Siemens,8,80,6,98,13,ICU,High,Good,0,3,1
+751,Ventilator,Medtronic,7,54,4,89,6,ICU,Medium,Moderate,0,4,0
+752,Ultrasound,Medtronic,3,62,0,368,12,Ward,High,Moderate,0,4,1
+753,CT Scanner,Medtronic,3,54,0,372,18,Operating Room,Medium,Poor,0,3,1
+754,Ultrasound,Canon Medical,5,41,6,69,4,ICU,Medium,Moderate,0,3,0
+755,Patient Monitor,Philips,13,74,2,173,19,ICU,Medium,Moderate,0,2,1
+756,Infusion Pump,Canon Medical,7,53,2,203,11,ICU,High,Good,0,2,1
+757,X-Ray,GE Healthcare,7,42,1,402,21,Ward,Medium,Moderate,0,5,1
+758,MRI Scanner,GE Healthcare,10,101,6,62,13,Ward,Low,Poor,0,4,1
+759,Ventilator,Mindray,9,56,4,89,12,Operating Room,Medium,Good,0,3,0
+760,CT Scanner,Canon Medical,5,18,2,204,10,Diagnostic Center,Medium,Good,0,3,0
+761,CT Scanner,Siemens,5,55,1,393,15,Ward,Medium,Moderate,0,3,1
+762,X-Ray,Mindray,3,24,6,89,5,ICU,High,Poor,0,3,0
+763,X-Ray,GE Healthcare,12,33,4,104,13,ICU,Medium,Good,0,5,1
+764,Ventilator,Canon Medical,9,54,4,118,13,ICU,High,Moderate,0,3,1
+765,Ultrasound,Medtronic,4,29,2,172,10,ICU,Low,Poor,0,2,1
+766,Patient Monitor,Fujifilm,7,45,12,61,10,Diagnostic Center,High,Moderate,1,4,0
+767,Ultrasound,Mindray,7,53,12,51,9,Diagnostic Center,Medium,Good,0,2,0
+768,X-Ray,Siemens,4,67,2,189,13,Lab,Medium,Moderate,0,3,1
+769,Patient Monitor,Canon Medical,4,40,6,57,10,Ward,High,Poor,0,3,0
+770,CT Scanner,Siemens,8,45,2,204,13,ICU,Low,Moderate,0,3,0
+771,X-Ray,Medtronic,4,43,2,176,8,ICU,Medium,Poor,0,2,1
+772,Ventilator,Mindray,5,64,2,193,12,Lab,Medium,Poor,0,2,1
+773,Infusion Pump,Canon Medical,10,59,2,219,14,ICU,Low,Good,0,2,1
+774,Infusion Pump,Medtronic,5,71,6,96,9,Ward,Medium,Moderate,1,2,1
+775,ECG,Mindray,6,68,2,215,14,Ward,Low,Good,1,3,1
+776,Ultrasound,Philips,5,38,2,194,10,ICU,Medium,Moderate,0,2,0
+777,CT Scanner,Mindray,10,67,1,370,21,ICU,Low,Good,0,3,1
+778,MRI Scanner,GE Healthcare,7,51,2,215,10,ICU,High,Good,0,4,1
+779,Ventilator,Philips,3,23,4,98,1,Operating Room,High,Moderate,0,3,0
+780,CT Scanner,Mindray,4,58,4,108,9,Operating Room,Medium,Moderate,0,2,0
+781,CT Scanner,Mindray,4,66,12,31,2,Diagnostic Center,Medium,Good,0,2,0
+782,MRI Scanner,Mindray,7,50,6,91,8,Ward,Medium,Poor,0,2,0
+783,Ultrasound,Mindray,2,61,2,185,6,ICU,Medium,Good,0,2,0
+784,CT Scanner,Siemens,9,58,4,98,11,Diagnostic Center,Medium,Poor,0,3,0
+785,Ventilator,Mindray,9,62,4,93,12,Diagnostic Center,High,Poor,0,1,1
+786,Ventilator,Siemens,6,64,2,204,15,ICU,Medium,Moderate,0,4,1
+787,Patient Monitor,Canon Medical,9,75,6,96,10,Lab,Medium,Moderate,0,4,0
+788,MRI Scanner,Medtronic,7,59,4,93,9,Diagnostic Center,High,Moderate,0,4,0
+789,Ultrasound,Siemens,5,51,6,82,5,Lab,Medium,Moderate,0,4,0
+790,MRI Scanner,Canon Medical,5,57,2,216,13,ICU,High,Poor,0,2,1
+791,ECG,Philips,6,79,6,52,9,ICU,High,Good,0,2,0
+792,Patient Monitor,Philips,6,31,12,44,4,Diagnostic Center,Medium,Poor,0,2,0
+793,Ultrasound,Fujifilm,4,92,6,58,8,Diagnostic Center,High,Good,1,2,0
+794,Infusion Pump,GE Healthcare,7,59,6,78,9,Ward,High,Good,0,5,0
+795,CT Scanner,Medtronic,8,45,4,126,5,Ward,High,Moderate,0,3,1
+796,Infusion Pump,GE Healthcare,10,74,4,117,14,Diagnostic Center,Low,Moderate,0,4,1
+797,ECG,Mindray,12,54,1,396,27,Operating Room,High,Poor,0,3,1
+798,Patient Monitor,Fujifilm,2,69,4,89,9,Lab,High,Good,0,2,0
+799,Ultrasound,Fujifilm,4,90,2,215,15,ICU,Medium,Moderate,0,2,1
+800,X-Ray,Siemens,6,51,12,52,13,Diagnostic Center,High,Good,1,4,0
+801,Ultrasound,Siemens,9,65,4,103,9,Diagnostic Center,Medium,Good,0,3,1
+802,Ventilator,GE Healthcare,4,40,4,95,8,Diagnostic Center,Low,Poor,0,3,0
+803,Ultrasound,Medtronic,4,45,1,362,14,Ward,Medium,Good,0,3,1
+804,X-Ray,Siemens,4,84,6,77,10,Ward,Medium,Good,0,3,0
+805,MRI Scanner,Mindray,8,45,6,68,7,ICU,Low,Moderate,0,1,0
+806,CT Scanner,Canon Medical,1,69,1,367,14,Operating Room,High,Good,0,2,1
+807,Patient Monitor,Canon Medical,3,15,1,369,15,Operating Room,Medium,Moderate,0,3,1
+808,ECG,Fujifilm,9,56,2,192,9,Diagnostic Center,Medium,Poor,0,2,1
+809,X-Ray,Siemens,5,79,2,175,12,Operating Room,High,Good,0,4,1
+810,Ventilator,Fujifilm,5,48,12,20,5,Ward,High,Moderate,0,2,0
+811,MRI Scanner,Fujifilm,5,70,12,40,5,Diagnostic Center,High,Moderate,0,3,0
+812,Patient Monitor,Philips,5,64,2,197,13,Lab,Medium,Good,0,2,1
+813,CT Scanner,GE Healthcare,8,60,4,121,12,Diagnostic Center,Medium,Good,0,3,0
+814,Ultrasound,GE Healthcare,2,24,2,209,5,Lab,Medium,Good,0,4,0
+815,X-Ray,Siemens,7,87,4,118,7,Ward,Medium,Good,0,4,0
+816,ECG,Mindray,7,64,4,114,10,ICU,High,Good,0,2,1
+817,Ventilator,Philips,5,61,4,120,11,Ward,High,Moderate,1,2,1
+818,Ultrasound,Medtronic,3,62,12,51,9,Lab,Low,Poor,0,2,0
+819,Ventilator,Philips,11,85,4,110,11,Diagnostic Center,High,Moderate,2,4,1
+820,Infusion Pump,Canon Medical,5,79,4,128,12,Lab,Low,Good,0,4,0
+821,Ultrasound,Medtronic,6,37,4,83,4,ICU,High,Moderate,1,2,1
+822,Ultrasound,Canon Medical,5,68,4,99,13,Lab,High,Good,0,4,0
+823,X-Ray,Philips,11,48,4,95,7,ICU,High,Good,0,2,1
+824,ECG,GE Healthcare,7,40,4,116,10,Diagnostic Center,High,Moderate,0,3,1
+825,CT Scanner,Mindray,8,48,2,189,7,Diagnostic Center,Medium,Poor,0,1,1
+826,Ultrasound,Medtronic,5,48,6,74,8,ICU,High,Moderate,0,4,0
+827,Ultrasound,Siemens,8,70,2,199,13,Operating Room,Medium,Moderate,0,4,0
+828,CT Scanner,Philips,7,53,6,57,8,Operating Room,Medium,Good,0,4,0
+829,Ventilator,Medtronic,6,51,2,203,16,Operating Room,Low,Poor,0,3,1
+830,X-Ray,Fujifilm,2,44,4,129,8,ICU,Low,Poor,0,3,0
+831,MRI Scanner,Siemens,7,58,6,70,2,ICU,Medium,Moderate,0,5,0
+832,Infusion Pump,GE Healthcare,5,60,6,62,0,ICU,Medium,Moderate,0,3,0
+833,ECG,GE Healthcare,10,72,1,377,13,Ward,Medium,Moderate,0,3,1
+834,Patient Monitor,Canon Medical,6,27,6,50,3,ICU,High,Poor,0,4,0
+835,CT Scanner,Mindray,4,63,4,126,6,Diagnostic Center,Medium,Good,0,1,0
+836,MRI Scanner,Siemens,7,107,6,67,12,Lab,Low,Good,0,5,0
+837,X-Ray,Philips,6,33,4,108,11,ICU,High,Poor,0,4,0
+838,Infusion Pump,Fujifilm,3,77,4,124,10,ICU,High,Poor,0,3,0
+839,ECG,Philips,2,81,4,102,9,Ward,High,Good,1,3,0
+840,Ultrasound,Canon Medical,5,79,12,35,6,Diagnostic Center,Low,Moderate,0,3,0
+841,Ultrasound,Fujifilm,6,58,6,92,6,ICU,Medium,Moderate,0,2,0
+842,Infusion Pump,Philips,5,48,4,107,13,Ward,Medium,Poor,0,4,0
+843,Ventilator,GE Healthcare,6,84,2,182,13,Operating Room,Medium,Poor,0,3,1
+844,ECG,GE Healthcare,5,87,1,367,15,ICU,Medium,Moderate,0,4,1
+845,MRI Scanner,Canon Medical,4,74,2,216,15,Ward,Medium,Good,1,2,1
+846,CT Scanner,Siemens,9,15,4,95,14,ICU,Low,Moderate,0,5,0
+847,X-Ray,Mindray,7,14,4,104,2,Ward,Medium,Poor,0,3,0
+848,Ventilator,Siemens,3,5,6,95,5,Diagnostic Center,High,Moderate,0,4,0
+849,X-Ray,Medtronic,9,87,6,55,15,Ward,High,Good,0,3,0
+850,CT Scanner,GE Healthcare,7,33,4,94,11,Ward,High,Moderate,0,5,0
+851,Ultrasound,Mindray,5,75,4,116,9,Diagnostic Center,High,Poor,0,2,1
+852,MRI Scanner,Mindray,9,64,6,80,8,Ward,Medium,Poor,0,1,1
+853,Patient Monitor,Siemens,3,42,12,20,2,Diagnostic Center,Medium,Poor,0,5,0
+854,Ventilator,Medtronic,6,61,4,84,9,ICU,High,Moderate,0,4,0
+855,Ventilator,GE Healthcare,3,43,2,192,5,Operating Room,Medium,Good,0,4,0
+856,Infusion Pump,Mindray,6,80,4,99,4,Diagnostic Center,High,Poor,0,2,0
+857,X-Ray,Philips,6,54,4,83,7,Lab,Medium,Good,0,3,0
+858,ECG,Siemens,6,46,6,70,8,ICU,Medium,Moderate,0,5,0
+859,CT Scanner,Philips,4,53,4,90,6,Diagnostic Center,High,Good,0,4,0
+860,CT Scanner,Medtronic,6,49,2,173,7,Ward,Low,Poor,0,4,0
+861,ECG,Siemens,13,56,4,104,11,Operating Room,Medium,Good,0,5,1
+862,X-Ray,Fujifilm,5,67,0,395,19,Lab,Medium,Good,0,3,1
+863,X-Ray,GE Healthcare,9,64,12,69,7,Ward,Medium,Poor,0,4,0
+864,CT Scanner,Canon Medical,8,51,4,103,11,Ward,Low,Poor,0,2,1
+865,X-Ray,Fujifilm,7,104,4,127,10,Diagnostic Center,Medium,Good,0,3,1
+866,X-Ray,Philips,5,38,12,61,9,Ward,High,Good,0,2,0
+867,MRI Scanner,GE Healthcare,2,94,12,65,4,Diagnostic Center,Low,Good,0,3,0
+868,X-Ray,Philips,6,55,6,61,10,Ward,High,Moderate,0,3,0
+869,Infusion Pump,Philips,8,42,6,79,4,Lab,Medium,Poor,0,2,0
+870,MRI Scanner,GE Healthcare,7,53,6,84,12,ICU,Low,Moderate,0,4,0
+871,Ultrasound,Medtronic,6,68,6,86,14,ICU,Medium,Good,0,3,0
+872,Infusion Pump,Mindray,7,48,4,128,12,Ward,High,Poor,0,3,0
+873,CT Scanner,Canon Medical,3,50,12,32,2,ICU,High,Poor,0,2,0
+874,CT Scanner,GE Healthcare,5,73,12,39,12,Ward,High,Good,0,3,0
+875,MRI Scanner,Mindray,2,79,12,31,3,Diagnostic Center,Medium,Good,0,2,0
+876,X-Ray,Siemens,6,62,12,35,9,Diagnostic Center,Medium,Good,0,4,0
+877,Ventilator,Mindray,7,54,4,120,8,Operating Room,Medium,Good,0,2,1
+878,CT Scanner,Canon Medical,7,40,12,44,8,Lab,High,Good,0,4,0
+879,Ultrasound,GE Healthcare,9,44,6,76,4,Ward,High,Poor,0,4,0
+880,CT Scanner,Siemens,3,56,6,90,9,Operating Room,Medium,Moderate,0,4,0
+881,Ultrasound,Mindray,8,85,6,88,17,ICU,Medium,Moderate,0,3,1
+882,X-Ray,Philips,6,72,6,96,11,Ward,High,Moderate,0,4,0
+883,Ventilator,Philips,8,53,4,100,11,ICU,Medium,Good,0,3,0
+884,Ventilator,Medtronic,1,81,4,115,2,Lab,Low,Moderate,0,4,0
+885,X-Ray,Canon Medical,5,66,2,196,7,Operating Room,Medium,Poor,0,2,1
+886,Infusion Pump,Canon Medical,5,78,6,87,8,ICU,High,Good,0,3,0
+887,Patient Monitor,Mindray,7,37,4,87,11,Lab,Low,Moderate,0,3,0
+888,Ventilator,Canon Medical,6,67,6,55,7,Ward,Medium,Good,0,4,0
+889,X-Ray,Mindray,7,46,6,54,1,Diagnostic Center,Medium,Moderate,0,2,0
+890,Infusion Pump,Siemens,5,77,4,113,14,ICU,High,Moderate,0,5,0
+891,Ultrasound,GE Healthcare,7,36,2,208,6,Diagnostic Center,High,Good,0,4,1
+892,ECG,GE Healthcare,3,88,4,101,9,ICU,Medium,Moderate,1,5,0
+893,Ultrasound,Canon Medical,1,67,4,92,7,Ward,Medium,Moderate,0,3,0
+894,Ultrasound,Philips,5,78,6,59,7,Diagnostic Center,Medium,Moderate,0,3,0
+895,ECG,Mindray,5,60,4,83,7,Diagnostic Center,High,Poor,0,2,0
+896,Infusion Pump,Siemens,5,79,0,400,18,ICU,High,Good,0,4,1
+897,X-Ray,Philips,3,58,4,103,5,Operating Room,High,Good,0,4,0
+898,Ultrasound,Fujifilm,11,57,12,40,7,Ward,Medium,Poor,0,2,0
+899,CT Scanner,Fujifilm,6,85,12,50,7,ICU,Low,Good,0,4,0
+900,Infusion Pump,Canon Medical,6,82,4,114,15,Lab,Low,Moderate,0,3,1
+901,MRI Scanner,GE Healthcare,7,61,4,104,13,Ward,Medium,Moderate,0,5,0
+902,CT Scanner,Siemens,7,54,6,98,12,Ward,Medium,Moderate,0,5,0
+903,CT Scanner,Philips,1,55,1,364,13,Ward,High,Good,0,3,1
+904,ECG,Siemens,1,69,12,63,10,Lab,Medium,Poor,2,5,0
+905,ECG,Philips,7,57,4,119,7,Ward,High,Moderate,0,4,0
+906,MRI Scanner,Fujifilm,5,67,2,220,6,Ward,Medium,Good,0,4,0
+907,ECG,GE Healthcare,9,51,6,90,12,Ward,High,Moderate,0,5,0
+908,Ultrasound,Fujifilm,5,73,6,73,8,Operating Room,High,Poor,0,4,0
+909,ECG,GE Healthcare,6,75,4,128,15,ICU,Low,Moderate,0,3,1
+910,Patient Monitor,Mindray,6,54,4,81,11,Ward,Medium,Good,0,3,0
+911,Infusion Pump,Canon Medical,4,76,12,21,8,Ward,Medium,Good,0,4,0
+912,Patient Monitor,Mindray,6,46,6,50,5,Ward,Medium,Moderate,0,3,0
+913,Ventilator,Siemens,5,58,12,62,9,Ward,Low,Moderate,0,3,0
+914,Ventilator,Siemens,8,52,6,72,8,ICU,Medium,Poor,0,4,0
+915,CT Scanner,Siemens,4,84,6,98,8,ICU,Medium,Good,0,4,0
+916,ECG,Canon Medical,5,69,4,103,14,Operating Room,Low,Good,0,4,0
+917,Ultrasound,Philips,6,82,4,96,12,Ward,Low,Good,0,3,1
+918,Infusion Pump,Mindray,2,79,6,75,5,Ward,Low,Good,0,2,0
+919,Infusion Pump,Fujifilm,5,78,4,84,8,Ward,High,Good,0,2,0
+920,ECG,Fujifilm,11,61,4,89,10,ICU,Low,Good,0,2,1
+921,Ultrasound,Medtronic,6,43,12,69,7,Operating Room,Medium,Poor,0,4,0
+922,Infusion Pump,Mindray,4,78,4,82,7,Diagnostic Center,Low,Poor,0,2,0
+923,X-Ray,Fujifilm,7,32,4,107,7,Operating Room,High,Moderate,0,3,0
+924,Infusion Pump,Mindray,7,63,12,60,8,Ward,High,Poor,0,3,0
+925,Patient Monitor,Philips,9,56,12,36,11,Ward,Low,Poor,0,3,0
+926,CT Scanner,Philips,6,54,6,73,8,Diagnostic Center,Low,Good,0,2,0
+927,ECG,Fujifilm,9,30,4,108,6,Diagnostic Center,High,Good,0,2,1
+928,CT Scanner,Medtronic,3,80,12,22,5,Operating Room,High,Moderate,0,3,0
+929,X-Ray,Canon Medical,10,26,2,211,13,Operating Room,Medium,Poor,0,3,1
+930,X-Ray,Siemens,5,89,12,42,8,ICU,High,Moderate,0,4,0
+931,Ultrasound,Fujifilm,7,55,4,107,5,Lab,High,Poor,0,3,0
+932,X-Ray,Canon Medical,9,72,6,80,17,ICU,Medium,Good,0,3,1
+933,X-Ray,Medtronic,5,47,6,64,3,Lab,Low,Good,0,2,0
+934,X-Ray,GE Healthcare,6,59,4,116,11,Operating Room,High,Moderate,0,3,1
+935,Infusion Pump,Philips,4,44,4,84,4,Ward,Medium,Poor,0,2,0
+936,CT Scanner,GE Healthcare,3,65,12,44,3,Ward,High,Moderate,0,3,0
+937,Ultrasound,Philips,10,60,6,53,9,Ward,Low,Moderate,0,4,0
+938,ECG,Philips,8,88,12,38,8,ICU,High,Poor,0,2,1
+939,X-Ray,Canon Medical,6,68,12,38,10,Diagnostic Center,Low,Moderate,0,2,0
+940,Ventilator,Medtronic,6,42,4,82,6,ICU,Medium,Poor,0,3,0
+941,Infusion Pump,GE Healthcare,5,56,4,127,8,Operating Room,Medium,Poor,0,4,0
+942,CT Scanner,Mindray,9,49,6,52,5,Ward,High,Good,0,2,0
+943,ECG,Mindray,9,44,12,35,8,Lab,Medium,Good,1,1,0
+944,Ultrasound,Medtronic,8,54,4,85,12,ICU,High,Poor,0,2,1
+945,X-Ray,Fujifilm,11,58,2,199,9,ICU,Low,Moderate,0,2,1
+946,Ultrasound,GE Healthcare,9,69,2,176,16,Lab,High,Moderate,1,4,1
+947,Patient Monitor,Fujifilm,3,100,2,198,12,ICU,Medium,Moderate,0,3,0
+948,Ultrasound,Medtronic,2,84,2,202,13,Lab,High,Moderate,0,4,1
+949,MRI Scanner,GE Healthcare,4,69,12,66,14,Lab,High,Moderate,0,5,0
+950,X-Ray,GE Healthcare,10,71,6,53,9,Ward,Medium,Moderate,0,5,0
+951,CT Scanner,Fujifilm,3,66,2,191,11,Diagnostic Center,Medium,Good,1,2,1
+952,X-Ray,GE Healthcare,6,59,1,393,18,ICU,High,Good,0,3,1
+953,MRI Scanner,Fujifilm,5,84,6,60,10,ICU,High,Moderate,0,2,0
+954,ECG,GE Healthcare,4,40,4,85,7,ICU,High,Moderate,0,4,0
+955,Patient Monitor,Fujifilm,11,71,2,193,15,Lab,Low,Good,0,3,1
+956,X-Ray,Siemens,3,103,4,90,6,Diagnostic Center,Medium,Good,0,5,0
+957,CT Scanner,Medtronic,8,55,4,90,9,Ward,Low,Moderate,1,3,1
+958,X-Ray,Mindray,3,44,6,93,8,Ward,High,Moderate,0,2,0
+959,X-Ray,Mindray,1,53,1,384,16,Ward,Medium,Good,0,1,1
+960,CT Scanner,Siemens,10,69,6,88,6,Ward,High,Good,0,4,0
+961,X-Ray,GE Healthcare,5,40,4,90,5,Ward,High,Moderate,0,5,0
+962,X-Ray,Fujifilm,3,26,4,97,9,Diagnostic Center,High,Poor,0,3,0
+963,Infusion Pump,Philips,7,46,2,220,7,ICU,Low,Good,0,2,1
+964,MRI Scanner,Medtronic,6,15,4,126,9,Operating Room,Medium,Moderate,0,2,1
+965,Ultrasound,Mindray,8,27,4,115,9,Diagnostic Center,Medium,Moderate,0,3,1
+966,Ultrasound,Mindray,8,76,4,130,14,ICU,Medium,Good,0,1,1
+967,X-Ray,Philips,7,45,6,94,8,ICU,Medium,Good,0,3,0
+968,CT Scanner,Canon Medical,11,73,6,85,8,Lab,Medium,Poor,0,2,1
+969,Ultrasound,GE Healthcare,6,57,0,383,19,ICU,Medium,Moderate,0,4,1
+970,MRI Scanner,Siemens,3,55,12,47,3,Operating Room,High,Moderate,0,4,0
+971,ECG,Fujifilm,5,59,6,84,1,Ward,Medium,Poor,0,2,0
+972,CT Scanner,Mindray,5,32,12,38,8,Ward,Medium,Moderate,0,3,0
+973,MRI Scanner,Mindray,9,57,4,102,10,Operating Room,Low,Poor,0,2,1
+974,CT Scanner,Philips,9,46,4,91,14,Ward,Medium,Good,0,3,1
+975,Ultrasound,Canon Medical,9,74,6,52,13,Diagnostic Center,Low,Good,0,3,0
+976,CT Scanner,Medtronic,8,57,6,86,14,Lab,High,Moderate,0,4,0
+977,Ventilator,Fujifilm,3,42,0,391,18,ICU,Medium,Moderate,0,2,1
+978,CT Scanner,Siemens,6,89,4,130,6,Operating Room,Medium,Moderate,0,3,0
+979,Ultrasound,Philips,2,57,4,93,4,Diagnostic Center,Medium,Good,0,2,0
+980,MRI Scanner,Philips,9,40,6,50,10,ICU,Medium,Good,0,2,0
+981,Infusion Pump,Canon Medical,12,33,4,99,6,Operating Room,High,Good,0,2,1
+982,Infusion Pump,GE Healthcare,6,88,1,375,22,Diagnostic Center,Low,Poor,0,4,1
+983,X-Ray,Mindray,5,69,6,88,13,Lab,High,Poor,0,1,1
+984,Ventilator,Siemens,4,39,4,119,5,Operating Room,Low,Poor,0,5,0
+985,Ventilator,Fujifilm,5,64,4,113,7,ICU,High,Good,0,3,0
+986,Infusion Pump,Philips,8,43,6,69,9,Ward,Low,Poor,0,3,0
+987,Ventilator,Medtronic,4,50,12,44,3,ICU,Low,Moderate,0,2,0
+988,X-Ray,GE Healthcare,5,52,2,216,12,Ward,High,Poor,0,3,1
+989,X-Ray,Canon Medical,12,71,1,372,13,ICU,Low,Moderate,0,2,1
+990,Ultrasound,GE Healthcare,7,57,4,88,9,Diagnostic Center,High,Good,0,5,0
+991,Patient Monitor,Mindray,5,80,6,53,8,Ward,High,Poor,0,1,0
+992,CT Scanner,Medtronic,8,32,1,371,13,Diagnostic Center,Medium,Poor,0,2,1
+993,Ventilator,Fujifilm,5,48,6,57,4,ICU,Medium,Good,0,4,0
+994,Patient Monitor,GE Healthcare,4,79,2,182,15,Operating Room,Medium,Moderate,0,5,0
+995,Patient Monitor,Fujifilm,9,46,4,114,14,Ward,High,Moderate,0,4,1
+996,X-Ray,Fujifilm,4,69,0,382,18,ICU,Low,Good,0,3,1
+997,Ventilator,Medtronic,7,42,4,87,12,Operating Room,High,Good,0,4,0
+998,Ventilator,Philips,6,45,6,85,1,Ward,High,Poor,0,4,0
+999,X-Ray,GE Healthcare,3,64,6,83,7,ICU,High,Moderate,0,4,0
+1000,Ultrasound,Mindray,9,49,2,201,10,ICU,Low,Moderate,0,1,1
+1001,Infusion Pump,Siemens,5,72,2,196,8,ICU,Medium,Good,0,3,1
+1002,Ultrasound,Canon Medical,3,88,12,67,7,ICU,Medium,Good,0,4,0
+1003,Patient Monitor,Siemens,6,42,2,221,14,Diagnostic Center,Medium,Poor,0,3,1
+1004,MRI Scanner,GE Healthcare,4,38,4,106,6,Diagnostic Center,High,Moderate,0,4,0
+1005,CT Scanner,Fujifilm,6,86,6,92,18,ICU,Medium,Moderate,0,3,0
+1006,Ventilator,Siemens,8,72,2,172,10,Ward,Low,Moderate,0,4,1
+1007,Infusion Pump,GE Healthcare,4,62,6,96,7,Ward,High,Moderate,0,5,0
+1008,Ultrasound,GE Healthcare,7,45,1,386,18,Ward,Medium,Good,0,5,1
+1009,Ultrasound,Fujifilm,2,79,4,106,3,Diagnostic Center,High,Moderate,1,4,0
+1010,Infusion Pump,Mindray,6,43,4,128,6,Ward,Low,Good,0,1,0
+1011,CT Scanner,Fujifilm,7,40,1,369,16,ICU,High,Moderate,0,4,1
+1012,MRI Scanner,Mindray,11,60,6,74,14,ICU,Low,Poor,0,1,1
+1013,MRI Scanner,Fujifilm,5,76,4,89,9,ICU,High,Good,0,2,0
+1014,Ultrasound,Philips,5,66,12,45,8,ICU,High,Poor,0,3,0
+1015,X-Ray,Mindray,11,48,6,86,15,Operating Room,High,Poor,0,1,1
+1016,Patient Monitor,Fujifilm,4,41,12,24,7,ICU,High,Poor,0,2,0
+1017,MRI Scanner,Fujifilm,5,63,2,175,9,Diagnostic Center,Medium,Poor,0,3,1
+1018,Patient Monitor,Medtronic,7,46,6,58,10,ICU,High,Moderate,0,3,0
+1019,ECG,Siemens,8,55,4,130,11,Ward,High,Good,0,4,0
+1020,Infusion Pump,Philips,9,60,6,83,9,Ward,Low,Good,0,3,0
+1021,Infusion Pump,Fujifilm,4,64,2,201,10,ICU,High,Poor,0,4,1
+1022,Infusion Pump,Medtronic,2,69,4,92,10,Operating Room,High,Moderate,0,3,0
+1023,ECG,GE Healthcare,4,66,4,93,8,Ward,Medium,Good,0,4,0
+1024,X-Ray,Canon Medical,3,76,4,105,3,Diagnostic Center,High,Moderate,0,3,0
+1025,Ultrasound,Siemens,8,55,6,90,9,Diagnostic Center,Medium,Moderate,0,3,0
+1026,ECG,Siemens,5,60,2,184,11,ICU,Medium,Poor,0,5,1
+1027,Infusion Pump,Canon Medical,6,22,2,173,14,ICU,High,Poor,0,2,1
+1028,CT Scanner,Siemens,6,67,6,85,11,ICU,High,Moderate,0,5,0
+1029,Infusion Pump,Medtronic,7,77,4,115,7,Diagnostic Center,High,Poor,0,4,1
+1030,CT Scanner,Siemens,5,64,6,99,11,ICU,High,Moderate,0,4,0
+1031,MRI Scanner,GE Healthcare,3,24,12,43,6,ICU,Medium,Moderate,1,5,0
+1032,Ultrasound,GE Healthcare,6,69,4,119,8,Operating Room,High,Moderate,0,5,0
+1033,Infusion Pump,Philips,7,59,2,201,10,ICU,Low,Moderate,0,2,1
+1034,X-Ray,Mindray,12,59,4,84,10,Operating Room,Medium,Poor,0,1,1
+1035,CT Scanner,Fujifilm,7,77,4,120,6,Ward,High,Moderate,0,3,1
+1036,Ultrasound,Mindray,6,13,2,187,19,ICU,Medium,Poor,1,3,1
+1037,Infusion Pump,Canon Medical,1,85,1,402,19,Lab,High,Poor,0,2,1
+1038,Patient Monitor,GE Healthcare,6,44,4,104,3,Ward,High,Moderate,0,5,0
+1039,Infusion Pump,Mindray,9,49,2,201,14,Ward,Medium,Poor,0,2,1
+1040,Infusion Pump,Philips,10,45,6,99,3,Ward,Medium,Good,0,4,0
+1041,ECG,Medtronic,4,81,2,211,8,Lab,Medium,Moderate,0,4,0
+1042,Ventilator,Medtronic,5,69,2,205,11,Ward,Medium,Moderate,0,4,1
+1043,Ultrasound,Mindray,5,59,2,213,20,Ward,Medium,Poor,0,3,1
+1044,CT Scanner,Mindray,8,50,6,95,7,Ward,High,Moderate,0,3,0
+1045,Ventilator,Philips,5,83,4,125,8,Ward,Low,Poor,0,2,1
+1046,CT Scanner,Fujifilm,5,46,2,174,13,Diagnostic Center,Medium,Good,0,3,1
+1047,Infusion Pump,Medtronic,8,26,12,45,6,Diagnostic Center,Medium,Moderate,0,2,0
+1048,CT Scanner,Medtronic,5,70,12,21,0,Lab,Medium,Good,0,4,0
+1049,X-Ray,GE Healthcare,3,101,4,83,11,ICU,High,Poor,0,4,0
+1050,Infusion Pump,Fujifilm,4,95,2,179,12,Ward,High,Poor,0,2,1
+1051,Patient Monitor,Fujifilm,6,89,4,111,12,ICU,Medium,Good,0,4,0
+1052,CT Scanner,GE Healthcare,1,24,4,90,3,Diagnostic Center,High,Good,0,3,0
+1053,Infusion Pump,Siemens,11,23,4,128,7,Ward,Medium,Moderate,0,5,0
+1054,Ultrasound,Philips,5,30,4,93,2,Ward,Medium,Moderate,0,3,0
+1055,X-Ray,Medtronic,4,77,6,91,7,ICU,Low,Poor,0,4,0
+1056,X-Ray,Siemens,6,26,12,50,7,Diagnostic Center,Medium,Poor,0,3,0
+1057,Infusion Pump,Philips,10,30,6,54,8,ICU,High,Good,0,4,0
+1058,Ultrasound,Medtronic,9,62,4,94,13,Operating Room,Medium,Moderate,1,4,0
+1059,CT Scanner,Fujifilm,7,57,2,214,10,Ward,Low,Good,0,4,1
+1060,MRI Scanner,Philips,4,65,4,120,10,Operating Room,Medium,Good,0,4,0
+1061,Ventilator,GE Healthcare,9,70,4,108,10,Ward,Medium,Moderate,0,3,1
+1062,ECG,Fujifilm,5,80,4,115,16,ICU,Low,Good,1,4,0
+1063,Ultrasound,Canon Medical,7,22,12,31,1,Diagnostic Center,High,Moderate,0,2,0
+1064,X-Ray,Canon Medical,9,61,6,55,14,Ward,Medium,Moderate,0,4,0
+1065,Ultrasound,GE Healthcare,4,70,4,90,1,Ward,Medium,Moderate,0,5,0
+1066,Ultrasound,Mindray,2,75,4,118,8,Lab,High,Moderate,0,1,0
+1067,Infusion Pump,Fujifilm,4,41,2,177,7,ICU,Medium,Good,0,4,0
+1068,Ventilator,Fujifilm,8,54,2,183,16,Diagnostic Center,Low,Good,0,3,1
+1069,MRI Scanner,Siemens,1,47,4,121,6,Ward,Medium,Moderate,0,3,0
+1070,Ultrasound,Medtronic,8,30,6,93,4,ICU,High,Good,0,3,0
+1071,Infusion Pump,Mindray,11,83,2,184,22,Operating Room,Low,Moderate,0,1,1
+1072,ECG,Canon Medical,8,45,1,369,16,ICU,Low,Moderate,0,3,1
+1073,X-Ray,Mindray,6,65,4,105,9,Diagnostic Center,Medium,Good,0,1,1
+1074,CT Scanner,Medtronic,7,82,2,201,17,Ward,Medium,Poor,0,2,1
+1075,X-Ray,Medtronic,5,53,4,121,12,Lab,High,Moderate,0,3,1
+1076,Infusion Pump,Siemens,9,80,4,97,10,Ward,Medium,Moderate,1,4,1
+1077,Patient Monitor,Medtronic,4,34,2,191,10,Diagnostic Center,High,Poor,0,2,1
+1078,Ultrasound,GE Healthcare,9,36,6,54,7,Ward,Medium,Moderate,0,5,0
+1079,Ultrasound,Philips,7,52,6,73,8,Operating Room,Low,Moderate,0,4,0
+1080,CT Scanner,Medtronic,2,71,1,391,20,Lab,High,Good,0,3,1
+1081,Ultrasound,Fujifilm,7,36,6,53,10,Diagnostic Center,High,Moderate,0,3,0
+1082,Ventilator,Medtronic,7,69,2,192,12,Operating Room,High,Moderate,0,2,1
+1083,X-Ray,GE Healthcare,1,68,4,82,9,Ward,High,Moderate,0,3,0
+1084,CT Scanner,Philips,2,42,4,90,6,Diagnostic Center,Low,Moderate,1,3,0
+1085,X-Ray,Philips,10,74,1,381,23,Ward,High,Good,1,4,1
+1086,Patient Monitor,Fujifilm,5,46,6,99,8,ICU,Low,Good,0,4,0
+1087,ECG,GE Healthcare,7,59,4,91,7,Lab,Medium,Moderate,1,4,0
+1088,Patient Monitor,GE Healthcare,6,41,4,125,2,Diagnostic Center,High,Moderate,0,5,0
+1089,Ventilator,Canon Medical,5,86,6,65,2,ICU,High,Moderate,0,2,0
+1090,X-Ray,Mindray,7,76,4,112,10,ICU,Medium,Good,0,2,1
+1091,Ventilator,Mindray,8,83,2,200,9,ICU,High,Good,0,3,1
+1092,CT Scanner,GE Healthcare,1,72,4,108,10,ICU,High,Good,0,5,0
+1093,CT Scanner,Fujifilm,6,49,4,99,12,Ward,Medium,Poor,0,2,1
+1094,Ultrasound,Fujifilm,4,76,4,85,5,ICU,Low,Poor,0,4,0
+1095,Ultrasound,Siemens,6,49,12,38,8,Ward,High,Moderate,0,5,0
+1096,ECG,GE Healthcare,9,19,4,89,12,ICU,Medium,Good,0,4,0
+1097,Patient Monitor,Mindray,6,58,2,202,10,Diagnostic Center,Low,Good,0,3,1
+1098,Ultrasound,GE Healthcare,7,50,12,66,7,Diagnostic Center,High,Moderate,0,3,0
+1099,Infusion Pump,Siemens,5,71,4,102,13,Ward,Low,Poor,0,4,0
+1100,CT Scanner,Medtronic,7,36,6,63,6,ICU,High,Moderate,0,3,0
+1101,ECG,Mindray,6,86,4,119,10,Ward,High,Moderate,1,3,1
+1102,CT Scanner,Medtronic,4,48,6,62,5,Ward,High,Poor,0,4,0
+1103,MRI Scanner,Siemens,8,40,2,220,12,Ward,Medium,Moderate,0,5,1
+1104,ECG,Medtronic,3,56,2,208,14,ICU,Medium,Poor,0,2,1
+1105,Ultrasound,Mindray,3,74,2,173,14,ICU,Medium,Poor,0,3,0
+1106,Infusion Pump,Mindray,8,52,4,94,6,Diagnostic Center,High,Poor,1,1,1
+1107,Ultrasound,GE Healthcare,2,44,6,99,1,Lab,Low,Moderate,0,5,0
+1108,Ultrasound,GE Healthcare,7,54,12,52,5,Diagnostic Center,High,Poor,1,4,0
+1109,Ventilator,Siemens,5,45,4,107,8,Diagnostic Center,Medium,Good,0,5,0
+1110,Ultrasound,Philips,6,30,4,120,5,Lab,High,Poor,0,4,0
+1111,MRI Scanner,Canon Medical,8,63,2,202,11,Ward,Low,Moderate,0,4,1
+1112,MRI Scanner,Medtronic,7,64,4,82,3,Ward,High,Good,0,2,0
+1113,Ventilator,Siemens,6,71,12,54,6,ICU,High,Good,1,4,0
+1114,Ultrasound,Siemens,8,54,4,116,13,Ward,Medium,Poor,0,5,1
+1115,X-Ray,Philips,3,67,4,92,4,ICU,High,Moderate,2,4,0
+1116,Infusion Pump,GE Healthcare,7,79,6,77,13,Ward,Medium,Moderate,0,4,0
+1117,ECG,Philips,5,57,2,220,11,ICU,High,Moderate,1,3,1
+1118,Ventilator,GE Healthcare,6,51,4,119,13,ICU,Medium,Poor,0,3,1
+1119,MRI Scanner,Philips,5,50,2,201,12,Diagnostic Center,Medium,Moderate,0,2,1
+1120,MRI Scanner,Siemens,9,66,6,52,11,ICU,High,Poor,0,4,0
+1121,Ventilator,Philips,13,54,4,87,13,Diagnostic Center,High,Moderate,0,2,1
+1122,Ultrasound,Siemens,4,62,4,87,12,Diagnostic Center,Medium,Good,0,3,0
+1123,CT Scanner,Philips,5,61,2,175,11,ICU,Medium,Good,0,3,1
+1124,Ventilator,Canon Medical,9,83,6,70,12,Lab,High,Poor,0,4,1
+1125,Ventilator,Philips,7,85,4,130,15,ICU,Medium,Good,0,3,1
+1126,MRI Scanner,Philips,5,92,6,53,10,Operating Room,High,Moderate,0,4,0
+1127,MRI Scanner,Siemens,6,73,12,35,11,ICU,High,Moderate,0,4,0
+1128,Infusion Pump,Medtronic,3,58,4,101,8,ICU,Medium,Good,0,3,0
+1129,Ultrasound,Mindray,3,61,4,84,12,Lab,High,Moderate,0,3,0
+1130,Infusion Pump,Canon Medical,4,82,6,51,6,ICU,Medium,Good,0,2,0
+1131,Patient Monitor,Philips,6,78,4,99,11,ICU,Medium,Moderate,0,2,1
+1132,ECG,GE Healthcare,11,29,4,109,6,ICU,Low,Poor,0,4,0
+1133,Patient Monitor,Siemens,6,76,6,68,5,Diagnostic Center,High,Poor,1,4,0
+1134,Ultrasound,Medtronic,5,73,12,59,4,Diagnostic Center,High,Poor,0,4,0
+1135,Ventilator,Siemens,12,55,12,60,8,ICU,Medium,Poor,0,4,0
+1136,X-Ray,Siemens,5,47,1,404,20,ICU,High,Moderate,0,4,1
+1137,Ultrasound,GE Healthcare,5,65,2,180,6,Lab,High,Poor,0,4,1
+1138,Ventilator,Mindray,9,70,2,177,13,Ward,Low,Poor,0,2,1
+1139,CT Scanner,GE Healthcare,12,82,4,91,17,Lab,Medium,Moderate,0,5,1
+1140,MRI Scanner,Fujifilm,4,61,2,209,9,Lab,Medium,Good,0,2,1
+1141,Ventilator,Mindray,7,57,6,91,10,ICU,Medium,Good,0,1,1
+1142,Ultrasound,GE Healthcare,5,79,1,397,19,Ward,Medium,Poor,0,3,1
+1143,ECG,Mindray,6,61,6,89,8,Operating Room,Low,Good,0,2,0
+1144,MRI Scanner,Philips,2,67,12,61,4,Lab,Medium,Good,0,4,0
+1145,Infusion Pump,Medtronic,6,33,6,80,9,Lab,Medium,Poor,0,4,0
+1146,CT Scanner,Philips,8,70,6,84,14,Ward,Low,Poor,0,2,1
+1147,Ventilator,Philips,6,53,2,202,13,ICU,Medium,Moderate,0,4,1
+1148,ECG,Mindray,4,45,2,177,9,Diagnostic Center,High,Moderate,0,3,1
+1149,Ultrasound,GE Healthcare,6,56,2,195,15,Operating Room,High,Poor,0,5,1
+1150,Infusion Pump,Siemens,6,75,6,57,11,ICU,High,Moderate,0,5,0
+1151,CT Scanner,Siemens,5,55,2,207,12,Ward,High,Moderate,0,3,1
+1152,Patient Monitor,GE Healthcare,10,62,6,69,5,Operating Room,Medium,Good,0,4,0
+1153,CT Scanner,Canon Medical,4,90,6,58,7,ICU,High,Moderate,0,3,0
+1154,Ventilator,Siemens,5,39,2,194,10,Ward,Medium,Good,0,5,0
+1155,Ultrasound,Mindray,7,63,12,61,7,Diagnostic Center,Medium,Poor,1,2,1
+1156,MRI Scanner,Canon Medical,5,66,1,387,19,ICU,High,Poor,0,3,1
+1157,Infusion Pump,Philips,7,44,2,191,8,Ward,Medium,Poor,0,2,1
+1158,ECG,Mindray,5,54,6,77,7,ICU,High,Poor,0,1,0
+1159,Ultrasound,Philips,7,53,4,88,15,ICU,High,Poor,0,2,0
+1160,Ventilator,GE Healthcare,4,51,4,109,9,ICU,High,Poor,0,4,0
+1161,MRI Scanner,Mindray,3,62,6,96,8,Ward,Medium,Good,0,3,0
+1162,Infusion Pump,Mindray,7,88,12,56,8,Diagnostic Center,High,Moderate,1,1,1
+1163,Ventilator,Medtronic,4,46,1,362,19,ICU,Low,Moderate,0,3,1
+1164,ECG,Mindray,3,43,6,57,5,ICU,Low,Moderate,1,3,0
+1165,ECG,Mindray,8,70,2,203,16,Diagnostic Center,High,Poor,0,1,1
+1166,ECG,Medtronic,6,67,4,120,12,Diagnostic Center,Low,Moderate,0,4,0
+1167,X-Ray,Canon Medical,7,40,6,65,4,Operating Room,Medium,Poor,0,3,0
+1168,MRI Scanner,Siemens,7,39,12,62,6,Ward,High,Moderate,1,4,0
+1169,Patient Monitor,Canon Medical,3,37,6,91,4,Lab,High,Good,0,3,0
+1170,Infusion Pump,Canon Medical,8,48,6,94,10,Ward,High,Good,1,4,1
+1171,Infusion Pump,Philips,4,43,4,85,12,ICU,Low,Moderate,0,2,0
+1172,CT Scanner,Canon Medical,6,73,6,83,1,Operating Room,High,Good,0,2,0
+1173,ECG,Canon Medical,2,80,6,84,6,Diagnostic Center,High,Good,0,4,0
+1174,Infusion Pump,GE Healthcare,9,66,12,51,8,Diagnostic Center,High,Poor,0,5,0
+1175,Infusion Pump,Mindray,9,78,2,220,16,ICU,High,Poor,0,3,1
+1176,Infusion Pump,Fujifilm,13,45,6,87,6,Ward,Medium,Moderate,0,3,0
+1177,Infusion Pump,Siemens,5,95,6,80,4,Ward,High,Moderate,0,4,0
+1178,Patient Monitor,GE Healthcare,5,51,12,65,13,Ward,Low,Good,0,4,0
+1179,MRI Scanner,Philips,10,53,2,172,11,ICU,Medium,Moderate,0,2,1
+1180,Ventilator,Siemens,11,36,6,85,12,ICU,Medium,Good,0,3,1
+1181,X-Ray,Medtronic,5,53,4,129,7,Ward,Low,Poor,0,2,0
+1182,Ultrasound,Philips,7,27,2,188,8,Diagnostic Center,Low,Poor,0,4,1
+1183,X-Ray,Fujifilm,6,68,12,65,4,Operating Room,High,Poor,0,4,0
+1184,Infusion Pump,Fujifilm,2,42,2,198,11,Ward,Low,Good,0,2,1
+1185,X-Ray,GE Healthcare,7,46,2,206,16,ICU,High,Moderate,0,4,1
+1186,Ultrasound,Medtronic,2,43,4,109,8,Ward,High,Moderate,0,4,0
+1187,Ventilator,Mindray,9,40,4,88,12,Diagnostic Center,Medium,Poor,0,1,1
+1188,Ventilator,Mindray,8,56,12,65,5,ICU,High,Good,0,1,0
+1189,X-Ray,Philips,7,59,6,75,4,Lab,High,Good,1,2,0
+1190,Ventilator,Philips,5,49,2,196,12,ICU,High,Good,0,3,1
+1191,CT Scanner,Medtronic,6,34,12,24,7,Ward,Medium,Poor,0,4,0
+1192,Ultrasound,Fujifilm,5,62,6,73,10,ICU,High,Good,0,4,0
+1193,Ventilator,Medtronic,9,66,2,180,12,Diagnostic Center,Low,Poor,0,4,1
+1194,Ventilator,Siemens,4,48,6,98,7,Diagnostic Center,Medium,Moderate,0,5,0
+1195,MRI Scanner,GE Healthcare,7,44,12,68,12,Lab,Medium,Good,0,4,0
+1196,MRI Scanner,Mindray,8,57,2,203,9,Lab,Medium,Moderate,0,3,1
+1197,Ultrasound,Mindray,3,66,6,57,7,Ward,Medium,Poor,0,3,0
+1198,Infusion Pump,Medtronic,6,49,0,395,21,ICU,High,Poor,0,3,1
+1199,ECG,Philips,10,48,6,95,6,Diagnostic Center,Medium,Poor,0,4,0
+1200,Ventilator,Fujifilm,6,94,12,42,10,ICU,Medium,Poor,0,2,0
+1201,Ultrasound,Siemens,3,87,4,110,9,Ward,High,Moderate,0,5,0
+1202,Patient Monitor,GE Healthcare,9,70,2,186,13,Diagnostic Center,Medium,Good,0,5,1
+1203,ECG,Siemens,7,73,6,70,7,Ward,High,Moderate,0,3,0
+1204,Ultrasound,Mindray,3,39,2,190,11,Diagnostic Center,Low,Poor,0,1,1
+1205,MRI Scanner,Canon Medical,4,40,2,203,5,Ward,High,Moderate,0,3,1
+1206,Ventilator,GE Healthcare,7,76,4,106,9,Diagnostic Center,High,Good,1,5,0
+1207,CT Scanner,GE Healthcare,10,65,12,65,10,Operating Room,Low,Poor,0,5,0
+1208,ECG,Mindray,5,84,1,387,20,ICU,High,Moderate,1,2,1
+1209,MRI Scanner,Fujifilm,5,69,4,88,4,ICU,Low,Moderate,0,4,0
+1210,Ventilator,Philips,9,72,4,81,8,Operating Room,Medium,Good,0,4,0
+1211,ECG,Medtronic,11,59,4,92,14,ICU,Low,Moderate,0,2,1
+1212,Infusion Pump,GE Healthcare,3,31,4,128,10,Operating Room,High,Moderate,0,3,0
+1213,Infusion Pump,GE Healthcare,10,49,12,41,4,Operating Room,Low,Poor,1,4,0
+1214,X-Ray,Fujifilm,7,72,6,93,11,Diagnostic Center,Medium,Good,0,3,1
+1215,Ultrasound,Siemens,8,28,6,87,10,Ward,High,Moderate,0,3,1
+1216,MRI Scanner,Canon Medical,5,54,0,402,16,Diagnostic Center,High,Moderate,0,2,1
+1217,Infusion Pump,Mindray,8,63,12,22,10,ICU,High,Good,0,2,0
+1218,CT Scanner,GE Healthcare,4,65,4,96,8,Ward,Medium,Good,0,5,0
+1219,Infusion Pump,Medtronic,6,61,6,54,5,Ward,High,Poor,0,4,0
+1220,Ultrasound,Mindray,2,52,6,87,7,ICU,Medium,Poor,0,1,0
+1221,Patient Monitor,Fujifilm,8,30,1,369,21,Ward,Medium,Poor,0,3,1
+1222,CT Scanner,Medtronic,7,64,1,403,19,Lab,High,Good,0,3,1
+1223,Ultrasound,GE Healthcare,7,59,2,187,9,ICU,High,Poor,0,4,1
+1224,Infusion Pump,Mindray,8,68,4,117,14,Diagnostic Center,Medium,Poor,0,3,1
+1225,Ultrasound,Siemens,5,65,2,193,6,Diagnostic Center,High,Moderate,0,5,0
+1226,ECG,GE Healthcare,6,47,4,82,15,Ward,Medium,Moderate,0,4,0
+1227,X-Ray,Philips,9,60,4,129,11,ICU,Low,Poor,0,3,1
+1228,X-Ray,Medtronic,7,54,12,57,7,Operating Room,Medium,Good,0,4,0
+1229,ECG,Medtronic,3,76,12,29,3,Diagnostic Center,Medium,Moderate,0,3,0
+1230,Ultrasound,Mindray,3,69,1,375,13,Ward,Low,Poor,0,2,1
+1231,ECG,Philips,5,66,4,120,12,Operating Room,High,Good,0,4,0
+1232,X-Ray,Fujifilm,3,36,1,357,14,Ward,High,Good,0,3,1
+1233,CT Scanner,Medtronic,8,55,12,38,12,Lab,Medium,Moderate,0,2,0
+1234,Ventilator,Mindray,9,59,6,66,3,ICU,Medium,Good,0,3,0
+1235,CT Scanner,Siemens,10,9,12,58,6,Diagnostic Center,Low,Poor,0,3,0
+1236,Ventilator,GE Healthcare,10,43,6,95,8,ICU,Low,Poor,0,5,0
+1237,MRI Scanner,Medtronic,7,61,4,100,4,Lab,High,Good,0,3,0
+1238,Infusion Pump,GE Healthcare,2,75,4,98,7,Diagnostic Center,High,Good,0,4,0
+1239,MRI Scanner,Mindray,4,60,12,63,3,ICU,High,Good,0,2,0
+1240,Infusion Pump,Fujifilm,3,29,6,73,6,Lab,High,Good,0,2,0
+1241,Infusion Pump,Philips,3,43,4,112,10,Lab,High,Moderate,0,4,0
+1242,Ultrasound,Mindray,5,63,4,102,11,Ward,High,Good,0,3,1
+1243,Ventilator,Mindray,7,51,12,69,9,Operating Room,Low,Poor,0,3,0
+1244,X-Ray,Mindray,1,56,4,99,1,Ward,Medium,Moderate,0,3,0
+1245,MRI Scanner,Mindray,6,36,2,212,8,ICU,High,Moderate,1,1,1
+1246,Ultrasound,Siemens,3,69,1,373,17,Diagnostic Center,High,Good,0,4,1
+1247,Ventilator,Philips,8,38,4,115,9,Diagnostic Center,High,Moderate,0,4,0
+1248,Infusion Pump,Canon Medical,7,55,4,126,10,Lab,Medium,Moderate,0,3,1
+1249,X-Ray,Fujifilm,9,75,6,64,10,ICU,High,Good,0,4,0
+1250,ECG,Medtronic,5,58,4,108,9,Ward,Medium,Moderate,0,4,0
+1251,Patient Monitor,Canon Medical,8,55,6,64,10,Ward,High,Good,0,3,0
+1252,ECG,Canon Medical,4,40,12,57,8,ICU,High,Poor,0,2,0
+1253,MRI Scanner,Philips,9,73,6,69,8,ICU,High,Good,0,3,0
+1254,MRI Scanner,Canon Medical,2,61,2,177,9,ICU,Medium,Poor,0,3,0
+1255,X-Ray,Mindray,5,35,1,381,23,ICU,High,Good,0,2,1
+1256,Ultrasound,Canon Medical,3,63,2,220,14,Lab,Medium,Good,1,4,1
+1257,Infusion Pump,GE Healthcare,8,63,4,81,5,Operating Room,High,Moderate,0,5,0
+1258,X-Ray,Mindray,5,41,6,73,8,Lab,High,Good,1,3,0
+1259,Patient Monitor,Mindray,7,69,4,108,5,ICU,High,Poor,0,3,1
+1260,Ventilator,GE Healthcare,3,26,4,112,2,Diagnostic Center,High,Moderate,0,5,0
+1261,CT Scanner,Siemens,12,39,6,98,16,Diagnostic Center,High,Moderate,0,5,1
+1262,X-Ray,Mindray,6,59,6,50,8,ICU,High,Poor,0,1,1
+1263,Ultrasound,Mindray,11,36,4,87,11,Diagnostic Center,High,Moderate,0,3,0
+1264,Infusion Pump,Canon Medical,3,33,4,100,6,Diagnostic Center,Medium,Poor,0,4,0
+1265,CT Scanner,Canon Medical,6,16,2,208,5,ICU,High,Moderate,0,4,0
+1266,Ultrasound,Fujifilm,3,67,0,393,24,Ward,Medium,Good,0,2,1
+1267,Infusion Pump,GE Healthcare,6,71,2,197,8,Lab,High,Good,0,3,1
+1268,Ultrasound,Canon Medical,4,76,6,94,7,Diagnostic Center,Medium,Poor,0,2,0
+1269,ECG,Fujifilm,6,70,4,83,15,Lab,Medium,Poor,0,3,0
+1270,CT Scanner,Mindray,7,77,6,77,8,ICU,Medium,Moderate,0,2,0
+1271,MRI Scanner,Canon Medical,13,69,6,92,10,Lab,Low,Good,0,2,1
+1272,MRI Scanner,Fujifilm,8,58,0,360,22,ICU,High,Moderate,0,4,1
+1273,CT Scanner,GE Healthcare,7,50,1,369,22,Operating Room,Low,Moderate,0,5,1
+1274,CT Scanner,GE Healthcare,7,50,6,50,7,Operating Room,High,Moderate,0,4,0
+1275,CT Scanner,Fujifilm,8,41,6,89,10,ICU,Low,Moderate,0,3,0
+1276,Patient Monitor,Mindray,5,25,0,387,20,ICU,Medium,Poor,3,3,1
+1277,CT Scanner,GE Healthcare,5,61,2,219,10,ICU,Low,Good,0,4,1
+1278,Ventilator,GE Healthcare,6,55,4,113,9,Operating Room,High,Poor,0,4,1
+1279,Infusion Pump,GE Healthcare,5,69,6,71,6,Ward,Low,Good,0,5,0
+1280,Infusion Pump,Mindray,5,68,12,21,11,Ward,Medium,Good,0,3,0
+1281,ECG,GE Healthcare,3,53,2,203,7,Operating Room,High,Good,0,4,0
+1282,Infusion Pump,Mindray,6,20,6,93,2,Ward,Medium,Moderate,0,3,0
+1283,Infusion Pump,GE Healthcare,4,102,6,86,7,Ward,Medium,Moderate,1,5,0
+1284,Ultrasound,Philips,5,66,6,52,11,Lab,High,Moderate,0,3,0
+1285,ECG,Medtronic,2,91,4,87,10,ICU,High,Poor,0,2,0
+1286,ECG,Mindray,11,55,12,69,11,Operating Room,Medium,Good,0,2,1
+1287,ECG,Mindray,7,81,2,195,9,Ward,Low,Poor,0,3,1
+1288,X-Ray,Medtronic,9,46,2,176,6,Ward,Medium,Good,0,3,1
+1289,MRI Scanner,GE Healthcare,5,77,4,127,9,Ward,Medium,Good,0,4,0
+1290,Ventilator,GE Healthcare,9,76,12,62,11,Diagnostic Center,Medium,Moderate,0,4,0
+1291,Ultrasound,GE Healthcare,6,54,0,374,19,ICU,Medium,Good,0,5,1
+1292,X-Ray,GE Healthcare,5,37,12,24,6,ICU,Medium,Moderate,0,3,0
+1293,X-Ray,Mindray,5,59,0,399,19,Diagnostic Center,High,Moderate,0,1,1
+1294,X-Ray,Fujifilm,8,65,2,194,16,Ward,High,Good,1,2,1
+1295,Ventilator,Medtronic,6,42,4,125,3,Ward,Low,Poor,0,3,0
+1296,Ultrasound,Medtronic,5,58,6,54,8,ICU,High,Poor,0,2,0
+1297,Ultrasound,Mindray,6,55,4,96,6,Ward,Medium,Good,0,1,0
+1298,Ventilator,Medtronic,10,66,4,101,11,ICU,Medium,Good,0,4,1
+1299,Infusion Pump,Siemens,8,72,6,69,13,Lab,Low,Poor,0,5,0
+1300,X-Ray,GE Healthcare,6,57,2,188,8,ICU,Medium,Moderate,0,4,0
+1301,Ultrasound,Philips,4,93,2,182,11,Ward,Medium,Good,0,2,0
+1302,MRI Scanner,Mindray,12,61,6,69,9,Ward,Medium,Poor,0,1,1
+1303,ECG,Canon Medical,9,74,4,119,14,Ward,Medium,Moderate,0,3,1
+1304,MRI Scanner,Siemens,9,31,6,57,7,Ward,High,Moderate,0,5,0
+1305,CT Scanner,Mindray,7,25,0,401,20,Lab,High,Good,0,2,1
+1306,X-Ray,Medtronic,4,56,4,122,4,Ward,High,Moderate,0,3,0
+1307,Ventilator,Mindray,4,83,12,43,8,Ward,Medium,Moderate,1,1,0
+1308,Patient Monitor,GE Healthcare,9,67,12,49,12,Operating Room,Medium,Good,0,5,0
+1309,Ultrasound,Canon Medical,2,67,6,73,5,Lab,Medium,Good,0,3,0
+1310,ECG,Philips,3,34,6,64,8,Ward,High,Good,0,4,0
+1311,MRI Scanner,GE Healthcare,7,65,12,46,9,Operating Room,Medium,Good,0,4,0
+1312,ECG,Medtronic,2,31,2,220,9,Ward,Medium,Moderate,0,4,0
+1313,Ventilator,Canon Medical,2,107,6,78,14,Lab,High,Good,0,4,0
+1314,CT Scanner,Siemens,6,48,6,94,7,Ward,High,Moderate,1,3,1
+1315,Ventilator,GE Healthcare,5,79,0,388,22,Diagnostic Center,Medium,Good,0,5,1
+1316,Ultrasound,Siemens,4,38,4,84,6,ICU,Medium,Moderate,0,4,0
+1317,MRI Scanner,GE Healthcare,3,62,4,102,7,Diagnostic Center,High,Good,0,4,0
+1318,CT Scanner,Fujifilm,9,68,6,71,9,Ward,Low,Moderate,0,2,0
+1319,ECG,GE Healthcare,4,48,6,75,8,ICU,Medium,Moderate,0,3,0
+1320,MRI Scanner,Canon Medical,9,65,1,369,16,ICU,High,Good,0,4,1
+1321,Ventilator,Fujifilm,10,71,4,124,9,Diagnostic Center,High,Moderate,1,3,1
+1322,Ultrasound,Siemens,2,97,4,98,5,Ward,Medium,Good,0,3,0
+1323,Ventilator,GE Healthcare,7,39,6,97,10,Ward,High,Good,0,4,0
+1324,Infusion Pump,Philips,4,63,6,51,4,Operating Room,Medium,Moderate,0,4,0
+1325,Patient Monitor,Canon Medical,6,5,4,83,11,ICU,High,Good,0,4,0
+1326,Ultrasound,Philips,4,71,12,31,1,ICU,High,Good,1,3,0
+1327,Infusion Pump,Medtronic,7,37,4,118,13,Lab,Low,Poor,0,3,1
+1328,Infusion Pump,Siemens,2,72,4,96,2,Operating Room,Medium,Moderate,0,4,0
+1329,Patient Monitor,Philips,7,85,6,70,11,Operating Room,High,Good,0,2,0
+1330,Ventilator,GE Healthcare,3,55,6,79,7,ICU,Medium,Moderate,0,3,0
+1331,Infusion Pump,Mindray,4,52,6,79,4,Operating Room,High,Good,0,2,0
+1332,Ventilator,GE Healthcare,6,73,4,109,10,Ward,Medium,Good,0,4,0
+1333,Ultrasound,Canon Medical,0,80,4,126,13,Ward,High,Good,0,2,1
+1334,X-Ray,Siemens,7,29,6,55,11,ICU,Medium,Moderate,0,3,0
+1335,Infusion Pump,Siemens,4,41,1,381,11,Lab,High,Good,1,5,1
+1336,Infusion Pump,Mindray,6,65,6,65,9,Lab,Medium,Moderate,0,3,0
+1337,Ventilator,Fujifilm,8,52,6,74,10,Operating Room,Medium,Good,0,3,0
+1338,Patient Monitor,Canon Medical,3,46,6,84,5,ICU,Medium,Good,0,3,0
+1339,Ventilator,Mindray,6,73,4,95,9,Ward,Medium,Poor,0,2,0
+1340,Ultrasound,GE Healthcare,7,57,2,173,9,Diagnostic Center,High,Poor,0,3,1
+1341,MRI Scanner,Siemens,11,49,12,66,13,ICU,High,Moderate,0,5,0
+1342,X-Ray,Medtronic,4,53,12,21,5,Diagnostic Center,High,Moderate,0,4,0
+1343,MRI Scanner,Philips,9,54,12,36,6,Operating Room,Low,Moderate,0,2,0
+1344,ECG,Canon Medical,7,83,4,81,9,Ward,High,Moderate,0,4,0
+1345,Patient Monitor,GE Healthcare,3,32,1,363,15,Diagnostic Center,Medium,Good,0,4,1
+1346,MRI Scanner,Fujifilm,4,58,12,52,3,ICU,Medium,Good,0,4,0
+1347,Infusion Pump,GE Healthcare,9,62,6,75,7,Operating Room,Medium,Poor,0,3,0
+1348,Infusion Pump,Fujifilm,7,77,4,93,11,Ward,High,Poor,2,2,1
+1349,MRI Scanner,Mindray,6,36,6,72,6,Operating Room,Medium,Moderate,0,1,0
+1350,X-Ray,Fujifilm,4,41,2,209,11,Operating Room,High,Poor,0,3,1
+1351,X-Ray,Siemens,2,50,12,44,8,Diagnostic Center,Medium,Good,0,4,0
+1352,Infusion Pump,Medtronic,3,66,2,221,11,Operating Room,High,Good,1,4,1
+1353,Ventilator,Canon Medical,6,83,6,60,5,ICU,Medium,Good,0,2,0
+1354,CT Scanner,Philips,9,66,4,120,12,Ward,High,Poor,0,2,1
+1355,Infusion Pump,Philips,7,34,4,84,8,Diagnostic Center,High,Poor,0,4,0
+1356,Infusion Pump,Mindray,4,83,6,72,12,Ward,High,Good,0,1,0
+1357,ECG,GE Healthcare,2,67,6,97,9,Ward,Medium,Poor,0,4,0
+1358,ECG,Fujifilm,7,51,6,73,12,Diagnostic Center,Medium,Moderate,0,4,0
+1359,Infusion Pump,Mindray,4,51,2,216,11,Ward,High,Good,0,1,1
+1360,CT Scanner,Mindray,9,56,4,118,8,Operating Room,High,Good,0,2,1
+1361,ECG,Medtronic,11,40,12,54,6,Lab,Medium,Moderate,0,4,0
+1362,Ventilator,GE Healthcare,4,62,2,207,6,Operating Room,Medium,Poor,0,5,0
+1363,CT Scanner,Siemens,4,65,4,123,10,Operating Room,Medium,Poor,0,3,0
+1364,Ultrasound,Fujifilm,1,55,4,89,1,ICU,Medium,Moderate,0,4,0
+1365,Ventilator,Canon Medical,7,54,6,68,7,ICU,High,Good,1,3,0
+1366,CT Scanner,Medtronic,2,70,4,125,9,Diagnostic Center,High,Moderate,0,4,0
+1367,Infusion Pump,GE Healthcare,6,63,4,100,4,ICU,Medium,Poor,0,4,0
+1368,X-Ray,Canon Medical,5,38,4,117,5,Ward,Medium,Poor,0,2,0
+1369,CT Scanner,Philips,9,68,4,96,4,ICU,Medium,Poor,0,2,0
+1370,X-Ray,Medtronic,8,61,1,402,20,ICU,Medium,Poor,1,4,1
+1371,Ventilator,Mindray,9,87,6,53,12,Operating Room,High,Moderate,2,3,1
+1372,Patient Monitor,Mindray,4,5,6,53,2,ICU,Medium,Moderate,0,1,0
+1373,Ventilator,Mindray,7,58,6,96,9,Lab,Medium,Moderate,0,2,0
+1374,X-Ray,Philips,6,32,2,202,12,Operating Room,High,Moderate,0,2,1
+1375,Ultrasound,Medtronic,10,64,6,70,10,Diagnostic Center,High,Good,0,4,0
+1376,Ultrasound,Fujifilm,4,67,4,95,5,Diagnostic Center,High,Poor,0,4,0
+1377,Patient Monitor,Siemens,7,33,0,380,14,Diagnostic Center,Medium,Moderate,0,4,1
+1378,MRI Scanner,GE Healthcare,3,46,6,93,2,Ward,Medium,Good,0,3,0
+1379,CT Scanner,Canon Medical,7,56,1,376,15,Operating Room,High,Moderate,0,2,1
+1380,Infusion Pump,Medtronic,3,48,4,98,5,Ward,High,Poor,0,2,0
+1381,Infusion Pump,Fujifilm,4,54,12,67,12,Diagnostic Center,High,Moderate,1,2,0
+1382,Ventilator,Fujifilm,9,100,6,64,4,Operating Room,Medium,Poor,0,4,0
+1383,Ultrasound,Siemens,7,46,4,95,10,Diagnostic Center,High,Moderate,0,4,0
+1384,ECG,Fujifilm,5,30,2,213,13,Operating Room,Medium,Moderate,0,4,1
+1385,Patient Monitor,Philips,5,42,6,52,5,Diagnostic Center,Medium,Poor,0,3,0
+1386,Infusion Pump,GE Healthcare,1,56,4,128,14,Diagnostic Center,Medium,Moderate,0,3,0
+1387,Infusion Pump,Medtronic,4,63,6,63,1,ICU,Medium,Poor,0,4,0
+1388,Infusion Pump,Canon Medical,6,62,6,92,5,Diagnostic Center,Medium,Poor,0,3,0
+1389,Ventilator,GE Healthcare,4,45,4,92,9,Ward,High,Poor,1,4,0
+1390,X-Ray,Philips,8,73,2,209,14,Ward,High,Poor,0,4,0
+1391,MRI Scanner,Siemens,3,27,6,57,9,Operating Room,High,Moderate,0,5,0
+1392,X-Ray,Medtronic,1,88,2,215,8,Ward,Medium,Poor,0,2,1
+1393,Ultrasound,Canon Medical,3,38,4,88,4,Diagnostic Center,High,Moderate,0,2,0
+1394,X-Ray,Mindray,2,77,6,57,8,Ward,High,Good,0,1,0
+1395,Ventilator,Philips,4,74,0,367,19,ICU,Low,Poor,0,2,1
+1396,Ultrasound,Medtronic,4,49,4,86,7,Operating Room,Medium,Moderate,0,3,0
+1397,Ultrasound,Mindray,3,58,1,402,17,Operating Room,Medium,Good,0,3,1
+1398,Ventilator,GE Healthcare,7,29,4,104,6,ICU,High,Good,0,4,0
+1399,MRI Scanner,Philips,3,33,12,32,6,Ward,High,Moderate,0,2,0
+1400,Patient Monitor,Fujifilm,5,80,4,85,4,Ward,High,Poor,0,2,0
+1401,X-Ray,GE Healthcare,7,36,12,44,9,Diagnostic Center,Medium,Poor,0,5,0
+1402,CT Scanner,Medtronic,7,68,2,218,15,Operating Room,Low,Poor,0,3,1
+1403,ECG,Philips,13,84,2,221,24,Ward,Medium,Good,0,2,1
+1404,MRI Scanner,GE Healthcare,8,91,2,203,14,Operating Room,Low,Moderate,0,4,1
+1405,Ventilator,Canon Medical,4,39,4,130,5,Diagnostic Center,Medium,Moderate,0,3,0
+1406,MRI Scanner,GE Healthcare,7,58,12,55,7,Diagnostic Center,High,Moderate,1,3,0
+1407,Infusion Pump,Mindray,5,62,2,202,10,Diagnostic Center,Medium,Moderate,0,3,1
+1408,ECG,Canon Medical,10,82,2,187,16,Diagnostic Center,Medium,Good,0,4,1
+1409,Infusion Pump,Philips,5,93,6,59,4,Lab,Low,Good,0,4,0
+1410,ECG,Canon Medical,7,81,4,104,8,Ward,High,Good,0,2,1
+1411,CT Scanner,Medtronic,11,60,2,191,13,ICU,Medium,Moderate,0,3,1
+1412,X-Ray,Philips,4,48,6,96,4,Diagnostic Center,High,Moderate,0,4,0
+1413,CT Scanner,Siemens,6,90,6,87,10,Operating Room,Medium,Moderate,0,4,0
+1414,Infusion Pump,Fujifilm,8,51,4,104,11,Operating Room,High,Good,0,2,1
+1415,X-Ray,Fujifilm,5,45,4,121,8,Lab,Low,Moderate,0,3,0
+1416,Patient Monitor,Siemens,6,61,6,86,5,Ward,Low,Moderate,1,5,0
+1417,Ventilator,Canon Medical,6,41,6,56,3,Lab,High,Moderate,0,2,0
+1418,CT Scanner,Siemens,6,69,4,109,7,Ward,Medium,Good,0,5,0
+1419,ECG,Philips,7,53,4,116,12,ICU,High,Poor,1,2,1
+1420,ECG,Philips,10,65,4,106,15,ICU,High,Poor,0,3,1
+1421,Ultrasound,Mindray,7,48,12,39,3,Ward,Medium,Poor,0,1,0
+1422,Infusion Pump,Medtronic,7,47,6,56,5,ICU,Medium,Good,0,2,0
+1423,Patient Monitor,Medtronic,7,51,12,38,10,Ward,High,Poor,0,3,0
+1424,MRI Scanner,Canon Medical,5,27,1,393,22,ICU,High,Good,0,4,1
+1425,ECG,GE Healthcare,5,34,12,24,0,Operating Room,High,Moderate,0,3,0
+1426,X-Ray,Canon Medical,5,61,1,383,10,ICU,High,Poor,0,4,1
+1427,Patient Monitor,GE Healthcare,6,73,6,69,11,Lab,Medium,Good,0,3,0
+1428,Infusion Pump,Medtronic,8,51,4,117,10,Ward,High,Good,0,4,0
+1429,Ventilator,Fujifilm,12,51,0,376,20,ICU,High,Poor,0,3,1
+1430,Infusion Pump,GE Healthcare,2,54,12,57,3,ICU,High,Good,1,3,0
+1431,X-Ray,GE Healthcare,6,55,4,120,13,Operating Room,High,Good,0,3,1
+1432,Ultrasound,Fujifilm,4,64,12,61,10,Ward,High,Moderate,0,3,0
+1433,Ventilator,Medtronic,8,86,12,39,9,Diagnostic Center,High,Poor,1,3,1
+1434,Ultrasound,Philips,6,29,2,185,13,Operating Room,Low,Moderate,0,3,1
+1435,CT Scanner,GE Healthcare,7,62,4,108,3,ICU,Medium,Moderate,0,5,0
+1436,Ultrasound,Fujifilm,14,95,6,53,16,Operating Room,Low,Good,0,2,1
+1437,Ventilator,Siemens,5,55,6,98,9,Diagnostic Center,Medium,Good,0,5,0
+1438,CT Scanner,Mindray,5,50,2,192,13,Operating Room,Low,Moderate,0,3,1
+1439,ECG,Mindray,4,52,4,107,3,Diagnostic Center,High,Good,0,2,0
+1440,Patient Monitor,GE Healthcare,5,50,4,97,11,ICU,High,Good,0,5,0
+1441,Infusion Pump,Canon Medical,6,58,1,381,20,Ward,High,Moderate,0,4,1
+1442,Infusion Pump,Fujifilm,8,40,4,88,9,Ward,Medium,Good,1,3,1
+1443,X-Ray,Canon Medical,5,50,12,23,3,Ward,Medium,Moderate,0,2,0
+1444,Infusion Pump,Siemens,8,92,2,218,16,Ward,High,Good,0,4,1
+1445,ECG,Medtronic,8,67,4,91,9,ICU,High,Moderate,1,3,0
+1446,Patient Monitor,Philips,4,68,4,121,8,ICU,High,Good,0,3,0
+1447,CT Scanner,Philips,8,70,6,63,9,Diagnostic Center,Medium,Moderate,0,2,0
+1448,Ventilator,Mindray,8,93,6,85,12,Ward,High,Poor,1,1,1
+1449,Ultrasound,Mindray,4,62,4,94,9,Ward,High,Good,0,1,1
+1450,X-Ray,Mindray,9,60,4,106,11,Operating Room,High,Moderate,1,1,1
+1451,Patient Monitor,Mindray,3,50,4,118,11,Diagnostic Center,Medium,Good,1,1,1
+1452,X-Ray,Siemens,10,72,2,213,12,Ward,Medium,Poor,0,3,1
+1453,X-Ray,GE Healthcare,8,58,4,88,16,Diagnostic Center,Medium,Good,1,3,1
+1454,CT Scanner,Philips,10,75,4,109,15,Lab,Medium,Good,1,3,1
+1455,CT Scanner,Siemens,4,36,4,130,8,Ward,High,Poor,0,3,1
+1456,CT Scanner,GE Healthcare,7,31,2,195,14,Operating Room,High,Good,0,5,0
+1457,Patient Monitor,GE Healthcare,12,44,12,32,9,ICU,Medium,Poor,0,5,0
+1458,Ultrasound,Medtronic,5,80,12,39,5,ICU,Low,Good,0,4,0
+1459,ECG,Canon Medical,4,74,6,53,3,Diagnostic Center,Low,Poor,0,2,0
+1460,X-Ray,Siemens,8,82,6,79,10,Operating Room,High,Moderate,0,3,0
+1461,Infusion Pump,Philips,8,46,1,394,17,ICU,High,Poor,0,2,1
+1462,CT Scanner,Canon Medical,3,40,2,205,7,ICU,Medium,Poor,0,4,0
+1463,Infusion Pump,Mindray,8,80,12,27,11,Diagnostic Center,High,Poor,0,1,1
+1464,Patient Monitor,GE Healthcare,7,63,4,99,15,ICU,Medium,Moderate,0,4,0
+1465,Patient Monitor,Canon Medical,6,66,6,78,7,Ward,High,Good,0,2,0
+1466,X-Ray,GE Healthcare,9,29,1,391,18,Lab,Medium,Poor,0,4,1
+1467,Patient Monitor,GE Healthcare,7,68,0,360,18,Ward,High,Good,0,3,1
+1468,X-Ray,Siemens,8,62,2,178,13,ICU,Medium,Good,0,3,1
+1469,X-Ray,Medtronic,6,72,1,400,19,Operating Room,Medium,Poor,0,2,1
+1470,Infusion Pump,Siemens,4,68,4,87,10,ICU,Low,Moderate,0,5,0
+1471,CT Scanner,Philips,3,63,1,359,14,ICU,Low,Poor,0,3,1
+1472,Ventilator,Siemens,8,47,2,215,11,Ward,High,Moderate,0,3,1
+1473,CT Scanner,GE Healthcare,5,31,4,100,8,Ward,High,Poor,0,3,0
+1474,Ultrasound,Fujifilm,5,79,6,94,9,ICU,Medium,Poor,0,2,1
+1475,Infusion Pump,Canon Medical,4,73,6,55,6,Operating Room,Medium,Poor,0,3,0
+1476,Ultrasound,GE Healthcare,6,53,2,217,8,Ward,Medium,Poor,0,4,1
+1477,Ventilator,GE Healthcare,3,31,2,221,12,Diagnostic Center,Medium,Poor,0,5,1
+1478,Ultrasound,Siemens,8,63,6,55,1,Ward,Medium,Poor,0,3,0
+1479,X-Ray,Philips,6,48,4,86,4,Operating Room,High,Moderate,0,4,0
+1480,Ventilator,Mindray,8,21,4,104,10,ICU,Medium,Moderate,1,2,1
+1481,CT Scanner,GE Healthcare,10,60,6,62,12,Ward,Medium,Moderate,0,4,0
+1482,Ultrasound,Mindray,3,54,4,122,6,ICU,Medium,Moderate,0,3,0
+1483,X-Ray,Philips,4,52,4,128,6,Lab,High,Poor,0,4,0
+1484,Ventilator,GE Healthcare,7,23,4,109,13,ICU,Low,Poor,0,3,1
+1485,Patient Monitor,Canon Medical,2,70,4,123,6,ICU,High,Moderate,0,2,0
+1486,Infusion Pump,Fujifilm,6,72,12,24,9,Ward,High,Good,0,2,0
+1487,Ventilator,Mindray,6,69,2,172,15,Operating Room,High,Moderate,0,2,1
+1488,CT Scanner,Siemens,6,58,1,397,18,Ward,Medium,Moderate,0,4,1
+1489,Ultrasound,Mindray,4,55,2,183,7,ICU,Medium,Moderate,0,2,0
+1490,Infusion Pump,Fujifilm,7,29,4,111,6,Operating Room,Medium,Poor,0,3,0
+1491,Ventilator,Philips,6,61,4,97,10,ICU,High,Good,0,3,0
+1492,Ventilator,Siemens,1,63,4,108,5,ICU,High,Moderate,1,4,0
+1493,MRI Scanner,Medtronic,5,85,4,97,12,ICU,High,Poor,0,3,1
+1494,Patient Monitor,Medtronic,9,61,6,67,12,Ward,High,Moderate,0,3,1
+1495,X-Ray,GE Healthcare,4,89,2,196,14,ICU,High,Moderate,0,5,1
+1496,CT Scanner,Fujifilm,12,64,4,83,10,Operating Room,Low,Moderate,0,3,1
+1497,CT Scanner,GE Healthcare,7,49,6,87,8,Diagnostic Center,High,Moderate,0,5,0
+1498,Infusion Pump,Mindray,8,52,2,196,11,ICU,Medium,Good,0,1,1
+1499,ECG,Mindray,3,70,6,61,2,ICU,Medium,Good,0,1,0
+1500,MRI Scanner,Fujifilm,4,88,0,359,15,ICU,Medium,Moderate,0,4,0
+1501,Ventilator,GE Healthcare,4,81,1,391,13,Ward,Medium,Moderate,1,3,1
+1502,X-Ray,Canon Medical,6,29,12,51,9,Ward,High,Poor,0,2,0
+1503,ECG,Fujifilm,6,36,1,398,14,Ward,High,Poor,0,4,1
+1504,X-Ray,Siemens,5,67,6,91,9,ICU,Medium,Good,0,3,0
+1505,Patient Monitor,Canon Medical,6,51,6,52,7,Diagnostic Center,Medium,Moderate,0,3,0
+1506,Patient Monitor,GE Healthcare,4,58,2,173,12,Operating Room,High,Poor,0,3,1
+1507,Ventilator,Fujifilm,7,48,4,124,8,Diagnostic Center,Medium,Poor,0,4,0
+1508,Infusion Pump,Mindray,8,81,12,20,11,Lab,High,Moderate,0,1,0
+1509,X-Ray,GE Healthcare,1,67,12,27,4,Diagnostic Center,High,Good,0,3,0
+1510,Infusion Pump,Medtronic,6,53,6,81,3,Diagnostic Center,High,Poor,0,4,0
+1511,Infusion Pump,GE Healthcare,7,62,6,53,9,ICU,Medium,Moderate,0,3,0
+1512,Ultrasound,Philips,6,58,4,123,15,Ward,High,Moderate,0,3,1
+1513,Infusion Pump,GE Healthcare,12,43,4,123,8,Ward,High,Poor,0,4,1
+1514,MRI Scanner,Medtronic,8,57,6,94,11,Ward,Medium,Good,0,4,0
+1515,CT Scanner,Fujifilm,5,80,6,73,4,Lab,High,Poor,0,4,0
+1516,Ventilator,GE Healthcare,6,42,6,52,5,Ward,High,Moderate,0,4,0
+1517,Ventilator,Canon Medical,9,59,6,69,9,Operating Room,High,Poor,0,4,0
+1518,Ultrasound,Philips,7,53,6,83,8,Ward,Medium,Moderate,0,3,0
+1519,Ultrasound,Siemens,7,55,4,107,9,Ward,Medium,Poor,0,3,1
+1520,Ultrasound,Medtronic,2,75,6,76,6,Ward,Medium,Good,0,2,0
+1521,ECG,GE Healthcare,7,37,4,110,11,Operating Room,High,Moderate,0,3,1
+1522,Ultrasound,Siemens,6,88,1,398,21,ICU,Medium,Moderate,0,4,1
+1523,MRI Scanner,GE Healthcare,3,47,2,181,9,Lab,Low,Moderate,0,4,0
+1524,Patient Monitor,GE Healthcare,5,54,6,98,12,Diagnostic Center,Medium,Good,0,5,0
+1525,X-Ray,GE Healthcare,6,83,2,196,11,Operating Room,Low,Poor,0,3,1
+1526,Patient Monitor,Siemens,4,94,4,126,12,Diagnostic Center,Medium,Moderate,0,3,0
+1527,Ventilator,Siemens,6,20,4,97,4,ICU,High,Good,0,4,0
+1528,X-Ray,Philips,8,67,12,47,10,Diagnostic Center,Medium,Moderate,1,3,0
+1529,Infusion Pump,Fujifilm,3,63,6,55,10,Ward,Low,Poor,0,2,0
+1530,Ultrasound,Mindray,5,71,1,390,20,ICU,Medium,Moderate,0,1,1
+1531,Ultrasound,Mindray,8,53,6,68,5,ICU,Low,Poor,1,1,1
+1532,Patient Monitor,Mindray,6,62,4,82,8,ICU,High,Poor,0,2,1
+1533,MRI Scanner,Siemens,5,71,6,94,13,ICU,High,Moderate,1,3,1
+1534,Ultrasound,GE Healthcare,5,52,4,81,5,ICU,High,Moderate,1,5,0
+1535,X-Ray,Canon Medical,5,66,6,67,6,Operating Room,Medium,Poor,0,2,0
+1536,CT Scanner,Philips,2,53,6,54,6,ICU,High,Good,0,2,0
+1537,Ventilator,Medtronic,3,69,6,69,7,Operating Room,Medium,Moderate,0,3,0
+1538,ECG,GE Healthcare,8,61,6,81,8,ICU,Medium,Poor,0,4,0
+1539,MRI Scanner,Mindray,7,72,6,90,10,Diagnostic Center,Medium,Poor,0,2,1
+1540,Infusion Pump,GE Healthcare,9,85,6,68,10,Lab,Medium,Moderate,0,5,0
+1541,Infusion Pump,GE Healthcare,3,47,12,59,6,Ward,High,Poor,1,4,0
+1542,Ventilator,Siemens,9,17,2,221,13,ICU,High,Moderate,0,5,1
+1543,CT Scanner,Canon Medical,7,46,2,218,16,Operating Room,Medium,Moderate,0,3,0
+1544,Ventilator,GE Healthcare,9,57,2,191,11,ICU,High,Good,0,4,1
+1545,Ventilator,Siemens,6,39,6,54,1,Diagnostic Center,High,Moderate,0,4,0
+1546,Patient Monitor,Philips,5,38,12,26,6,ICU,High,Moderate,0,4,0
+1547,X-Ray,Mindray,5,49,2,194,12,Lab,Medium,Moderate,1,3,1
+1548,CT Scanner,Mindray,6,27,6,67,4,Ward,High,Poor,0,2,0
+1549,X-Ray,Medtronic,8,66,12,66,4,Operating Room,Medium,Poor,0,2,0
+1550,Ultrasound,Canon Medical,9,51,4,114,4,Operating Room,Medium,Poor,1,2,0
+1551,Ultrasound,GE Healthcare,2,37,4,106,9,Diagnostic Center,High,Moderate,0,3,0
+1552,CT Scanner,GE Healthcare,2,64,6,95,7,ICU,Medium,Moderate,0,3,0
+1553,X-Ray,GE Healthcare,1,70,1,397,13,Diagnostic Center,Medium,Poor,0,3,1
+1554,Ultrasound,Mindray,8,73,4,110,6,Ward,Medium,Moderate,0,2,1
+1555,Ultrasound,Medtronic,6,25,12,43,3,ICU,Medium,Poor,0,2,0
+1556,Ultrasound,GE Healthcare,8,85,4,102,10,Ward,High,Moderate,0,5,0
+1557,Ultrasound,Mindray,3,46,6,66,7,Operating Room,High,Moderate,0,1,0
+1558,Ultrasound,Mindray,7,99,12,49,12,ICU,High,Moderate,0,1,1
+1559,Infusion Pump,Philips,7,70,1,386,19,ICU,High,Moderate,0,4,1
+1560,X-Ray,Philips,4,41,2,221,15,Lab,High,Good,0,4,1
+1561,Ultrasound,GE Healthcare,5,43,2,221,10,Lab,Medium,Good,0,4,1
+1562,Ultrasound,Siemens,6,44,4,100,8,ICU,Low,Moderate,1,5,0
+1563,Ultrasound,Siemens,6,77,6,54,10,ICU,Medium,Poor,0,3,0
+1564,X-Ray,Fujifilm,7,59,4,110,8,ICU,High,Good,0,3,0
+1565,Infusion Pump,Siemens,3,26,12,25,4,Lab,High,Moderate,0,5,0
+1566,ECG,Philips,5,64,4,98,5,Lab,Medium,Good,0,4,0
+1567,Patient Monitor,Medtronic,8,69,12,36,8,Ward,High,Poor,0,3,0
+1568,ECG,Mindray,13,60,4,130,12,Operating Room,Medium,Moderate,0,2,1
+1569,ECG,GE Healthcare,7,65,1,376,15,ICU,High,Poor,0,3,1
+1570,Ventilator,Siemens,5,55,2,192,8,Operating Room,Medium,Moderate,0,3,1
+1571,Ultrasound,Fujifilm,5,48,2,189,19,Ward,High,Good,0,3,1
+1572,Infusion Pump,Canon Medical,5,48,4,114,10,Lab,Medium,Poor,1,2,1
+1573,ECG,GE Healthcare,3,92,4,117,10,Lab,Medium,Moderate,0,4,0
+1574,MRI Scanner,Mindray,2,38,6,56,3,Operating Room,High,Moderate,0,1,0
+1575,Patient Monitor,Siemens,9,74,2,220,15,Diagnostic Center,High,Good,1,3,1
+1576,Infusion Pump,Canon Medical,9,60,6,91,13,Ward,Medium,Good,0,4,1
+1577,MRI Scanner,Siemens,8,62,6,64,12,Diagnostic Center,Medium,Good,0,5,0
+1578,Ventilator,Mindray,4,68,2,188,13,ICU,High,Poor,0,2,1
+1579,X-Ray,Siemens,2,86,2,181,9,Diagnostic Center,Low,Poor,0,4,0
+1580,Ultrasound,Canon Medical,6,105,4,114,20,Diagnostic Center,High,Good,0,2,1
+1581,ECG,Fujifilm,5,70,0,375,12,Diagnostic Center,High,Good,0,3,0
+1582,Infusion Pump,Philips,3,75,6,95,10,Operating Room,Low,Moderate,0,2,0
+1583,X-Ray,GE Healthcare,13,75,4,81,7,ICU,High,Poor,0,4,0
+1584,Infusion Pump,GE Healthcare,5,71,4,97,6,ICU,High,Moderate,0,5,0
+1585,Ventilator,GE Healthcare,5,51,4,122,8,Ward,Low,Good,0,5,0
+1586,Ventilator,Fujifilm,7,63,6,59,8,Ward,Medium,Moderate,1,4,0
+1587,Infusion Pump,Medtronic,2,87,6,91,6,ICU,High,Poor,0,2,0
+1588,MRI Scanner,Canon Medical,5,81,4,105,9,Lab,Medium,Moderate,0,4,0
+1589,Ventilator,Fujifilm,6,70,4,87,7,Ward,Medium,Moderate,0,2,0
+1590,Ultrasound,GE Healthcare,9,33,6,76,5,Ward,High,Poor,0,5,0
+1591,Patient Monitor,Mindray,8,65,6,52,10,Ward,High,Poor,0,3,0
+1592,Ultrasound,Siemens,3,57,4,129,14,Diagnostic Center,High,Poor,0,5,0
+1593,ECG,Canon Medical,7,45,12,64,7,Lab,Low,Moderate,0,4,0
+1594,Infusion Pump,Philips,3,40,2,200,8,Ward,High,Good,0,2,1
+1595,Patient Monitor,Siemens,5,100,2,207,13,ICU,Low,Moderate,0,3,1
+1596,Infusion Pump,GE Healthcare,7,55,6,59,8,ICU,High,Poor,0,5,0
+1597,ECG,Medtronic,5,55,2,198,13,Diagnostic Center,Medium,Poor,0,4,1
+1598,X-Ray,GE Healthcare,6,71,2,183,13,Ward,Low,Moderate,0,5,0
+1599,Ventilator,Philips,4,55,6,99,6,Diagnostic Center,Medium,Moderate,0,3,0
+1600,CT Scanner,Philips,6,83,2,185,11,Lab,High,Poor,0,2,0
+1601,ECG,GE Healthcare,8,52,2,183,14,Ward,Low,Moderate,0,3,1
+1602,ECG,Siemens,5,81,6,84,10,Ward,Medium,Poor,0,3,0
+1603,MRI Scanner,GE Healthcare,8,68,2,214,12,ICU,Low,Moderate,0,4,1
+1604,X-Ray,GE Healthcare,6,55,6,72,8,ICU,High,Poor,0,4,0
+1605,Ventilator,GE Healthcare,6,23,6,78,1,Diagnostic Center,Medium,Good,0,3,0
+1606,ECG,Siemens,4,91,4,118,8,ICU,High,Moderate,0,3,0
+1607,ECG,Canon Medical,1,32,6,92,3,ICU,High,Good,1,4,0
+1608,Ultrasound,Mindray,4,48,6,83,4,ICU,Medium,Poor,0,2,0
+1609,ECG,Canon Medical,4,60,2,185,8,ICU,High,Good,0,3,1
+1610,Ventilator,Medtronic,7,62,6,72,11,Diagnostic Center,Medium,Moderate,0,4,0
+1611,Ultrasound,Philips,9,34,4,84,13,ICU,High,Good,1,2,1
+1612,Ventilator,GE Healthcare,4,55,4,124,9,ICU,Low,Poor,0,5,0
+1613,Ventilator,Fujifilm,5,25,2,177,6,Lab,High,Poor,0,2,1
+1614,ECG,Canon Medical,8,59,6,81,9,Operating Room,Medium,Moderate,0,4,0
+1615,Patient Monitor,Philips,4,50,1,402,22,Ward,Low,Good,1,4,1
+1616,MRI Scanner,Canon Medical,3,47,2,209,10,ICU,Low,Moderate,0,4,0
+1617,Infusion Pump,Siemens,7,61,1,361,14,Diagnostic Center,Low,Poor,0,4,1
+1618,Infusion Pump,Mindray,6,67,12,26,7,Diagnostic Center,High,Good,0,3,0
+1619,CT Scanner,Siemens,10,66,4,117,13,Ward,Low,Moderate,0,5,1
+1620,CT Scanner,Canon Medical,8,77,4,100,8,Ward,Low,Moderate,0,2,0
+1621,Ventilator,Philips,4,53,4,107,6,Lab,Medium,Poor,0,4,0
+1622,Ultrasound,Mindray,4,25,6,62,8,Diagnostic Center,High,Poor,0,1,0
+1623,Ventilator,Mindray,5,61,1,404,23,Ward,High,Good,0,3,1
+1624,Ventilator,Medtronic,7,52,6,70,9,Lab,High,Moderate,0,3,0
+1625,Infusion Pump,GE Healthcare,7,63,1,402,14,ICU,High,Poor,0,5,1
+1626,Ventilator,Mindray,6,37,2,211,15,Operating Room,High,Good,0,2,1
+1627,MRI Scanner,Philips,6,34,1,367,15,Diagnostic Center,High,Poor,0,4,1
+1628,X-Ray,Siemens,9,84,6,68,9,Ward,Medium,Moderate,0,5,0
+1629,Patient Monitor,Siemens,6,64,6,50,0,Ward,Medium,Moderate,0,5,0
+1630,Ventilator,Medtronic,1,82,2,184,9,ICU,High,Moderate,0,4,0
+1631,Patient Monitor,GE Healthcare,4,79,4,119,6,Operating Room,High,Moderate,0,4,0
+1632,ECG,Canon Medical,10,77,2,211,18,Diagnostic Center,High,Poor,0,4,1
+1633,Ventilator,Mindray,8,71,2,198,13,ICU,Low,Good,0,2,1
+1634,Patient Monitor,Philips,2,50,1,355,15,Ward,Medium,Good,0,3,1
+1635,Ultrasound,Siemens,6,72,4,121,7,Diagnostic Center,Low,Poor,0,4,0
+1636,Infusion Pump,Medtronic,1,77,4,101,3,Lab,Medium,Moderate,0,4,0
+1637,X-Ray,Fujifilm,2,74,1,403,19,Ward,Low,Moderate,2,3,1
+1638,CT Scanner,Philips,3,51,6,97,10,Lab,High,Poor,0,2,0
+1639,CT Scanner,Canon Medical,7,77,1,374,24,Ward,Medium,Moderate,0,4,1
+1640,Patient Monitor,Siemens,3,85,12,21,6,Diagnostic Center,High,Poor,0,3,0
+1641,CT Scanner,Fujifilm,5,56,6,85,0,ICU,High,Good,0,3,0
+1642,X-Ray,Medtronic,4,84,4,107,14,Ward,Low,Poor,0,4,0
+1643,Ultrasound,Canon Medical,5,65,4,101,1,ICU,High,Moderate,0,3,0
+1644,MRI Scanner,GE Healthcare,3,50,6,53,7,ICU,Low,Good,0,4,0
+1645,Ultrasound,Canon Medical,8,53,4,85,9,Ward,Medium,Good,0,3,0
+1646,Infusion Pump,Siemens,6,46,1,370,13,Ward,Medium,Moderate,0,3,1
+1647,Ultrasound,Canon Medical,3,70,12,45,6,ICU,High,Good,0,2,0
+1648,X-Ray,GE Healthcare,2,61,4,115,2,Diagnostic Center,High,Moderate,0,3,0
+1649,X-Ray,Canon Medical,4,13,1,394,15,Ward,Medium,Moderate,0,3,1
+1650,Infusion Pump,GE Healthcare,9,41,4,98,14,Ward,Low,Good,0,5,0
+1651,Patient Monitor,Mindray,5,37,4,115,12,Lab,High,Good,0,1,1
+1652,Ultrasound,Fujifilm,4,56,12,28,2,Lab,Medium,Good,0,3,0
+1653,X-Ray,Canon Medical,11,95,4,102,19,Ward,Medium,Moderate,0,2,1
+1654,X-Ray,Philips,8,39,12,44,11,ICU,High,Good,0,2,1
+1655,ECG,Mindray,5,104,6,71,8,Ward,Medium,Moderate,0,3,0
+1656,X-Ray,Philips,3,62,12,25,6,Diagnostic Center,Low,Moderate,0,2,0
+1657,Infusion Pump,Philips,5,68,4,102,11,Ward,High,Moderate,0,4,0
+1658,Patient Monitor,Philips,7,57,1,385,20,Diagnostic Center,High,Good,1,3,1
+1659,CT Scanner,Mindray,4,72,1,376,20,Diagnostic Center,Medium,Good,0,3,1
+1660,CT Scanner,Siemens,3,65,6,59,5,Ward,Low,Moderate,0,4,0
+1661,Ventilator,Mindray,6,86,4,93,16,Lab,High,Moderate,0,1,1
+1662,CT Scanner,Siemens,6,93,4,114,11,ICU,Low,Poor,0,3,1
+1663,CT Scanner,Mindray,4,50,12,58,7,ICU,High,Good,0,2,0
+1664,Ultrasound,Philips,10,64,12,37,13,Diagnostic Center,Medium,Poor,0,2,1
+1665,Ventilator,Philips,5,50,6,58,0,Diagnostic Center,High,Good,0,2,0
+1666,Ventilator,Canon Medical,8,31,6,52,7,Diagnostic Center,Medium,Moderate,0,2,0
+1667,CT Scanner,GE Healthcare,9,104,0,396,25,ICU,High,Moderate,0,4,1
+1668,MRI Scanner,Medtronic,8,63,6,73,8,Ward,Medium,Poor,0,2,0
+1669,Patient Monitor,Philips,6,71,2,210,15,Ward,Low,Good,0,4,0
+1670,CT Scanner,Medtronic,8,72,6,98,9,Diagnostic Center,High,Moderate,0,3,1
+1671,Infusion Pump,Canon Medical,5,37,12,25,3,Operating Room,Low,Moderate,1,2,0
+1672,X-Ray,Canon Medical,6,74,1,380,19,ICU,Medium,Moderate,1,3,1
+1673,Ultrasound,GE Healthcare,6,46,4,121,12,ICU,High,Moderate,0,4,1
+1674,MRI Scanner,Siemens,5,85,4,94,10,ICU,High,Poor,1,5,1
+1675,Infusion Pump,Medtronic,2,67,6,54,4,Ward,Medium,Poor,0,3,0
+1676,Infusion Pump,GE Healthcare,4,64,2,214,13,ICU,High,Moderate,0,5,1
+1677,CT Scanner,Mindray,7,63,4,119,10,ICU,Medium,Moderate,0,1,1
+1678,Ventilator,Canon Medical,6,43,12,61,2,ICU,High,Poor,0,4,0
+1679,Patient Monitor,Siemens,6,77,2,194,18,ICU,Medium,Moderate,1,5,1
+1680,MRI Scanner,Siemens,2,79,4,98,11,ICU,High,Good,0,5,0
+1681,CT Scanner,Medtronic,6,45,2,187,8,Operating Room,Medium,Moderate,0,2,1
+1682,Infusion Pump,Siemens,5,54,6,91,11,Operating Room,High,Moderate,0,5,0
+1683,Ultrasound,Siemens,4,58,4,126,3,ICU,High,Moderate,0,4,0
+1684,MRI Scanner,Philips,4,44,2,194,9,Diagnostic Center,Medium,Good,0,2,1
+1685,CT Scanner,Fujifilm,7,66,4,88,10,Operating Room,High,Moderate,0,3,0
+1686,MRI Scanner,Mindray,6,71,4,89,8,Operating Room,Low,Moderate,0,1,0
+1687,X-Ray,Philips,3,88,2,189,5,Diagnostic Center,High,Moderate,0,4,0
+1688,Ventilator,Fujifilm,9,81,4,115,17,Operating Room,Medium,Moderate,0,3,1
+1689,CT Scanner,Fujifilm,3,50,4,124,8,Diagnostic Center,High,Good,0,2,0
+1690,X-Ray,Medtronic,4,80,4,111,11,Diagnostic Center,Medium,Good,0,4,0
+1691,X-Ray,Mindray,8,53,4,110,9,Operating Room,Medium,Good,0,1,1
+1692,Ventilator,Mindray,3,35,2,179,10,Lab,High,Good,0,1,1
+1693,MRI Scanner,Philips,8,57,6,95,10,ICU,Medium,Good,0,2,1
+1694,Infusion Pump,Philips,4,52,12,42,6,Diagnostic Center,Medium,Moderate,0,2,0
+1695,ECG,Philips,8,90,6,63,9,Diagnostic Center,High,Poor,0,3,1
+1696,MRI Scanner,Philips,6,52,0,395,18,Ward,Medium,Good,0,2,1
+1697,Infusion Pump,GE Healthcare,2,60,4,94,6,Ward,Medium,Poor,0,4,0
+1698,CT Scanner,Medtronic,2,47,4,113,10,Ward,High,Moderate,0,4,0
+1699,Ventilator,Siemens,6,68,6,78,7,ICU,Low,Good,0,4,0
+1700,Ventilator,Fujifilm,5,52,6,95,8,Ward,Low,Moderate,0,4,0
+1701,Infusion Pump,Fujifilm,5,67,4,96,6,ICU,High,Poor,0,2,1
+1702,CT Scanner,Fujifilm,2,54,2,198,14,Ward,High,Good,0,3,1
+1703,Ultrasound,GE Healthcare,5,29,2,182,8,ICU,Medium,Moderate,1,4,0
+1704,X-Ray,Canon Medical,7,44,4,100,12,Diagnostic Center,Medium,Moderate,0,4,0
+1705,Ultrasound,GE Healthcare,5,67,6,53,3,Ward,Medium,Moderate,0,5,0
+1706,CT Scanner,Medtronic,5,41,4,124,9,ICU,Low,Poor,0,2,1
+1707,MRI Scanner,Siemens,6,60,6,53,8,Ward,Medium,Poor,0,3,0
+1708,Ventilator,GE Healthcare,8,84,6,69,8,ICU,Low,Moderate,0,4,0
+1709,Patient Monitor,Mindray,6,85,2,173,17,Ward,High,Poor,0,2,1
+1710,Ventilator,Siemens,3,44,12,23,3,Lab,Medium,Moderate,0,3,0
+1711,CT Scanner,Mindray,4,79,4,99,6,ICU,High,Poor,0,2,1
+1712,Patient Monitor,Siemens,7,64,12,52,5,Ward,High,Moderate,0,5,0
+1713,Patient Monitor,Mindray,5,58,4,117,10,Operating Room,High,Good,0,1,1
+1714,X-Ray,Medtronic,3,57,2,194,12,Diagnostic Center,High,Moderate,1,2,1
+1715,MRI Scanner,GE Healthcare,12,66,4,114,13,ICU,Low,Moderate,0,5,1
+1716,ECG,GE Healthcare,5,57,6,60,7,Ward,High,Poor,0,4,0
+1717,Patient Monitor,Philips,6,68,6,58,10,ICU,High,Poor,0,4,0
+1718,Ventilator,Mindray,4,67,4,96,3,Ward,High,Moderate,0,3,0
+1719,CT Scanner,Philips,7,24,6,58,6,Lab,Medium,Good,0,2,0
+1720,Patient Monitor,Medtronic,7,34,6,74,12,Diagnostic Center,Low,Poor,0,4,0
+1721,Infusion Pump,Siemens,6,61,12,66,7,ICU,Low,Moderate,0,4,0
+1722,ECG,Canon Medical,8,67,4,101,11,ICU,Low,Good,0,2,0
+1723,Infusion Pump,Medtronic,6,97,6,71,17,Ward,Medium,Poor,0,4,0
+1724,Ultrasound,Philips,10,47,1,371,14,Ward,Low,Moderate,0,4,1
+1725,CT Scanner,GE Healthcare,8,62,6,55,13,ICU,Medium,Moderate,0,4,0
+1726,X-Ray,Philips,7,44,6,80,9,Ward,Medium,Moderate,0,4,0
+1727,ECG,Medtronic,6,54,4,82,3,ICU,High,Poor,0,4,0
+1728,ECG,Fujifilm,3,66,6,82,8,Operating Room,High,Good,0,2,0
+1729,X-Ray,Canon Medical,5,63,2,218,12,Lab,Medium,Poor,0,3,1
+1730,ECG,Canon Medical,8,25,6,71,6,Diagnostic Center,Medium,Poor,0,3,0
+1731,Infusion Pump,Canon Medical,5,71,6,94,6,Operating Room,Medium,Poor,0,3,0
+1732,ECG,Siemens,6,52,4,94,10,ICU,Medium,Good,0,3,0
+1733,CT Scanner,GE Healthcare,4,80,4,81,10,Ward,High,Good,1,4,0
+1734,CT Scanner,GE Healthcare,1,59,4,96,6,ICU,High,Moderate,0,4,0
+1735,MRI Scanner,Canon Medical,6,102,4,117,8,Ward,Medium,Poor,0,3,0
+1736,Patient Monitor,Canon Medical,3,37,4,115,11,ICU,High,Moderate,1,3,0
+1737,Ultrasound,Siemens,4,85,4,88,13,ICU,Medium,Moderate,0,5,0
+1738,Infusion Pump,Siemens,6,63,6,73,8,Operating Room,Medium,Moderate,0,4,0
+1739,Infusion Pump,Canon Medical,2,83,0,360,20,Ward,Medium,Moderate,0,4,1
+1740,Patient Monitor,Fujifilm,5,41,6,55,8,Diagnostic Center,Medium,Moderate,0,3,0
+1741,X-Ray,Canon Medical,7,60,4,112,13,ICU,Low,Good,0,3,0
+1742,MRI Scanner,Mindray,5,21,1,396,17,Ward,Medium,Good,0,2,1
+1743,CT Scanner,Mindray,9,76,6,52,11,ICU,Medium,Good,0,2,0
+1744,ECG,Philips,5,56,0,395,13,Operating Room,High,Poor,0,3,1
+1745,MRI Scanner,Siemens,9,43,12,36,7,Ward,Low,Good,0,3,0
+1746,CT Scanner,Medtronic,7,62,6,99,9,Ward,High,Moderate,0,2,1
+1747,CT Scanner,Fujifilm,5,42,6,62,11,Diagnostic Center,Medium,Good,0,3,0
+1748,X-Ray,Medtronic,4,58,6,71,6,Operating Room,High,Poor,0,2,0
+1749,CT Scanner,Philips,2,75,2,180,9,Diagnostic Center,Medium,Good,0,3,0
+1750,ECG,Mindray,3,47,2,200,5,Diagnostic Center,High,Poor,0,2,1
+1751,Patient Monitor,GE Healthcare,8,53,6,67,4,Ward,High,Good,0,4,0
+1752,Ventilator,Fujifilm,5,69,6,53,9,ICU,Medium,Moderate,0,4,0
+1753,MRI Scanner,Mindray,8,38,6,83,8,Operating Room,High,Good,0,3,0
+1754,Ventilator,GE Healthcare,5,41,2,203,12,Ward,High,Good,0,5,1
+1755,ECG,Mindray,6,39,2,189,9,Ward,High,Poor,0,1,1
+1756,Patient Monitor,Siemens,2,84,6,50,7,Ward,High,Good,0,4,0
+1757,Ventilator,Medtronic,10,64,4,82,6,Diagnostic Center,High,Moderate,0,2,0
+1758,Ventilator,Philips,10,84,4,102,9,Diagnostic Center,High,Moderate,0,4,0
+1759,MRI Scanner,Fujifilm,7,68,4,94,11,ICU,Low,Moderate,0,2,1
+1760,Ventilator,Mindray,5,65,4,112,12,Diagnostic Center,Medium,Poor,1,2,1
+1761,CT Scanner,Siemens,3,52,2,221,9,Diagnostic Center,High,Poor,0,5,1
+1762,X-Ray,Siemens,6,70,2,176,14,ICU,Low,Good,0,5,0
+1763,X-Ray,Fujifilm,6,60,6,50,12,ICU,High,Good,0,3,0
+1764,Infusion Pump,Canon Medical,6,27,4,89,8,ICU,High,Moderate,0,3,0
+1765,ECG,Fujifilm,4,41,2,214,11,Ward,Medium,Good,1,2,1
+1766,MRI Scanner,GE Healthcare,6,49,4,112,4,Diagnostic Center,Medium,Poor,0,4,0
+1767,Ultrasound,Fujifilm,4,74,12,66,9,Ward,High,Good,0,2,0
+1768,Ultrasound,GE Healthcare,3,63,4,91,12,Diagnostic Center,High,Moderate,0,3,0
+1769,MRI Scanner,Mindray,4,54,2,221,10,ICU,Medium,Good,0,2,0
+1770,X-Ray,GE Healthcare,10,72,2,181,14,ICU,Medium,Good,1,5,1
+1771,Infusion Pump,Canon Medical,9,52,6,86,10,Diagnostic Center,Medium,Good,0,3,0
+1772,Ventilator,Siemens,4,38,4,99,6,ICU,Medium,Moderate,0,5,0
+1773,MRI Scanner,Siemens,7,78,4,128,11,Ward,High,Poor,1,4,1
+1774,Ventilator,Mindray,4,76,1,355,17,Diagnostic Center,Medium,Poor,0,3,1
+1775,Ventilator,Siemens,7,45,1,366,17,ICU,High,Good,0,3,1
+1776,Ultrasound,Fujifilm,6,73,1,375,14,Operating Room,High,Poor,1,4,1
+1777,Infusion Pump,Philips,8,45,6,52,3,Diagnostic Center,High,Good,1,2,1
+1778,Patient Monitor,Canon Medical,5,55,0,371,20,Lab,Low,Poor,0,3,1
+1779,X-Ray,Canon Medical,8,53,4,98,8,Operating Room,High,Poor,0,4,1
+1780,X-Ray,Medtronic,8,71,4,94,9,ICU,Medium,Good,0,2,1
+1781,Ventilator,Fujifilm,5,76,2,193,9,Diagnostic Center,High,Poor,1,4,1
+1782,X-Ray,Canon Medical,1,60,4,91,8,ICU,High,Good,0,4,0
+1783,Ventilator,GE Healthcare,8,47,4,116,4,ICU,Low,Good,0,5,0
+1784,Ultrasound,GE Healthcare,6,57,4,98,10,Diagnostic Center,High,Good,0,4,0
+1785,MRI Scanner,Philips,6,40,12,65,3,Operating Room,Low,Poor,0,3,0
+1786,Ultrasound,GE Healthcare,4,63,2,201,11,Lab,Medium,Moderate,1,5,1
+1787,CT Scanner,Philips,6,46,12,37,4,Ward,Low,Moderate,0,2,0
+1788,Infusion Pump,Fujifilm,6,98,4,81,13,ICU,Medium,Moderate,0,2,0
+1789,MRI Scanner,GE Healthcare,7,59,1,403,20,ICU,Medium,Good,0,3,1
+1790,ECG,Fujifilm,10,83,6,73,11,Operating Room,High,Good,0,4,1
+1791,Infusion Pump,GE Healthcare,5,82,2,188,11,Operating Room,High,Good,0,3,0
+1792,CT Scanner,Fujifilm,3,107,4,101,7,ICU,High,Poor,0,4,0
+1793,X-Ray,GE Healthcare,3,51,4,123,6,ICU,High,Good,0,5,0
+1794,Infusion Pump,GE Healthcare,7,56,12,36,6,Lab,High,Good,0,5,0
+1795,Ultrasound,GE Healthcare,7,32,6,58,8,ICU,High,Good,0,3,0
+1796,ECG,Canon Medical,4,44,6,77,1,ICU,High,Good,0,4,0
+1797,CT Scanner,Medtronic,13,76,6,60,10,ICU,Medium,Moderate,0,3,1
+1798,Ultrasound,Philips,6,45,2,194,12,ICU,Medium,Poor,1,2,1
+1799,Ventilator,Fujifilm,1,68,1,355,12,ICU,High,Moderate,1,2,1
+1800,Ultrasound,Medtronic,6,43,4,83,0,ICU,Medium,Moderate,1,4,0
+1801,Infusion Pump,Mindray,5,66,4,122,13,Diagnostic Center,High,Good,0,1,1
+1802,Ultrasound,GE Healthcare,6,49,4,90,12,Diagnostic Center,Low,Poor,0,4,0
+1803,MRI Scanner,Siemens,4,96,6,99,8,Operating Room,High,Good,0,5,0
+1804,Infusion Pump,Mindray,11,52,6,57,11,Diagnostic Center,Low,Moderate,0,1,1
+1805,Patient Monitor,Mindray,6,58,2,212,12,Diagnostic Center,High,Good,0,1,1
+1806,MRI Scanner,GE Healthcare,9,92,0,364,20,Lab,High,Moderate,0,4,1
+1807,MRI Scanner,Medtronic,2,38,4,83,6,ICU,Low,Good,0,3,0
+1808,Ultrasound,Mindray,4,72,6,99,10,Ward,Medium,Moderate,1,1,1
+1809,ECG,Mindray,7,29,1,401,19,Diagnostic Center,Medium,Good,0,1,1
+1810,Ventilator,Fujifilm,7,43,1,378,20,Ward,High,Good,1,4,1
+1811,MRI Scanner,Medtronic,6,64,12,27,3,Diagnostic Center,Medium,Good,0,3,0
+1812,Ventilator,Siemens,6,59,4,125,8,Operating Room,Medium,Good,0,4,0
+1813,X-Ray,Siemens,8,44,0,384,19,Ward,Medium,Good,0,5,1
+1814,Infusion Pump,GE Healthcare,7,27,2,202,4,Ward,Low,Good,0,3,1
+1815,Patient Monitor,Philips,5,41,6,98,6,ICU,High,Good,0,4,0
+1816,X-Ray,Canon Medical,5,58,6,78,8,Ward,High,Good,0,4,0
+1817,ECG,Siemens,2,39,6,52,5,Lab,High,Poor,0,5,0
+1818,CT Scanner,Philips,8,68,12,20,5,Lab,High,Good,0,4,0
+1819,Ventilator,Philips,7,76,4,98,7,Diagnostic Center,Medium,Good,0,2,0
+1820,CT Scanner,Siemens,8,62,12,63,14,Ward,High,Moderate,0,4,0
+1821,Ultrasound,Medtronic,6,53,2,214,17,ICU,High,Good,0,2,1
+1822,Patient Monitor,Medtronic,7,68,4,127,12,ICU,High,Moderate,0,2,1
+1823,CT Scanner,Siemens,9,73,1,363,11,Operating Room,High,Good,0,3,1
+1824,Ultrasound,Mindray,6,52,4,107,4,Lab,High,Poor,0,1,1
+1825,CT Scanner,Medtronic,6,67,4,106,11,Operating Room,Medium,Poor,0,3,0
+1826,X-Ray,Medtronic,5,59,4,128,10,Operating Room,Medium,Poor,0,4,0
+1827,MRI Scanner,Siemens,10,48,1,399,27,Diagnostic Center,High,Moderate,0,5,1
+1828,Infusion Pump,Canon Medical,6,78,2,192,11,ICU,High,Poor,0,2,1
+1829,Ventilator,Mindray,5,55,6,73,10,Ward,Medium,Good,0,2,0
+1830,Ventilator,Siemens,7,50,4,91,7,ICU,Medium,Moderate,2,3,1
+1831,Ventilator,Philips,4,69,4,112,9,Ward,High,Moderate,0,4,0
+1832,Patient Monitor,Siemens,4,62,4,112,6,Ward,High,Poor,0,4,0
+1833,X-Ray,Fujifilm,5,42,4,119,7,Ward,Low,Moderate,0,3,0
+1834,Ventilator,Mindray,3,72,4,97,2,Diagnostic Center,Medium,Moderate,0,3,0
+1835,ECG,Canon Medical,4,66,6,86,6,Operating Room,High,Moderate,0,2,0
+1836,Ventilator,Medtronic,5,67,2,202,13,Diagnostic Center,Medium,Poor,0,4,1
+1837,MRI Scanner,Siemens,4,77,6,79,7,Ward,Medium,Poor,1,4,0
+1838,CT Scanner,Canon Medical,7,62,2,180,11,Ward,High,Good,0,3,1
+1839,Patient Monitor,Medtronic,3,39,4,106,7,ICU,Medium,Moderate,1,2,0
+1840,Ventilator,Philips,2,68,6,59,6,ICU,Low,Moderate,0,3,0
+1841,MRI Scanner,GE Healthcare,8,34,12,50,9,Diagnostic Center,Low,Poor,0,5,0
+1842,Ventilator,Fujifilm,8,50,6,70,4,Operating Room,High,Good,0,3,0
+1843,MRI Scanner,Canon Medical,11,81,4,87,14,Ward,Medium,Moderate,0,3,1
+1844,Ultrasound,Medtronic,2,86,4,88,10,Ward,High,Poor,1,4,0
+1845,Ventilator,GE Healthcare,8,48,4,98,14,Operating Room,High,Good,0,5,1
+1846,MRI Scanner,Canon Medical,10,47,6,69,7,ICU,High,Poor,0,2,1
+1847,Ultrasound,Canon Medical,10,66,1,396,20,ICU,Low,Moderate,0,4,1
+1848,Ultrasound,GE Healthcare,7,49,4,81,13,Diagnostic Center,Low,Good,0,3,0
+1849,Ultrasound,Fujifilm,6,51,4,95,10,Diagnostic Center,Medium,Good,1,4,0
+1850,X-Ray,Fujifilm,9,44,12,39,6,ICU,High,Moderate,0,4,0
+1851,Patient Monitor,Mindray,7,62,6,86,14,Diagnostic Center,High,Poor,0,2,1
+1852,Infusion Pump,GE Healthcare,10,56,1,384,19,Operating Room,Low,Moderate,0,5,1
+1853,X-Ray,Philips,7,53,6,62,8,Ward,High,Moderate,0,3,0
+1854,Ultrasound,Mindray,8,51,12,26,6,ICU,High,Good,0,2,0
+1855,Ultrasound,Medtronic,5,64,4,110,8,ICU,Medium,Good,0,2,0
+1856,CT Scanner,Medtronic,7,43,6,57,11,Diagnostic Center,Low,Moderate,0,3,0
+1857,MRI Scanner,Philips,7,70,4,88,10,Ward,Medium,Moderate,0,2,0
+1858,ECG,Siemens,6,24,12,57,4,ICU,High,Poor,0,5,0
+1859,Ventilator,Philips,6,52,2,177,12,Diagnostic Center,Medium,Good,0,2,1
+1860,Ultrasound,Philips,10,65,2,213,12,Ward,Low,Poor,0,2,1
+1861,ECG,Mindray,7,60,4,114,10,ICU,Medium,Poor,0,3,1
+1862,X-Ray,Siemens,5,71,2,174,9,Lab,High,Poor,1,3,1
+1863,Infusion Pump,Fujifilm,4,71,4,118,5,Ward,High,Poor,0,2,1
+1864,ECG,Canon Medical,15,87,4,122,15,Ward,High,Poor,1,4,1
+1865,Patient Monitor,GE Healthcare,7,5,4,108,8,ICU,High,Moderate,0,5,0
+1866,MRI Scanner,Siemens,9,52,4,112,4,ICU,High,Moderate,1,5,0
+1867,X-Ray,Fujifilm,6,61,2,211,10,ICU,Medium,Poor,0,2,1
+1868,X-Ray,Medtronic,7,32,6,64,7,Operating Room,High,Good,0,3,0
+1869,MRI Scanner,Philips,3,65,12,68,3,Lab,Medium,Poor,0,2,0
+1870,MRI Scanner,Mindray,5,49,6,53,6,Operating Room,High,Moderate,0,3,0
+1871,Ventilator,GE Healthcare,6,18,4,115,11,ICU,High,Moderate,0,3,1
+1872,Infusion Pump,Siemens,6,45,12,56,6,Diagnostic Center,High,Moderate,0,4,0
+1873,Ultrasound,Siemens,7,57,2,189,13,Lab,Medium,Good,0,4,0
+1874,Infusion Pump,Canon Medical,4,77,12,28,9,Lab,Medium,Moderate,0,4,0
+1875,ECG,Philips,4,47,12,44,1,Diagnostic Center,Medium,Good,0,3,0
+1876,Ultrasound,Siemens,6,63,1,364,15,Diagnostic Center,Medium,Good,0,3,1
+1877,ECG,Mindray,4,77,2,204,14,Ward,High,Poor,0,2,1
+1878,Patient Monitor,Mindray,2,43,6,60,5,Ward,Low,Good,0,1,0
+1879,CT Scanner,Fujifilm,4,35,6,95,9,ICU,High,Good,0,2,0
+1880,Ultrasound,GE Healthcare,8,69,4,105,11,ICU,Low,Good,0,4,0
+1881,MRI Scanner,GE Healthcare,6,78,12,50,10,Operating Room,Low,Moderate,0,5,0
+1882,Ultrasound,Philips,5,69,4,98,8,Ward,High,Poor,0,3,0
+1883,Infusion Pump,Mindray,8,57,6,75,3,Lab,Medium,Good,0,2,0
+1884,MRI Scanner,Fujifilm,4,58,2,195,12,Ward,Medium,Good,0,2,0
+1885,X-Ray,Mindray,5,66,2,197,9,ICU,Medium,Moderate,1,2,1
+1886,Infusion Pump,Canon Medical,6,58,12,52,10,ICU,High,Moderate,0,2,0
+1887,Infusion Pump,GE Healthcare,4,70,12,45,13,Ward,Medium,Poor,0,3,0
+1888,X-Ray,Philips,8,57,12,22,9,Ward,High,Good,0,3,0
+1889,X-Ray,Philips,11,87,4,127,14,Ward,Low,Moderate,0,3,1
+1890,X-Ray,GE Healthcare,10,74,4,102,9,Diagnostic Center,Medium,Moderate,0,5,0
+1891,MRI Scanner,Mindray,6,96,12,22,2,Lab,High,Good,0,2,0
+1892,Infusion Pump,GE Healthcare,13,66,6,83,15,Ward,Low,Poor,0,4,1
+1893,X-Ray,Canon Medical,3,50,4,88,7,Operating Room,High,Good,0,2,0
+1894,Ultrasound,Siemens,5,78,12,39,0,Ward,Medium,Poor,0,3,0
+1895,CT Scanner,GE Healthcare,12,88,6,68,8,ICU,High,Moderate,0,4,0
+1896,Ultrasound,Mindray,3,49,6,62,2,ICU,Medium,Good,0,2,0
+1897,Ultrasound,Canon Medical,6,61,0,399,20,Ward,Medium,Poor,0,4,1
+1898,Ventilator,Philips,6,51,4,115,9,Ward,Medium,Good,0,3,0
+1899,X-Ray,Medtronic,8,60,0,404,21,Ward,Medium,Poor,0,2,1
+1900,CT Scanner,Fujifilm,7,33,6,71,3,Diagnostic Center,Medium,Good,0,3,0
+1901,ECG,Philips,8,59,6,99,12,ICU,High,Poor,0,2,1
+1902,X-Ray,Canon Medical,7,66,2,207,13,ICU,Medium,Poor,1,3,1
+1903,MRI Scanner,Medtronic,5,70,4,106,10,Operating Room,High,Moderate,0,3,0
+1904,Ventilator,GE Healthcare,9,65,2,196,10,Diagnostic Center,Low,Poor,0,5,1
+1905,Ventilator,Medtronic,7,54,2,219,12,Diagnostic Center,High,Poor,0,4,1
+1906,ECG,Siemens,7,91,4,96,7,ICU,High,Poor,0,5,0
+1907,MRI Scanner,Mindray,2,71,1,400,20,Operating Room,Low,Good,1,3,1
+1908,X-Ray,Mindray,6,96,4,91,9,Operating Room,Medium,Good,1,1,1
+1909,Infusion Pump,Fujifilm,14,56,12,65,12,Lab,Medium,Poor,0,4,1
+1910,CT Scanner,Philips,5,33,4,86,12,ICU,Medium,Moderate,0,3,0
+1911,ECG,Siemens,9,75,12,57,13,ICU,High,Poor,0,3,1
+1912,Ventilator,GE Healthcare,5,78,4,110,6,Operating Room,High,Poor,0,3,0
+1913,Ventilator,Siemens,4,52,2,191,9,Diagnostic Center,Low,Poor,0,3,0
+1914,CT Scanner,Mindray,4,72,4,114,7,ICU,Medium,Moderate,0,3,0
+1915,Ultrasound,Fujifilm,4,75,1,372,16,Diagnostic Center,High,Poor,0,3,1
+1916,MRI Scanner,Mindray,6,40,2,178,9,Operating Room,High,Poor,0,3,1
+1917,CT Scanner,Fujifilm,6,37,6,69,2,Diagnostic Center,High,Good,1,4,0
+1918,MRI Scanner,GE Healthcare,2,73,4,114,5,ICU,Medium,Moderate,0,3,0
+1919,Ultrasound,Siemens,7,33,4,104,14,Diagnostic Center,Medium,Good,1,4,0
+1920,CT Scanner,Canon Medical,4,54,12,38,4,Diagnostic Center,High,Good,0,3,0
+1921,MRI Scanner,GE Healthcare,4,90,6,52,3,ICU,High,Moderate,0,4,0
+1922,X-Ray,Philips,8,89,4,81,14,Diagnostic Center,High,Moderate,0,4,0
+1923,Ultrasound,Mindray,5,38,6,88,7,Operating Room,Medium,Good,1,1,0
+1924,X-Ray,Canon Medical,7,73,6,80,8,Operating Room,Low,Moderate,0,4,0
+1925,CT Scanner,Medtronic,5,37,12,50,3,Operating Room,Low,Good,0,4,0
+1926,Infusion Pump,Siemens,4,53,6,92,7,Ward,High,Good,1,5,0
+1927,X-Ray,Mindray,6,73,2,218,11,ICU,High,Moderate,0,2,1
+1928,Infusion Pump,Mindray,8,65,0,369,25,ICU,Medium,Poor,0,2,1
+1929,Ultrasound,Siemens,5,51,2,207,8,Operating Room,Medium,Poor,0,5,0
+1930,ECG,Fujifilm,9,54,2,211,13,Lab,Medium,Moderate,1,4,1
+1931,Infusion Pump,Mindray,5,69,4,97,7,ICU,Medium,Good,0,1,0
+1932,Patient Monitor,Philips,4,43,2,198,11,ICU,Low,Good,1,2,1
+1933,CT Scanner,Philips,5,38,4,95,13,ICU,High,Good,0,4,0
+1934,Ventilator,Siemens,8,60,1,373,20,Ward,Low,Good,0,4,1
+1935,Ultrasound,Canon Medical,7,67,6,61,4,ICU,High,Moderate,0,2,0
+1936,Ultrasound,Fujifilm,4,76,12,52,5,Ward,High,Good,0,4,0
+1937,Patient Monitor,GE Healthcare,8,45,6,97,6,Operating Room,Low,Poor,1,3,1
+1938,ECG,GE Healthcare,7,68,6,52,11,Diagnostic Center,High,Good,0,4,0
+1939,Ultrasound,Fujifilm,4,67,1,379,28,Operating Room,High,Moderate,1,4,1
+1940,Infusion Pump,Mindray,5,78,12,55,7,Diagnostic Center,Medium,Poor,0,1,0
+1941,Ultrasound,Siemens,10,58,4,117,10,Operating Room,High,Good,0,3,1
+1942,ECG,Mindray,7,38,2,205,14,Diagnostic Center,Medium,Poor,0,2,1
+1943,MRI Scanner,Siemens,11,35,12,20,11,Ward,Medium,Poor,0,3,0
+1944,Ventilator,Medtronic,4,67,6,79,4,Diagnostic Center,Medium,Poor,1,3,0
+1945,Patient Monitor,GE Healthcare,6,81,4,124,13,Ward,Medium,Good,0,3,0
+1946,Ventilator,GE Healthcare,5,41,2,193,11,ICU,High,Poor,0,3,1
+1947,Patient Monitor,GE Healthcare,3,27,6,88,0,Ward,High,Moderate,0,3,0
+1948,Patient Monitor,Medtronic,5,36,4,129,3,Diagnostic Center,High,Good,1,2,0
+1949,CT Scanner,GE Healthcare,10,70,1,372,23,ICU,Medium,Poor,0,3,1
+1950,Infusion Pump,Mindray,9,56,4,96,5,Diagnostic Center,Low,Good,0,3,0
+1951,Infusion Pump,GE Healthcare,6,66,4,125,14,Lab,High,Moderate,0,3,1
+1952,Infusion Pump,Fujifilm,7,44,2,207,18,Ward,Medium,Good,0,2,1
+1953,Infusion Pump,Canon Medical,6,19,12,27,7,Ward,High,Good,0,3,0
+1954,Patient Monitor,Medtronic,6,40,4,84,2,Operating Room,Medium,Moderate,1,3,0
+1955,CT Scanner,Canon Medical,6,29,1,386,23,Lab,Medium,Poor,0,3,1
+1956,Infusion Pump,Fujifilm,5,51,4,128,13,ICU,Medium,Moderate,0,3,1
+1957,X-Ray,Philips,8,91,1,358,22,Diagnostic Center,High,Moderate,0,3,1
+1958,X-Ray,Fujifilm,4,74,4,94,13,Diagnostic Center,Medium,Moderate,0,2,1
+1959,CT Scanner,GE Healthcare,5,49,2,182,10,Lab,High,Good,0,4,0
+1960,Ventilator,Mindray,6,82,6,68,9,Diagnostic Center,Medium,Moderate,0,1,0
+1961,ECG,Siemens,9,37,12,67,8,Diagnostic Center,Medium,Poor,0,5,0
+1962,Patient Monitor,Siemens,5,79,1,372,20,Ward,Medium,Good,0,4,1
+1963,X-Ray,Medtronic,8,55,1,376,16,Ward,Medium,Good,0,2,1
+1964,CT Scanner,Mindray,7,66,4,105,6,Ward,Medium,Good,0,3,0
+1965,ECG,Philips,7,58,12,39,8,Ward,Low,Good,0,3,0
+1966,CT Scanner,Mindray,4,26,4,112,9,Ward,High,Good,0,2,0
+1967,Infusion Pump,GE Healthcare,9,68,4,85,8,Ward,Medium,Poor,1,3,1
+1968,ECG,Fujifilm,6,50,12,67,5,Ward,Medium,Poor,0,2,0
+1969,Ultrasound,Mindray,5,59,6,99,4,Lab,Low,Moderate,0,2,0
+1970,ECG,Mindray,7,66,4,117,11,ICU,Medium,Poor,0,1,1
+1971,CT Scanner,Philips,6,91,4,118,9,Ward,High,Good,0,2,1
+1972,Ultrasound,Mindray,7,63,12,23,9,Ward,Low,Good,0,3,0
+1973,Infusion Pump,Canon Medical,13,36,4,121,8,Ward,High,Moderate,0,2,1
+1974,CT Scanner,Siemens,7,43,12,26,8,Ward,High,Good,0,3,0
+1975,X-Ray,Fujifilm,6,53,4,106,10,Ward,High,Poor,0,2,1
+1976,Ultrasound,Philips,8,73,4,101,12,ICU,High,Moderate,0,2,1
+1977,CT Scanner,GE Healthcare,10,76,6,66,12,Ward,High,Poor,0,4,1
+1978,ECG,Siemens,4,51,6,94,8,Operating Room,Low,Good,0,5,0
+1979,ECG,Philips,5,61,2,212,15,Ward,Medium,Poor,0,2,1
+1980,Patient Monitor,Philips,6,61,12,50,7,Ward,Medium,Poor,0,2,0
+1981,ECG,Philips,10,40,2,204,12,ICU,High,Moderate,0,2,1
+1982,Ultrasound,Siemens,5,70,2,182,13,Lab,Low,Good,0,3,0
+1983,Patient Monitor,Philips,8,80,2,220,11,Ward,Medium,Poor,0,3,1
+1984,Ultrasound,GE Healthcare,4,53,4,114,6,Diagnostic Center,Low,Moderate,0,4,0
+1985,Ultrasound,Canon Medical,9,75,6,84,12,Diagnostic Center,Medium,Poor,0,2,1
+1986,ECG,Medtronic,2,55,4,102,12,Diagnostic Center,High,Moderate,0,2,1
+1987,Ventilator,Medtronic,6,58,2,180,6,Ward,Medium,Moderate,1,4,1
+1988,Infusion Pump,Canon Medical,2,72,6,50,1,Diagnostic Center,Medium,Good,0,4,0
+1989,Ventilator,Fujifilm,4,70,4,84,3,Ward,High,Poor,0,2,0
+1990,Patient Monitor,Canon Medical,6,58,4,92,3,ICU,High,Good,0,3,0
+1991,Patient Monitor,Mindray,6,77,4,100,6,ICU,High,Good,0,1,1
+1992,X-Ray,GE Healthcare,8,78,2,177,15,Diagnostic Center,High,Good,0,3,1
+1993,MRI Scanner,Philips,3,51,6,73,3,Ward,High,Poor,0,4,0
+1994,CT Scanner,Medtronic,9,46,1,379,21,Diagnostic Center,Medium,Poor,0,3,1
+1995,ECG,Mindray,3,61,12,69,6,Lab,Medium,Good,0,1,0
+1996,Ventilator,Canon Medical,8,82,4,112,10,ICU,Low,Moderate,1,3,1
+1997,Patient Monitor,Mindray,0,68,6,71,5,Lab,High,Good,0,2,0
+1998,Ventilator,Mindray,4,22,2,202,8,Ward,High,Moderate,0,3,1
+1999,Ventilator,Medtronic,12,58,1,400,21,ICU,High,Poor,0,3,1
+2000,Ultrasound,Canon Medical,5,70,4,102,9,Diagnostic Center,Low,Good,0,2,0
+2001,X-Ray,Philips,3,34,6,84,6,Ward,Medium,Poor,0,3,0
+2002,MRI Scanner,Medtronic,7,51,6,59,7,Ward,High,Poor,0,4,0
+2003,Infusion Pump,Mindray,5,67,6,97,6,Lab,Medium,Good,0,2,0
+2004,X-Ray,Philips,8,51,4,100,10,ICU,High,Good,0,2,0
+2005,X-Ray,Medtronic,6,72,1,384,23,Diagnostic Center,High,Good,0,4,1
+2006,Infusion Pump,Philips,4,87,4,86,18,Lab,Medium,Poor,0,2,1
+2007,ECG,Siemens,2,60,4,106,7,Ward,High,Good,1,4,0
+2008,MRI Scanner,Fujifilm,9,89,12,20,12,Operating Room,High,Good,0,3,0
+2009,CT Scanner,Canon Medical,4,14,2,173,6,Ward,High,Good,0,4,0
+2010,CT Scanner,Mindray,4,67,6,55,8,Diagnostic Center,Medium,Moderate,0,3,0
+2011,Infusion Pump,GE Healthcare,8,83,12,61,11,Diagnostic Center,High,Good,0,3,0
+2012,CT Scanner,GE Healthcare,7,78,6,86,7,Diagnostic Center,Low,Poor,1,4,0
+2013,CT Scanner,Fujifilm,4,49,4,118,4,Operating Room,Low,Poor,0,4,0
+2014,Infusion Pump,Canon Medical,3,50,12,42,3,ICU,High,Poor,0,4,0
+2015,MRI Scanner,Mindray,8,41,6,69,9,ICU,Medium,Good,0,3,0
+2016,X-Ray,Philips,12,54,1,404,24,Operating Room,Low,Good,0,3,1
+2017,X-Ray,Philips,6,37,2,205,16,Operating Room,Medium,Moderate,1,2,1
+2018,Infusion Pump,Canon Medical,8,67,0,384,23,Operating Room,High,Poor,0,4,1
+2019,X-Ray,GE Healthcare,9,33,1,396,21,Ward,Medium,Good,1,3,1
+2020,ECG,Medtronic,3,40,4,117,6,Operating Room,High,Good,0,2,0
+2021,CT Scanner,Siemens,3,67,4,118,9,ICU,High,Poor,0,4,0
+2022,Infusion Pump,Philips,7,66,6,85,0,Operating Room,Medium,Good,0,4,0
+2023,X-Ray,Medtronic,6,68,12,62,6,ICU,Medium,Good,1,2,0
+2024,CT Scanner,GE Healthcare,6,54,2,218,8,Diagnostic Center,High,Poor,0,3,1
+2025,Infusion Pump,Siemens,5,52,6,82,4,ICU,Medium,Moderate,0,3,0
+2026,MRI Scanner,Canon Medical,4,77,6,61,10,ICU,Medium,Moderate,1,4,0
+2027,Ventilator,GE Healthcare,3,59,4,123,6,Ward,Low,Poor,0,4,0
+2028,Ultrasound,Siemens,3,21,1,375,13,Lab,Low,Moderate,0,4,1
+2029,Infusion Pump,Canon Medical,10,30,1,381,16,Lab,High,Moderate,0,2,1
+2030,CT Scanner,Siemens,3,65,2,206,6,Ward,Low,Poor,0,5,0
+2031,CT Scanner,Mindray,7,109,6,86,15,Ward,Low,Good,0,1,1
+2032,X-Ray,Mindray,4,68,2,221,12,Lab,Medium,Poor,0,1,1
+2033,CT Scanner,Siemens,9,73,6,71,13,Operating Room,Medium,Moderate,0,3,0
+2034,Patient Monitor,Canon Medical,2,45,1,376,18,Lab,High,Good,0,4,1
+2035,Infusion Pump,GE Healthcare,10,56,4,94,12,Lab,High,Moderate,0,4,1
+2036,CT Scanner,Philips,5,81,2,216,12,Diagnostic Center,Low,Moderate,0,2,1
+2037,MRI Scanner,GE Healthcare,7,36,2,188,11,Diagnostic Center,Medium,Moderate,0,3,1
+2038,X-Ray,Mindray,4,63,4,122,6,Operating Room,High,Poor,0,1,1
+2039,CT Scanner,Medtronic,5,22,2,207,10,ICU,Low,Poor,1,2,1
+2040,Ventilator,GE Healthcare,6,74,4,81,5,ICU,High,Poor,0,3,0
+2041,Ventilator,Mindray,10,44,6,92,9,ICU,Medium,Moderate,0,2,0
+2042,Ultrasound,Mindray,6,53,4,82,6,Diagnostic Center,Medium,Poor,0,1,0
+2043,MRI Scanner,Philips,6,51,6,59,3,Lab,Medium,Good,0,3,0
+2044,Infusion Pump,Siemens,3,76,2,210,10,Ward,Medium,Moderate,0,5,0
+2045,X-Ray,GE Healthcare,5,87,6,84,11,Ward,Medium,Poor,0,5,0
+2046,Infusion Pump,Siemens,4,15,1,374,14,Diagnostic Center,High,Good,0,4,1
+2047,Ventilator,GE Healthcare,5,33,2,176,8,ICU,Medium,Moderate,0,5,0
+2048,Ventilator,Philips,9,40,2,181,15,ICU,High,Moderate,0,2,1
+2049,Infusion Pump,Canon Medical,8,93,4,104,12,Diagnostic Center,High,Good,0,3,1
+2050,X-Ray,Fujifilm,4,75,2,216,18,ICU,Medium,Good,0,4,1
+2051,Ventilator,Mindray,4,41,12,49,8,Diagnostic Center,High,Good,0,2,0
+2052,Patient Monitor,Mindray,14,58,6,55,13,Ward,Medium,Good,0,2,1
+2053,X-Ray,GE Healthcare,4,49,4,107,11,Ward,Medium,Poor,1,5,0
+2054,Infusion Pump,Mindray,8,81,4,92,14,Ward,High,Moderate,0,2,1
+2055,Ultrasound,Fujifilm,5,71,6,89,8,Lab,Medium,Good,0,4,0
+2056,Infusion Pump,Medtronic,4,41,4,125,10,Operating Room,Medium,Good,0,4,0
+2057,CT Scanner,GE Healthcare,7,55,4,103,3,Ward,Medium,Poor,0,4,0
+2058,X-Ray,Philips,4,62,1,373,17,Lab,High,Moderate,0,4,1
+2059,Patient Monitor,Mindray,8,84,12,59,10,ICU,High,Moderate,0,2,1
+2060,ECG,GE Healthcare,3,49,4,100,6,Ward,Medium,Good,0,5,0
+2061,X-Ray,Canon Medical,4,34,6,66,11,ICU,Low,Moderate,1,3,0
+2062,Infusion Pump,Philips,4,75,0,393,14,ICU,Medium,Poor,0,3,1
+2063,Ventilator,Mindray,7,42,6,74,3,Lab,Medium,Good,0,1,0
+2064,CT Scanner,Fujifilm,5,89,2,198,16,Lab,High,Moderate,0,2,1
+2065,MRI Scanner,Fujifilm,7,34,1,383,15,ICU,Medium,Poor,0,3,1
+2066,CT Scanner,Fujifilm,6,54,4,109,13,ICU,High,Moderate,0,2,0
+2067,Infusion Pump,Canon Medical,7,37,1,396,22,Diagnostic Center,High,Moderate,0,2,1
+2068,X-Ray,Mindray,13,70,2,219,19,Operating Room,High,Good,1,1,1
+2069,CT Scanner,GE Healthcare,9,44,4,122,15,Operating Room,Low,Good,0,3,1
+2070,CT Scanner,Siemens,4,93,12,69,7,Diagnostic Center,Low,Good,1,4,0
+2071,Ventilator,Medtronic,7,44,2,214,16,Lab,High,Good,0,4,0
+2072,Infusion Pump,Mindray,5,74,0,380,18,Ward,High,Poor,0,1,1
+2073,X-Ray,Philips,3,53,12,29,3,ICU,High,Moderate,0,3,0
+2074,ECG,Mindray,5,37,4,110,6,Diagnostic Center,Medium,Good,0,1,0
+2075,Infusion Pump,Siemens,7,56,6,70,6,ICU,Low,Good,0,5,0
+2076,MRI Scanner,Medtronic,5,44,4,96,4,ICU,Medium,Moderate,0,3,0
+2077,X-Ray,Canon Medical,6,9,6,67,2,ICU,High,Moderate,0,4,0
+2078,Patient Monitor,Philips,4,57,6,51,4,ICU,Low,Poor,1,3,0
+2079,Ventilator,Medtronic,5,53,6,50,8,Ward,Medium,Moderate,0,3,0
+2080,Ultrasound,Mindray,2,100,1,355,9,Ward,High,Good,0,3,1
+2081,Patient Monitor,Philips,6,25,12,26,5,Operating Room,Medium,Poor,0,3,0
+2082,ECG,GE Healthcare,12,77,4,92,9,Ward,High,Good,0,4,1
+2083,Infusion Pump,Medtronic,9,68,2,209,14,Diagnostic Center,Low,Moderate,0,4,1
+2084,Ultrasound,Siemens,8,63,12,46,6,Diagnostic Center,High,Moderate,0,3,0
+2085,Ultrasound,GE Healthcare,3,61,4,99,6,Ward,Medium,Poor,0,4,0
+2086,Ventilator,GE Healthcare,6,57,12,42,7,Diagnostic Center,High,Moderate,0,5,0
+2087,Infusion Pump,Mindray,6,65,4,104,14,ICU,High,Moderate,0,2,1
+2088,Infusion Pump,Mindray,9,33,2,190,13,Ward,Low,Good,1,1,1
+2089,Ventilator,GE Healthcare,4,43,2,194,9,Operating Room,Medium,Poor,0,3,1
+2090,X-Ray,GE Healthcare,8,96,6,71,16,Ward,Medium,Poor,1,5,0
+2091,X-Ray,Philips,7,50,4,93,6,ICU,Medium,Good,0,3,0
+2092,Ventilator,Fujifilm,6,62,6,78,7,Lab,High,Good,0,4,0
+2093,Infusion Pump,Philips,11,34,6,92,9,Lab,Low,Poor,0,4,1
+2094,Ventilator,Siemens,10,42,2,173,12,Operating Room,High,Moderate,0,5,1
+2095,Ultrasound,Canon Medical,3,49,6,75,4,Operating Room,High,Good,0,3,0
+2096,CT Scanner,Fujifilm,5,64,4,87,8,Diagnostic Center,High,Good,0,4,0
+2097,Ultrasound,Canon Medical,7,77,6,66,11,Ward,High,Poor,0,2,1
+2098,CT Scanner,Fujifilm,8,70,2,203,11,Ward,Medium,Good,0,3,1
+2099,X-Ray,Fujifilm,9,71,4,91,11,Ward,Medium,Good,0,3,1
+2100,ECG,Fujifilm,6,60,4,115,11,Lab,High,Moderate,0,2,1
+2101,Ventilator,Medtronic,9,54,6,72,8,Diagnostic Center,High,Moderate,0,2,0
+2102,ECG,GE Healthcare,12,75,2,181,14,ICU,Medium,Moderate,0,4,1
+2103,CT Scanner,Mindray,7,65,6,85,14,Operating Room,Low,Good,0,3,0
+2104,X-Ray,Mindray,5,67,2,215,19,Lab,High,Poor,0,1,1
+2105,CT Scanner,Philips,11,52,4,95,14,Operating Room,High,Poor,0,3,1
+2106,Ultrasound,Medtronic,7,65,12,24,7,Operating Room,High,Moderate,0,4,0
+2107,Infusion Pump,GE Healthcare,8,46,6,89,5,Operating Room,High,Poor,0,3,0
+2108,CT Scanner,Fujifilm,11,71,6,79,9,ICU,Medium,Poor,1,4,1
+2109,Infusion Pump,Siemens,8,37,1,388,18,Ward,High,Good,0,4,1
+2110,Infusion Pump,Philips,3,48,4,101,9,Operating Room,Medium,Poor,0,3,0
+2111,Infusion Pump,Fujifilm,8,97,6,57,6,Diagnostic Center,High,Good,2,3,0
+2112,Ultrasound,GE Healthcare,3,35,6,92,0,ICU,Medium,Moderate,0,3,0
+2113,CT Scanner,Mindray,4,50,4,109,7,ICU,High,Moderate,0,1,1
+2114,MRI Scanner,Siemens,5,86,6,85,11,Diagnostic Center,High,Good,0,3,0
+2115,X-Ray,Mindray,5,95,12,61,8,Diagnostic Center,High,Moderate,0,1,0
+2116,Patient Monitor,Mindray,6,40,4,88,13,Ward,Medium,Good,0,1,0
+2117,Ventilator,GE Healthcare,2,46,12,49,1,ICU,High,Good,0,4,0
+2118,Ventilator,Mindray,9,39,4,113,13,ICU,Medium,Good,0,3,1
+2119,Patient Monitor,GE Healthcare,5,65,2,175,12,Diagnostic Center,High,Moderate,0,5,1
+2120,Ultrasound,Canon Medical,7,25,6,93,10,Ward,Medium,Good,0,2,1
+2121,Infusion Pump,Mindray,4,69,4,90,11,Diagnostic Center,Low,Good,0,3,0
+2122,Ventilator,GE Healthcare,8,86,2,208,13,Diagnostic Center,Low,Poor,0,3,1
+2123,CT Scanner,Mindray,9,50,1,363,16,Ward,High,Poor,0,3,1
+2124,Infusion Pump,Medtronic,7,59,4,94,8,Ward,High,Poor,0,4,0
+2125,X-Ray,Philips,7,74,2,201,14,Operating Room,High,Poor,0,4,0
+2126,Ultrasound,Canon Medical,11,50,4,116,9,Operating Room,High,Poor,0,2,1
+2127,X-Ray,Fujifilm,3,51,4,105,2,Ward,High,Poor,0,2,0
+2128,MRI Scanner,Philips,5,92,6,69,11,Diagnostic Center,High,Good,0,3,0
+2129,Ultrasound,GE Healthcare,4,85,2,206,14,Diagnostic Center,Medium,Good,0,5,1
+2130,Ventilator,Philips,6,46,4,111,9,ICU,Medium,Moderate,0,2,0
+2131,Patient Monitor,Mindray,7,65,2,176,12,ICU,High,Moderate,0,3,1
+2132,CT Scanner,GE Healthcare,10,57,2,214,11,Lab,High,Moderate,0,3,1
+2133,Ventilator,Medtronic,6,55,2,183,13,Diagnostic Center,High,Moderate,0,4,1
+2134,CT Scanner,Fujifilm,9,76,6,65,9,ICU,Medium,Moderate,0,3,0
+2135,Ventilator,GE Healthcare,5,44,4,128,11,Lab,Medium,Good,0,4,0
+2136,Ultrasound,Philips,7,75,12,44,3,ICU,Low,Good,1,4,0
+2137,Ventilator,Philips,5,62,2,189,11,Lab,High,Good,0,3,1
+2138,X-Ray,Fujifilm,6,76,2,180,9,ICU,Medium,Moderate,0,3,1
+2139,CT Scanner,GE Healthcare,2,19,4,97,9,ICU,High,Good,0,3,0
+2140,Infusion Pump,GE Healthcare,7,78,4,97,10,Operating Room,Medium,Good,0,4,0
+2141,Ultrasound,GE Healthcare,6,20,2,185,10,Ward,High,Poor,0,3,1
+2142,Infusion Pump,Philips,11,98,6,99,6,Operating Room,Medium,Moderate,0,2,1
+2143,CT Scanner,Siemens,6,60,4,120,11,Ward,Medium,Poor,0,4,0
+2144,Ventilator,Canon Medical,6,59,4,85,13,Ward,High,Good,0,2,1
+2145,Infusion Pump,GE Healthcare,5,79,0,385,18,Diagnostic Center,High,Poor,0,3,1
+2146,X-Ray,Siemens,8,68,4,98,6,ICU,High,Moderate,0,3,1
+2147,MRI Scanner,Medtronic,6,45,2,175,6,ICU,Low,Good,0,3,0
+2148,CT Scanner,Mindray,8,69,1,372,21,ICU,Low,Good,0,3,1
+2149,Ventilator,Fujifilm,8,40,4,130,11,Ward,High,Moderate,0,2,1
+2150,ECG,Mindray,3,52,2,176,8,Ward,High,Moderate,0,1,1
+2151,MRI Scanner,Fujifilm,13,31,12,66,7,Ward,Medium,Moderate,0,4,0
+2152,Ventilator,GE Healthcare,1,53,12,34,10,Ward,High,Poor,2,3,0
+2153,MRI Scanner,Fujifilm,5,66,12,36,12,Ward,Medium,Poor,0,3,0
+2154,X-Ray,Siemens,6,59,4,101,11,ICU,High,Poor,0,4,0
+2155,X-Ray,GE Healthcare,7,86,4,109,15,ICU,High,Poor,0,4,1
+2156,Patient Monitor,Canon Medical,3,48,4,127,11,Diagnostic Center,High,Moderate,0,3,0
+2157,MRI Scanner,Mindray,5,43,2,188,8,Operating Room,Low,Moderate,1,1,1
+2158,Ventilator,Mindray,6,36,4,96,8,ICU,High,Moderate,0,1,0
+2159,ECG,GE Healthcare,5,61,2,187,11,ICU,Medium,Poor,0,5,1
+2160,Ultrasound,Philips,6,103,2,215,20,Ward,Medium,Good,0,3,0
+2161,Ventilator,Fujifilm,6,80,6,88,12,Diagnostic Center,Medium,Moderate,0,3,0
+2162,MRI Scanner,Medtronic,11,80,1,381,23,Ward,High,Moderate,0,3,1
+2163,Ventilator,Philips,8,52,4,93,9,Diagnostic Center,Medium,Good,0,4,0
+2164,Infusion Pump,Canon Medical,6,80,6,78,4,Ward,Medium,Moderate,0,4,0
+2165,Ventilator,GE Healthcare,7,42,6,94,13,Diagnostic Center,Low,Good,1,4,1
+2166,CT Scanner,Medtronic,8,80,6,59,7,ICU,Low,Moderate,0,2,0
+2167,Patient Monitor,Philips,4,48,2,182,8,Operating Room,High,Poor,1,3,1
+2168,Ultrasound,Siemens,4,55,4,123,8,Operating Room,High,Moderate,1,3,1
+2169,Infusion Pump,Fujifilm,6,53,4,114,7,Operating Room,High,Moderate,0,3,0
+2170,Infusion Pump,Mindray,6,88,2,212,14,Lab,High,Good,0,3,1
+2171,Ventilator,Canon Medical,7,64,4,92,12,Diagnostic Center,Medium,Poor,0,4,0
+2172,Ultrasound,Fujifilm,6,57,6,77,9,Diagnostic Center,Medium,Moderate,0,4,0
+2173,Ventilator,Mindray,7,48,6,73,10,ICU,Medium,Good,1,3,0
+2174,Patient Monitor,Medtronic,5,66,6,64,10,Diagnostic Center,Medium,Moderate,0,2,0
+2175,Patient Monitor,Philips,7,70,1,364,21,Ward,High,Moderate,0,3,1
+2176,Ultrasound,GE Healthcare,6,108,4,123,4,ICU,High,Moderate,0,4,0
+2177,CT Scanner,Siemens,6,75,12,59,9,Operating Room,High,Good,0,4,0
+2178,CT Scanner,Canon Medical,6,35,0,394,22,Diagnostic Center,Medium,Good,0,3,1
+2179,Infusion Pump,Mindray,9,74,2,178,13,Diagnostic Center,Medium,Good,0,1,1
+2180,Ultrasound,GE Healthcare,4,52,6,73,11,ICU,High,Poor,0,4,0
+2181,Ventilator,Canon Medical,6,33,6,54,10,Diagnostic Center,High,Good,0,4,0
+2182,CT Scanner,Philips,3,37,6,62,5,Lab,High,Good,0,3,0
+2183,Ultrasound,Mindray,5,37,6,66,9,ICU,Medium,Moderate,0,2,0
+2184,Ultrasound,Canon Medical,3,47,1,363,9,Operating Room,Medium,Poor,1,2,1
+2185,Ultrasound,Mindray,9,39,6,78,13,Ward,High,Poor,0,1,1
+2186,CT Scanner,Mindray,10,38,2,183,15,Ward,High,Poor,0,1,1
+2187,ECG,Philips,6,67,1,377,21,ICU,Medium,Poor,0,4,1
+2188,Infusion Pump,Siemens,5,63,2,180,13,Diagnostic Center,Low,Moderate,0,4,0
+2189,MRI Scanner,Canon Medical,7,33,12,67,6,Operating Room,Medium,Moderate,0,4,0
+2190,Infusion Pump,Fujifilm,7,46,1,386,17,Ward,High,Good,0,4,1
+2191,X-Ray,Siemens,4,21,6,64,3,Diagnostic Center,Medium,Moderate,0,5,0
+2192,X-Ray,Siemens,5,59,6,89,6,Operating Room,Medium,Poor,0,5,0
+2193,Ultrasound,Siemens,8,53,2,174,13,ICU,High,Moderate,0,3,1
+2194,ECG,Siemens,4,63,4,108,7,Diagnostic Center,Medium,Good,0,5,0
+2195,Infusion Pump,GE Healthcare,2,89,6,85,6,ICU,High,Good,1,5,0
+2196,MRI Scanner,Fujifilm,7,46,6,58,5,ICU,High,Moderate,0,3,0
+2197,Ventilator,Medtronic,2,63,4,126,0,ICU,High,Poor,0,4,0
+2198,CT Scanner,Canon Medical,7,77,2,189,12,Diagnostic Center,Low,Moderate,1,4,1
+2199,ECG,Fujifilm,7,56,6,68,5,Operating Room,High,Moderate,0,4,0
+2200,CT Scanner,GE Healthcare,8,68,6,97,7,ICU,Low,Good,0,3,0
+2201,Infusion Pump,Medtronic,1,62,4,90,11,Lab,High,Good,0,4,0
+2202,Patient Monitor,GE Healthcare,3,57,4,88,5,Diagnostic Center,Low,Moderate,0,4,0
+2203,Ultrasound,Mindray,4,55,12,60,7,Ward,Medium,Moderate,0,3,0
+2204,Patient Monitor,Medtronic,7,42,2,198,15,Ward,High,Poor,0,3,1
+2205,X-Ray,Siemens,3,55,6,63,9,Lab,Medium,Good,0,4,0
+2206,MRI Scanner,Philips,10,75,4,102,12,Operating Room,Low,Good,0,4,1
+2207,X-Ray,GE Healthcare,6,88,12,64,11,Ward,Low,Moderate,2,4,0
+2208,Ventilator,GE Healthcare,6,56,4,106,7,Diagnostic Center,High,Moderate,0,5,0
+2209,CT Scanner,Philips,8,67,12,63,7,Lab,Medium,Moderate,1,3,0
+2210,Ultrasound,Philips,12,58,4,125,12,ICU,Low,Good,0,2,1
+2211,ECG,Philips,3,60,6,72,9,Operating Room,High,Moderate,0,2,0
+2212,MRI Scanner,Philips,7,73,1,381,19,Operating Room,Low,Moderate,0,4,1
+2213,Infusion Pump,Medtronic,9,74,6,88,13,Diagnostic Center,Low,Poor,0,4,0
+2214,ECG,Siemens,10,42,2,182,10,Operating Room,High,Good,1,3,1
+2215,X-Ray,Canon Medical,3,45,4,116,6,Ward,High,Poor,0,2,0
+2216,CT Scanner,Mindray,7,54,4,103,12,Diagnostic Center,Medium,Poor,0,3,0
+2217,Ultrasound,Medtronic,10,82,4,125,13,ICU,Medium,Good,0,3,1
+2218,Patient Monitor,Philips,10,77,2,211,17,Diagnostic Center,High,Good,1,4,1
+2219,Patient Monitor,GE Healthcare,5,50,6,64,11,Lab,High,Moderate,0,4,0
+2220,Ultrasound,Canon Medical,7,77,4,121,15,Diagnostic Center,High,Good,0,4,1
+2221,ECG,GE Healthcare,9,68,12,20,7,ICU,High,Moderate,0,3,0
+2222,X-Ray,Siemens,6,99,4,89,11,ICU,High,Poor,0,5,0
+2223,ECG,Canon Medical,6,76,6,79,10,Ward,High,Good,0,2,0
+2224,CT Scanner,Siemens,5,63,6,88,11,Ward,Medium,Good,1,4,0
+2225,MRI Scanner,Fujifilm,10,77,4,85,12,Diagnostic Center,High,Poor,0,2,1
+2226,CT Scanner,GE Healthcare,10,74,4,92,10,ICU,Low,Good,0,3,1
+2227,MRI Scanner,Mindray,4,63,6,75,2,Operating Room,High,Good,0,1,0
+2228,Infusion Pump,Medtronic,10,79,6,82,11,ICU,Low,Poor,1,4,1
+2229,X-Ray,Medtronic,9,60,4,91,7,Ward,Medium,Good,0,2,1
+2230,MRI Scanner,GE Healthcare,4,56,2,211,12,Lab,High,Moderate,0,3,1
+2231,X-Ray,Siemens,3,62,4,93,6,ICU,High,Poor,2,4,0
+2232,X-Ray,Mindray,5,79,12,68,7,Lab,Low,Moderate,1,3,0
+2233,ECG,Fujifilm,2,51,1,395,15,ICU,Medium,Moderate,0,4,1
+2234,MRI Scanner,GE Healthcare,4,49,12,59,2,Lab,Low,Good,0,3,0
+2235,Patient Monitor,Medtronic,8,52,6,96,9,Ward,Medium,Moderate,0,4,0
+2236,X-Ray,Mindray,7,66,2,201,12,Ward,High,Moderate,0,3,1
+2237,X-Ray,Mindray,3,71,4,86,8,Operating Room,High,Poor,0,1,0
+2238,Ultrasound,Mindray,6,66,4,117,3,Diagnostic Center,Medium,Good,0,1,0
+2239,CT Scanner,Mindray,10,33,2,195,12,Ward,Medium,Poor,0,1,1
+2240,Ventilator,Philips,4,89,4,120,14,ICU,High,Poor,0,4,1
+2241,ECG,Philips,7,41,6,83,10,Diagnostic Center,High,Poor,0,2,0
+2242,ECG,Fujifilm,10,50,4,128,13,Lab,High,Good,0,4,1
+2243,Ultrasound,Mindray,1,75,6,81,5,Ward,Low,Poor,0,2,0
+2244,Ventilator,Medtronic,1,39,6,76,3,Operating Room,Medium,Moderate,0,2,0
+2245,Patient Monitor,GE Healthcare,6,116,12,54,9,Ward,High,Good,0,3,0
+2246,X-Ray,Medtronic,6,72,1,380,19,Diagnostic Center,High,Poor,0,2,1
+2247,X-Ray,Mindray,5,117,2,198,13,Diagnostic Center,Medium,Good,0,1,1
+2248,Ultrasound,Canon Medical,4,72,4,82,9,ICU,Medium,Good,0,4,0
+2249,Infusion Pump,Philips,7,63,6,86,7,Ward,Medium,Moderate,0,3,0
+2250,Ventilator,GE Healthcare,4,39,6,96,5,ICU,High,Good,0,4,0
+2251,CT Scanner,Medtronic,9,49,4,93,13,Ward,High,Poor,0,3,1
+2252,Infusion Pump,Philips,9,62,6,85,6,Operating Room,Medium,Good,0,2,0
+2253,Ultrasound,GE Healthcare,4,66,4,118,10,Ward,High,Moderate,0,4,0
+2254,CT Scanner,Siemens,6,45,6,79,15,Diagnostic Center,Medium,Poor,0,4,0
+2255,CT Scanner,Fujifilm,5,51,4,111,4,Ward,High,Moderate,0,2,0
+2256,Infusion Pump,Mindray,8,44,4,99,5,Operating Room,Low,Moderate,0,1,1
+2257,ECG,Medtronic,3,50,12,50,10,Diagnostic Center,Medium,Good,0,3,0
+2258,CT Scanner,Siemens,4,51,1,370,17,Ward,High,Good,0,5,1
+2259,ECG,Siemens,3,55,12,59,0,Diagnostic Center,High,Poor,0,5,0
+2260,Infusion Pump,GE Healthcare,7,54,4,88,9,Ward,Low,Moderate,0,5,0
+2261,Patient Monitor,Philips,8,77,4,122,9,ICU,High,Moderate,0,2,1
+2262,MRI Scanner,GE Healthcare,7,77,6,62,10,ICU,High,Good,0,3,0
+2263,MRI Scanner,Canon Medical,6,73,12,63,7,ICU,Low,Poor,0,2,0
+2264,Ultrasound,Canon Medical,11,28,12,55,7,Operating Room,High,Poor,1,2,1
+2265,CT Scanner,Philips,4,50,2,199,9,ICU,High,Good,0,2,1
+2266,Patient Monitor,Fujifilm,3,65,4,122,8,Diagnostic Center,Medium,Good,0,2,0
+2267,MRI Scanner,GE Healthcare,5,59,4,116,6,ICU,High,Poor,0,4,0
+2268,Ventilator,Canon Medical,5,70,4,116,11,Diagnostic Center,High,Moderate,0,2,1
+2269,Ventilator,Medtronic,2,77,4,86,8,ICU,Medium,Moderate,1,3,0
+2270,MRI Scanner,GE Healthcare,4,68,6,65,4,Ward,High,Good,0,3,0
+2271,Ultrasound,Siemens,2,77,4,118,7,ICU,High,Good,0,3,0
+2272,Patient Monitor,Fujifilm,4,55,1,379,21,Diagnostic Center,High,Poor,0,2,1
+2273,Ultrasound,Fujifilm,5,54,1,384,16,ICU,High,Poor,0,4,1
+2274,ECG,Philips,9,30,6,90,6,ICU,Low,Good,0,2,0
+2275,CT Scanner,Medtronic,3,71,2,184,13,ICU,High,Poor,0,3,1
+2276,CT Scanner,Fujifilm,5,77,4,124,9,ICU,High,Poor,0,3,1
+2277,CT Scanner,Siemens,9,81,6,85,6,Diagnostic Center,High,Good,1,3,1
+2278,Infusion Pump,Fujifilm,7,32,2,180,12,Ward,Medium,Poor,0,2,1
+2279,Ventilator,Canon Medical,4,48,2,203,10,Diagnostic Center,Medium,Good,0,2,1
+2280,Infusion Pump,Mindray,7,68,6,88,14,Diagnostic Center,High,Poor,0,2,0
+2281,ECG,Philips,2,75,12,37,3,Ward,High,Good,0,3,0
+2282,CT Scanner,Canon Medical,2,67,2,187,9,Operating Room,High,Poor,0,3,1
+2283,Infusion Pump,Siemens,4,65,12,36,4,Operating Room,Medium,Poor,0,4,0
+2284,X-Ray,GE Healthcare,1,77,6,73,7,Diagnostic Center,Low,Poor,0,4,0
+2285,X-Ray,GE Healthcare,9,78,2,183,15,ICU,Medium,Poor,0,5,1
+2286,CT Scanner,GE Healthcare,8,31,2,181,6,Operating Room,High,Good,0,5,0
+2287,X-Ray,Siemens,3,16,4,87,3,Ward,High,Moderate,0,3,0
+2288,Infusion Pump,Siemens,7,38,4,92,5,Ward,High,Moderate,0,4,0
+2289,ECG,Canon Medical,5,77,2,172,11,Diagnostic Center,Medium,Poor,0,3,1
+2290,ECG,Philips,7,55,2,193,13,Operating Room,Medium,Poor,0,2,1
+2291,X-Ray,Canon Medical,8,51,12,49,8,Diagnostic Center,High,Poor,0,2,1
+2292,MRI Scanner,Philips,5,59,4,109,8,Ward,High,Moderate,0,3,0
+2293,Patient Monitor,Siemens,8,51,2,203,16,ICU,Low,Good,0,4,1
+2294,ECG,Fujifilm,9,56,4,107,10,Diagnostic Center,High,Poor,0,4,1
+2295,ECG,Philips,10,71,4,119,8,Operating Room,Low,Poor,0,2,1
+2296,Infusion Pump,GE Healthcare,10,52,12,51,9,ICU,High,Moderate,0,5,0
+2297,Ultrasound,GE Healthcare,8,68,6,85,4,ICU,Medium,Moderate,0,4,0
+2298,CT Scanner,Mindray,4,56,12,28,3,ICU,Medium,Good,0,1,0
+2299,Ultrasound,Siemens,5,44,6,63,10,Ward,High,Poor,0,5,0
+2300,MRI Scanner,Canon Medical,8,57,6,99,15,Lab,Medium,Poor,0,2,0
+2301,Patient Monitor,Canon Medical,6,36,6,86,11,ICU,High,Good,0,2,1
+2302,MRI Scanner,Fujifilm,6,114,4,107,14,Operating Room,Medium,Good,0,3,1
+2303,X-Ray,GE Healthcare,5,42,4,124,9,ICU,Medium,Moderate,0,3,0
+2304,Ventilator,Medtronic,5,48,4,89,1,Ward,High,Good,0,2,0
+2305,Patient Monitor,Mindray,4,61,2,180,11,ICU,High,Moderate,0,3,1
+2306,MRI Scanner,Fujifilm,3,98,12,65,10,Operating Room,High,Poor,0,2,0
+2307,Infusion Pump,Mindray,7,42,6,53,17,Ward,High,Good,1,2,0
+2308,MRI Scanner,Mindray,10,104,4,105,9,Ward,Medium,Poor,0,2,1
+2309,Infusion Pump,Siemens,6,45,12,68,4,Ward,High,Poor,0,4,0
+2310,Patient Monitor,Siemens,6,26,12,68,8,Operating Room,Medium,Poor,0,5,0
+2311,Ultrasound,Canon Medical,11,59,12,65,10,Ward,High,Poor,0,2,1
+2312,X-Ray,Philips,7,59,4,82,7,ICU,High,Good,0,3,0
+2313,Infusion Pump,Mindray,6,44,12,69,8,ICU,High,Poor,0,3,0
+2314,Infusion Pump,Medtronic,4,52,4,101,8,ICU,Medium,Poor,0,2,0
+2315,Ultrasound,Siemens,10,33,2,210,12,Diagnostic Center,Medium,Poor,0,3,1
+2316,Ventilator,Mindray,2,49,6,81,10,Diagnostic Center,High,Moderate,0,2,0
+2317,Ventilator,GE Healthcare,7,65,6,63,6,Lab,High,Good,0,4,0
+2318,Ventilator,Canon Medical,2,34,4,118,10,Operating Room,Medium,Moderate,0,2,0
+2319,Infusion Pump,Fujifilm,6,45,2,175,12,Diagnostic Center,Medium,Good,0,4,0
+2320,MRI Scanner,Mindray,6,38,6,82,8,Ward,Medium,Poor,0,3,0
+2321,Infusion Pump,Mindray,7,74,4,113,10,ICU,Medium,Moderate,0,2,1
+2322,MRI Scanner,Medtronic,3,76,2,180,9,Diagnostic Center,High,Good,0,2,1
+2323,Ultrasound,Siemens,8,82,4,91,13,Lab,Low,Good,0,3,1
+2324,Ventilator,Philips,4,57,4,127,13,ICU,High,Good,0,2,1
+2325,Ultrasound,Philips,7,53,2,218,11,Diagnostic Center,Medium,Poor,0,3,1
+2326,Infusion Pump,Fujifilm,10,90,6,61,10,ICU,Medium,Moderate,0,4,0
+2327,ECG,GE Healthcare,6,80,4,123,8,Ward,High,Moderate,0,4,0
+2328,MRI Scanner,Mindray,5,59,4,88,6,Operating Room,High,Good,0,1,0
+2329,ECG,Mindray,12,76,4,122,14,Ward,High,Poor,0,1,1
+2330,Ventilator,Canon Medical,5,60,4,128,10,Ward,Low,Moderate,0,3,0
+2331,Ultrasound,Fujifilm,6,58,12,68,9,Diagnostic Center,Low,Poor,0,4,0
+2332,CT Scanner,Medtronic,5,29,2,199,6,ICU,Medium,Moderate,0,3,0
+2333,ECG,Medtronic,7,57,4,110,12,Operating Room,Medium,Moderate,0,4,0
+2334,ECG,Siemens,6,36,1,401,14,Diagnostic Center,Low,Moderate,0,3,1
+2335,MRI Scanner,Siemens,4,89,2,218,17,Diagnostic Center,High,Moderate,0,3,1
+2336,ECG,Mindray,4,65,6,76,9,Operating Room,Low,Poor,0,2,0
+2337,Ventilator,Siemens,7,65,1,402,21,ICU,Medium,Good,0,3,1
+2338,Ultrasound,Siemens,8,70,4,86,8,ICU,Low,Good,0,3,0
+2339,MRI Scanner,Mindray,2,70,2,192,9,Diagnostic Center,Low,Good,1,1,1
+2340,Infusion Pump,Philips,5,55,12,55,1,Lab,High,Moderate,0,3,0
+2341,MRI Scanner,Mindray,6,72,2,200,12,ICU,High,Poor,0,2,1
+2342,ECG,Philips,5,80,4,117,9,Ward,High,Poor,0,2,1
+2343,X-Ray,Fujifilm,2,64,2,175,10,Lab,Low,Poor,0,2,1
+2344,Ventilator,Philips,5,46,6,76,2,Ward,Low,Moderate,1,2,0
+2345,Infusion Pump,GE Healthcare,3,65,12,28,2,Ward,Medium,Poor,0,4,0
+2346,Ventilator,Medtronic,7,46,2,190,15,ICU,Medium,Good,0,4,1
+2347,X-Ray,Philips,5,47,0,372,13,Ward,High,Poor,0,4,1
+2348,CT Scanner,Siemens,1,79,4,103,10,ICU,High,Moderate,0,3,0
+2349,ECG,Mindray,5,74,4,105,6,ICU,Medium,Poor,0,1,1
+2350,MRI Scanner,Siemens,7,72,4,84,9,Diagnostic Center,High,Poor,0,3,1
+2351,Infusion Pump,Mindray,8,84,4,128,7,Ward,High,Poor,0,3,1
+2352,Ventilator,Canon Medical,7,101,6,70,16,ICU,Low,Good,0,2,1
+2353,Infusion Pump,Siemens,4,57,4,96,5,ICU,High,Moderate,0,3,0
+2354,Ultrasound,Siemens,5,78,2,220,9,Operating Room,Low,Moderate,0,5,0
+2355,ECG,Fujifilm,3,68,4,108,10,Operating Room,High,Poor,0,2,1
+2356,Ultrasound,Mindray,4,82,6,71,10,Lab,Low,Moderate,0,2,0
+2357,Infusion Pump,Philips,6,80,4,122,16,Diagnostic Center,Medium,Poor,0,2,1
+2358,Ventilator,Fujifilm,4,93,6,81,5,Ward,Medium,Moderate,0,4,0
+2359,Infusion Pump,Siemens,9,62,4,111,11,ICU,High,Good,0,5,1
+2360,Infusion Pump,GE Healthcare,6,73,6,97,10,ICU,High,Good,0,4,0
+2361,MRI Scanner,Philips,6,50,1,385,18,Diagnostic Center,High,Poor,0,2,1
+2362,Patient Monitor,Philips,7,61,12,37,7,Diagnostic Center,High,Good,0,3,0
+2363,Ventilator,Mindray,11,91,4,98,14,Ward,High,Poor,0,2,1
+2364,Ultrasound,Philips,6,42,1,373,18,Ward,Medium,Poor,0,3,1
+2365,Ultrasound,Canon Medical,8,81,6,65,9,Diagnostic Center,Low,Moderate,0,3,0
+2366,MRI Scanner,Siemens,6,79,1,376,17,Operating Room,Medium,Moderate,0,5,1
+2367,CT Scanner,GE Healthcare,7,66,6,96,8,ICU,Low,Poor,0,5,0
+2368,Ultrasound,Philips,3,89,4,111,8,Operating Room,High,Good,0,4,0
+2369,ECG,Philips,8,74,1,394,20,Operating Room,High,Good,0,2,1
+2370,Ventilator,Philips,9,63,1,358,23,Ward,High,Poor,1,2,1
+2371,X-Ray,Philips,10,50,6,86,9,ICU,Medium,Poor,0,4,0
+2372,MRI Scanner,GE Healthcare,8,73,4,85,10,ICU,High,Poor,0,5,0
+2373,Ultrasound,Siemens,5,58,2,205,15,ICU,Medium,Good,0,3,1
+2374,X-Ray,Fujifilm,8,54,6,53,4,ICU,Medium,Good,0,3,0
+2375,Ultrasound,Siemens,13,49,4,96,7,Ward,High,Moderate,0,4,0
+2376,Ultrasound,Mindray,4,40,0,360,11,Ward,Low,Good,0,2,1
+2377,Patient Monitor,Philips,5,58,2,172,9,Lab,Medium,Good,0,3,1
+2378,Ventilator,Canon Medical,8,88,6,82,11,Lab,Medium,Poor,0,2,0
+2379,Infusion Pump,Siemens,5,49,6,84,8,Diagnostic Center,High,Poor,0,4,0
+2380,Ventilator,Siemens,4,92,4,129,11,Ward,Low,Moderate,0,3,0
+2381,Ventilator,GE Healthcare,5,47,4,111,4,Ward,Medium,Moderate,0,4,0
+2382,Ventilator,Medtronic,5,64,6,83,10,ICU,High,Good,0,4,0
+2383,Infusion Pump,GE Healthcare,7,89,2,194,8,Lab,Medium,Moderate,0,3,1
+2384,Ultrasound,Medtronic,4,66,4,96,9,Ward,High,Moderate,0,2,0
+2385,ECG,GE Healthcare,7,40,4,85,5,Ward,High,Good,1,4,0
+2386,Ultrasound,Medtronic,6,55,0,375,16,ICU,Medium,Good,0,3,1
+2387,Infusion Pump,GE Healthcare,4,45,4,114,6,Diagnostic Center,Medium,Good,1,5,0
+2388,Infusion Pump,Mindray,7,61,6,77,7,Diagnostic Center,Medium,Moderate,0,2,0
+2389,Patient Monitor,Siemens,7,85,4,84,8,Operating Room,High,Good,0,3,0
+2390,Ventilator,GE Healthcare,4,40,1,383,12,Operating Room,Medium,Good,0,3,1
+2391,CT Scanner,Mindray,3,60,2,217,16,Diagnostic Center,High,Good,0,3,1
+2392,MRI Scanner,Philips,2,76,12,23,3,Lab,Low,Good,0,3,0
+2393,ECG,Philips,1,87,12,45,9,Lab,High,Moderate,1,2,0
+2394,Infusion Pump,Medtronic,10,66,2,201,17,ICU,Medium,Good,0,2,1
+2395,Ultrasound,Medtronic,6,47,6,66,10,ICU,High,Good,0,2,0
+2396,Patient Monitor,Medtronic,6,65,4,97,7,ICU,Medium,Moderate,0,4,0
+2397,Infusion Pump,Mindray,5,32,4,120,8,Diagnostic Center,Medium,Good,0,3,0
+2398,ECG,Siemens,2,82,2,174,12,Diagnostic Center,High,Good,1,4,1
+2399,Patient Monitor,Siemens,9,66,2,197,17,Ward,Medium,Poor,0,4,0
+2400,Patient Monitor,Mindray,5,87,2,205,13,ICU,High,Good,0,1,1
+2401,Ventilator,Philips,4,54,6,64,9,Diagnostic Center,Medium,Good,0,2,0
+2402,Infusion Pump,Siemens,3,97,2,181,12,Ward,Low,Good,0,3,1
+2403,Patient Monitor,Medtronic,11,63,4,121,19,ICU,High,Moderate,0,3,1
+2404,Ultrasound,GE Healthcare,2,84,1,393,18,ICU,Low,Good,0,4,1
+2405,Infusion Pump,Mindray,6,62,6,98,10,ICU,High,Good,0,1,1
+2406,Infusion Pump,Medtronic,9,43,6,83,10,Diagnostic Center,Medium,Poor,0,4,0
+2407,Ventilator,Siemens,6,37,1,382,20,ICU,High,Moderate,0,5,1
+2408,X-Ray,Siemens,9,79,4,113,9,Ward,Low,Good,0,5,0
+2409,MRI Scanner,GE Healthcare,5,74,6,88,11,ICU,Low,Moderate,0,5,0
+2410,Infusion Pump,Mindray,4,45,1,370,13,Diagnostic Center,Medium,Poor,0,2,1
+2411,Patient Monitor,Philips,7,59,2,217,11,ICU,High,Poor,0,2,1
+2412,Ultrasound,Fujifilm,2,58,2,178,8,Lab,Low,Good,1,3,1
+2413,Ventilator,Philips,5,95,4,118,4,Diagnostic Center,High,Moderate,0,2,0
+2414,Patient Monitor,Mindray,8,49,4,106,8,Diagnostic Center,Medium,Poor,0,2,1
+2415,Patient Monitor,Philips,3,50,6,62,12,Lab,High,Moderate,1,3,0
+2416,Infusion Pump,Canon Medical,8,45,6,56,11,Lab,Medium,Moderate,0,3,0
+2417,Ultrasound,Canon Medical,3,59,1,356,10,Lab,Medium,Good,0,2,1
+2418,MRI Scanner,Mindray,3,42,6,82,5,Diagnostic Center,Medium,Moderate,0,1,0
+2419,Ultrasound,Philips,4,60,12,30,6,Ward,Low,Good,0,2,0
+2420,CT Scanner,Canon Medical,9,69,12,38,8,ICU,Medium,Good,1,2,0
+2421,Infusion Pump,Philips,10,46,4,85,7,Ward,Medium,Good,0,4,0
+2422,CT Scanner,Medtronic,7,54,2,198,12,Diagnostic Center,High,Good,0,2,1
+2423,Ultrasound,GE Healthcare,7,55,12,56,8,Diagnostic Center,Low,Poor,0,5,0
+2424,Infusion Pump,Fujifilm,5,45,4,94,8,Ward,Medium,Good,0,3,0
+2425,CT Scanner,GE Healthcare,4,67,6,70,13,Operating Room,Medium,Good,0,5,0
+2426,ECG,Philips,10,83,1,370,19,Lab,Medium,Good,0,2,1
+2427,CT Scanner,GE Healthcare,7,56,2,204,15,Ward,Medium,Moderate,0,3,1
+2428,CT Scanner,Medtronic,9,79,0,388,20,Diagnostic Center,Medium,Moderate,0,2,1
+2429,X-Ray,Siemens,4,54,2,177,13,Ward,Medium,Good,0,4,1
+2430,Ultrasound,Mindray,6,59,2,203,14,ICU,High,Good,0,2,1
+2431,Infusion Pump,Mindray,2,57,1,385,13,Operating Room,Low,Moderate,0,1,1
+2432,CT Scanner,GE Healthcare,5,78,2,217,10,Ward,High,Poor,0,3,1
+2433,X-Ray,Philips,8,80,2,193,10,Operating Room,High,Poor,0,3,1
+2434,Patient Monitor,Medtronic,4,70,2,179,15,Lab,High,Poor,0,3,1
+2435,Ventilator,Canon Medical,6,78,6,55,8,ICU,Medium,Good,0,4,0
+2436,X-Ray,Medtronic,4,72,12,67,8,Ward,High,Poor,1,4,0
+2437,Ultrasound,Philips,3,62,12,45,6,Lab,Medium,Poor,1,3,0
+2438,MRI Scanner,Fujifilm,4,72,4,85,10,Lab,Medium,Good,0,2,0
+2439,CT Scanner,Philips,4,72,1,371,18,Operating Room,Medium,Moderate,0,3,1
+2440,Ultrasound,GE Healthcare,11,56,4,118,10,Ward,High,Moderate,0,5,1
+2441,Infusion Pump,GE Healthcare,11,69,6,63,8,ICU,Medium,Good,0,5,0
+2442,Ventilator,Mindray,6,45,2,200,7,Diagnostic Center,Medium,Moderate,0,1,1
+2443,CT Scanner,GE Healthcare,7,39,2,177,10,Lab,High,Moderate,0,3,1
+2444,Infusion Pump,Medtronic,8,73,6,68,9,Operating Room,Medium,Good,0,3,0
+2445,Infusion Pump,GE Healthcare,10,92,4,115,13,Ward,High,Good,0,4,1
+2446,Infusion Pump,Mindray,11,68,2,191,18,ICU,Medium,Moderate,0,2,1
+2447,Infusion Pump,Mindray,2,75,2,177,8,Ward,Low,Moderate,0,2,0
+2448,X-Ray,Fujifilm,6,75,12,37,11,Ward,Medium,Good,0,2,0
+2449,Ventilator,GE Healthcare,6,84,4,105,9,Diagnostic Center,High,Moderate,0,3,0
+2450,Patient Monitor,GE Healthcare,5,83,2,213,15,ICU,Medium,Poor,0,3,1
+2451,Ventilator,Siemens,0,78,6,65,4,Diagnostic Center,Medium,Moderate,0,4,0
+2452,X-Ray,Siemens,3,39,1,381,14,Diagnostic Center,High,Poor,0,5,1
+2453,X-Ray,Siemens,4,84,4,111,12,ICU,Low,Good,0,3,0
+2454,ECG,Fujifilm,5,50,4,93,6,Ward,High,Poor,0,2,1
+2455,Ultrasound,Fujifilm,7,54,4,99,15,Diagnostic Center,Medium,Good,1,2,1
+2456,ECG,Siemens,6,55,2,208,16,Diagnostic Center,Medium,Poor,0,3,1
+2457,Patient Monitor,Canon Medical,3,59,12,45,4,ICU,Medium,Poor,0,3,0
+2458,Infusion Pump,Mindray,3,74,12,38,7,ICU,High,Moderate,1,2,0
+2459,Ultrasound,Siemens,4,61,12,24,9,Lab,Medium,Poor,0,3,0
+2460,MRI Scanner,Canon Medical,1,67,4,106,3,Ward,Medium,Moderate,0,4,0
+2461,Ultrasound,Siemens,5,69,2,190,7,Ward,High,Moderate,0,5,0
+2462,X-Ray,Siemens,5,43,4,94,9,ICU,High,Good,0,4,0
+2463,X-Ray,Philips,7,48,2,182,15,ICU,Low,Moderate,0,2,1
+2464,Infusion Pump,Siemens,3,13,6,51,2,ICU,High,Moderate,1,4,0
+2465,Infusion Pump,Philips,4,85,6,74,12,ICU,Medium,Poor,0,3,0
+2466,Ultrasound,Medtronic,7,52,4,83,10,Ward,High,Good,1,4,1
+2467,ECG,Mindray,3,63,4,127,0,Ward,High,Moderate,0,1,0
+2468,Ventilator,Siemens,4,49,6,89,6,Ward,High,Moderate,0,5,0
+2469,ECG,Medtronic,12,66,1,395,27,ICU,High,Good,0,2,1
+2470,CT Scanner,Mindray,5,58,2,203,13,Ward,Medium,Moderate,0,2,1
+2471,MRI Scanner,Philips,7,57,2,212,14,ICU,Medium,Good,0,4,1
+2472,Patient Monitor,Canon Medical,4,25,1,401,14,Lab,Medium,Moderate,0,4,1
+2473,Infusion Pump,Philips,5,63,4,90,2,Lab,Medium,Good,0,3,0
+2474,Ultrasound,Philips,4,57,6,87,8,ICU,Low,Poor,0,2,0
+2475,CT Scanner,Medtronic,7,85,2,193,10,Ward,Medium,Moderate,0,3,0
+2476,Patient Monitor,Medtronic,8,38,12,32,6,ICU,Medium,Moderate,0,3,0
+2477,Infusion Pump,GE Healthcare,3,89,2,215,11,Ward,Low,Poor,0,5,0
+2478,MRI Scanner,Medtronic,8,59,6,65,8,Diagnostic Center,High,Poor,0,3,0
+2479,Infusion Pump,Mindray,2,59,6,81,0,Diagnostic Center,Medium,Good,0,3,0
+2480,Infusion Pump,Siemens,4,67,12,60,5,Ward,Medium,Good,0,5,0
+2481,Ventilator,Mindray,8,82,4,115,10,Ward,Medium,Poor,2,1,1
+2482,Ventilator,Canon Medical,3,61,4,108,11,ICU,Low,Good,0,2,0
+2483,CT Scanner,Fujifilm,9,69,6,79,11,ICU,Medium,Good,0,2,1
+2484,Ultrasound,Fujifilm,7,49,4,110,8,ICU,High,Moderate,0,3,1
+2485,Patient Monitor,Siemens,2,97,6,90,10,ICU,Medium,Good,0,4,0
+2486,Ventilator,GE Healthcare,6,55,4,125,8,Diagnostic Center,Medium,Poor,0,4,0
+2487,X-Ray,Mindray,2,52,4,129,8,Ward,Medium,Good,1,2,0
+2488,MRI Scanner,Siemens,5,71,6,99,10,Diagnostic Center,High,Poor,0,3,1
+2489,CT Scanner,Mindray,5,54,2,213,9,ICU,High,Good,0,3,1
+2490,X-Ray,Philips,7,49,6,60,4,Diagnostic Center,High,Moderate,0,3,0
+2491,CT Scanner,Canon Medical,5,62,4,112,4,ICU,High,Moderate,0,4,0
+2492,X-Ray,Mindray,11,80,12,59,12,Ward,Low,Moderate,0,1,0
+2493,Infusion Pump,Philips,5,76,4,122,9,Diagnostic Center,High,Moderate,0,3,1
+2494,Ventilator,Mindray,4,82,1,399,17,ICU,Medium,Poor,0,2,1
+2495,MRI Scanner,Canon Medical,7,44,4,81,5,Ward,High,Good,0,4,0
+2496,X-Ray,Canon Medical,8,64,2,204,13,ICU,High,Poor,1,3,1
+2497,MRI Scanner,Canon Medical,7,52,4,120,13,Diagnostic Center,High,Moderate,0,4,1
+2498,CT Scanner,GE Healthcare,9,56,6,61,11,Diagnostic Center,High,Poor,0,5,0
+2499,X-Ray,Mindray,3,76,2,175,7,Ward,High,Poor,1,2,1
+2500,Ultrasound,Mindray,3,54,2,188,5,Operating Room,Medium,Good,0,2,0
+2501,ECG,Siemens,7,79,6,93,8,Ward,High,Good,0,4,0
+2502,MRI Scanner,Medtronic,5,61,6,71,3,Diagnostic Center,Low,Poor,0,4,0
+2503,Ultrasound,Siemens,9,78,4,103,11,Diagnostic Center,High,Moderate,0,3,1
+2504,Ultrasound,Fujifilm,5,57,2,185,12,Ward,High,Good,0,2,1
+2505,Infusion Pump,Canon Medical,3,93,4,100,11,Lab,Medium,Good,0,3,0
+2506,X-Ray,Mindray,8,65,2,182,8,ICU,High,Poor,1,1,1
+2507,X-Ray,Medtronic,4,71,1,369,15,ICU,Medium,Moderate,1,4,1
+2508,Infusion Pump,Siemens,8,33,4,108,9,ICU,Low,Moderate,0,4,0
+2509,CT Scanner,Medtronic,6,75,4,82,9,Ward,High,Good,0,3,0
+2510,CT Scanner,Mindray,5,27,4,81,5,Lab,Low,Good,0,2,0
+2511,Ventilator,Philips,2,64,6,78,9,Operating Room,Medium,Moderate,0,2,0
+2512,Ventilator,GE Healthcare,4,53,4,100,10,Operating Room,High,Poor,0,5,0
+2513,ECG,GE Healthcare,8,75,4,81,6,Ward,High,Moderate,1,4,0
+2514,X-Ray,Fujifilm,5,94,4,129,11,Diagnostic Center,High,Poor,0,3,1
+2515,Infusion Pump,Canon Medical,7,63,6,80,13,Lab,Low,Moderate,0,3,0
+2516,Ultrasound,Medtronic,4,47,4,117,6,Ward,Medium,Poor,0,2,0
+2517,X-Ray,Medtronic,5,56,12,24,4,Ward,High,Poor,0,4,0
+2518,X-Ray,Mindray,5,32,6,93,9,Diagnostic Center,Low,Poor,0,1,1
+2519,Ventilator,Mindray,8,20,4,84,10,Operating Room,High,Poor,0,2,1
+2520,X-Ray,Canon Medical,6,57,4,123,12,Ward,High,Good,0,2,1
+2521,Ultrasound,Siemens,2,82,6,89,7,Operating Room,Medium,Moderate,0,5,0
+2522,CT Scanner,Canon Medical,5,84,6,70,9,ICU,Medium,Moderate,0,3,0
+2523,Ventilator,Siemens,5,85,4,87,4,Ward,High,Good,0,5,0
+2524,Infusion Pump,Siemens,1,40,6,67,5,Diagnostic Center,Medium,Good,0,5,0
+2525,Infusion Pump,Medtronic,6,31,2,199,11,Diagnostic Center,Medium,Poor,0,3,1
+2526,Ventilator,Siemens,3,35,2,174,4,ICU,Low,Moderate,0,5,0
+2527,X-Ray,Medtronic,12,33,6,84,13,Ward,Medium,Good,0,2,1
+2528,Ultrasound,Canon Medical,6,83,0,386,18,Ward,High,Good,1,4,1
+2529,X-Ray,Mindray,5,86,2,179,12,Operating Room,High,Moderate,0,3,0
+2530,Ultrasound,Mindray,4,57,4,127,10,Operating Room,High,Poor,0,2,1
+2531,X-Ray,Mindray,2,55,6,87,0,ICU,High,Moderate,1,2,0
+2532,Ultrasound,Canon Medical,4,54,2,221,16,Diagnostic Center,High,Poor,0,4,0
+2533,MRI Scanner,GE Healthcare,10,47,2,206,13,Operating Room,Medium,Good,0,3,1
+2534,X-Ray,Mindray,8,69,6,90,10,Diagnostic Center,Medium,Good,1,1,1
+2535,ECG,GE Healthcare,8,60,4,125,10,Diagnostic Center,Medium,Moderate,0,4,1
+2536,Patient Monitor,Siemens,6,33,2,180,13,Operating Room,Medium,Good,0,4,1
+2537,X-Ray,Philips,5,82,2,172,10,ICU,High,Good,0,2,1
+2538,X-Ray,Siemens,8,56,4,94,6,Diagnostic Center,High,Poor,0,4,0
+2539,X-Ray,Mindray,7,53,2,173,10,Diagnostic Center,High,Moderate,0,3,1
+2540,Patient Monitor,GE Healthcare,3,45,2,217,14,Diagnostic Center,High,Good,0,4,1
+2541,CT Scanner,Siemens,4,46,0,381,17,ICU,Medium,Poor,1,5,1
+2542,Infusion Pump,Siemens,6,47,4,104,8,Ward,High,Moderate,0,5,0
+2543,X-Ray,Siemens,8,37,6,69,8,Operating Room,High,Good,0,5,0
+2544,Infusion Pump,Canon Medical,2,30,6,87,4,ICU,Medium,Moderate,0,4,0
+2545,Ultrasound,Siemens,3,40,2,183,4,Ward,High,Poor,0,3,0
+2546,Infusion Pump,Siemens,5,52,12,50,6,Ward,High,Moderate,0,4,0
+2547,Ultrasound,GE Healthcare,5,22,12,20,0,Diagnostic Center,High,Moderate,0,5,0
+2548,Ultrasound,Fujifilm,4,47,6,85,7,ICU,High,Poor,0,2,0
+2549,ECG,GE Healthcare,9,47,4,84,9,Diagnostic Center,High,Poor,0,5,0
+2550,Infusion Pump,Mindray,13,20,6,65,11,Diagnostic Center,High,Moderate,0,2,1
+2551,Infusion Pump,Siemens,9,54,6,73,10,ICU,Low,Good,0,3,0
+2552,ECG,Philips,7,27,4,89,4,Diagnostic Center,Low,Poor,0,4,0
+2553,MRI Scanner,Fujifilm,6,66,4,113,7,Diagnostic Center,High,Moderate,0,4,0
+2554,Patient Monitor,Canon Medical,4,58,6,85,7,ICU,Low,Good,0,3,0
+2555,Ultrasound,Mindray,4,68,6,92,9,Ward,Medium,Moderate,0,1,1
+2556,X-Ray,Medtronic,9,43,4,114,18,Ward,Medium,Good,0,4,1
+2557,CT Scanner,Mindray,7,87,6,60,9,ICU,High,Moderate,0,2,0
+2558,Ultrasound,Canon Medical,9,55,2,206,11,Operating Room,Medium,Moderate,1,4,1
+2559,Ultrasound,Medtronic,14,65,2,186,20,Diagnostic Center,Medium,Poor,0,3,1
+2560,ECG,Canon Medical,5,44,2,173,10,ICU,High,Moderate,1,2,1
+2561,X-Ray,GE Healthcare,6,46,4,106,5,Diagnostic Center,Medium,Poor,0,3,0
+2562,X-Ray,GE Healthcare,7,49,12,65,5,Diagnostic Center,Medium,Moderate,0,3,0
+2563,Ventilator,GE Healthcare,5,27,0,364,17,Diagnostic Center,Medium,Moderate,0,4,1
+2564,X-Ray,Mindray,1,70,4,81,6,Operating Room,High,Poor,0,3,0
+2565,CT Scanner,Siemens,8,48,4,130,9,ICU,Medium,Moderate,1,3,1
+2566,ECG,Mindray,5,62,1,383,17,ICU,Medium,Poor,0,3,1
+2567,Infusion Pump,GE Healthcare,3,43,4,106,9,Diagnostic Center,Medium,Good,0,3,0
+2568,Patient Monitor,Mindray,5,47,4,83,6,Lab,Medium,Moderate,0,3,0
+2569,CT Scanner,GE Healthcare,9,55,4,109,7,Diagnostic Center,High,Good,0,3,1
+2570,MRI Scanner,Mindray,7,29,1,376,15,Ward,Low,Moderate,0,3,1
+2571,MRI Scanner,Siemens,9,53,4,122,14,ICU,Medium,Moderate,0,5,0
+2572,Ultrasound,Mindray,8,41,6,94,15,Ward,Medium,Good,0,3,0
+2573,ECG,Mindray,6,62,6,75,11,ICU,High,Good,0,3,0
+2574,ECG,Philips,6,59,0,399,15,Operating Room,Medium,Good,0,3,1
+2575,X-Ray,Siemens,8,78,6,59,10,ICU,Medium,Good,0,3,0
+2576,X-Ray,Canon Medical,4,76,12,62,8,Diagnostic Center,Medium,Good,1,2,0
+2577,Ventilator,Medtronic,5,53,2,190,18,Diagnostic Center,High,Good,0,2,1
+2578,X-Ray,Fujifilm,9,46,4,116,11,ICU,Medium,Poor,0,3,1
+2579,CT Scanner,GE Healthcare,3,59,12,46,4,ICU,Medium,Moderate,0,5,0
+2580,X-Ray,Fujifilm,4,29,4,128,8,Lab,High,Good,0,4,0
+2581,ECG,Philips,5,78,4,111,7,Ward,High,Poor,0,2,0
+2582,X-Ray,Mindray,7,65,6,62,9,Lab,High,Moderate,0,1,1
+2583,Infusion Pump,Siemens,7,46,4,109,8,Diagnostic Center,Low,Good,0,5,0
+2584,Patient Monitor,Siemens,5,52,6,93,14,Operating Room,High,Good,0,4,0
+2585,X-Ray,GE Healthcare,9,64,1,403,17,Ward,Medium,Poor,0,4,1
+2586,X-Ray,Mindray,6,55,12,21,3,Operating Room,High,Good,0,3,0
+2587,Ventilator,GE Healthcare,6,70,0,401,18,Diagnostic Center,High,Good,0,4,1
+2588,Ultrasound,Siemens,5,58,4,91,10,Diagnostic Center,Medium,Good,0,5,0
+2589,Infusion Pump,Canon Medical,7,70,2,192,9,Operating Room,Low,Moderate,0,3,1
+2590,MRI Scanner,Mindray,10,25,12,38,6,Operating Room,High,Moderate,0,2,0
+2591,MRI Scanner,Philips,9,69,0,356,21,Operating Room,Medium,Moderate,0,3,1
+2592,ECG,Mindray,6,54,4,92,6,Operating Room,Medium,Poor,0,1,1
+2593,Infusion Pump,Philips,4,45,4,88,5,ICU,Low,Good,0,2,0
+2594,Ultrasound,Philips,4,61,1,396,18,Diagnostic Center,High,Good,0,3,1
+2595,X-Ray,Philips,4,60,6,85,8,Lab,High,Poor,0,3,0
+2596,Ventilator,Mindray,5,91,6,84,8,Ward,High,Poor,0,3,0
+2597,Patient Monitor,Siemens,9,41,4,123,11,Ward,Medium,Good,0,3,0
+2598,X-Ray,Mindray,13,35,6,66,12,Ward,Medium,Moderate,0,2,1
+2599,Infusion Pump,Canon Medical,8,72,6,79,14,Ward,High,Poor,0,2,1
+2600,CT Scanner,GE Healthcare,3,44,4,109,4,ICU,Medium,Good,0,5,0
+2601,ECG,Mindray,10,60,6,70,9,ICU,Medium,Moderate,2,3,0
+2602,Ultrasound,Mindray,3,68,4,128,6,ICU,Low,Good,0,1,0
+2603,X-Ray,Fujifilm,6,73,6,62,9,Operating Room,Low,Moderate,0,3,0
+2604,Infusion Pump,Canon Medical,4,75,4,105,6,Operating Room,High,Good,0,4,0
+2605,Ultrasound,Siemens,3,40,6,56,7,Operating Room,High,Poor,0,3,0
+2606,Ultrasound,Medtronic,5,52,1,380,16,Diagnostic Center,Low,Moderate,0,2,1
+2607,ECG,Fujifilm,6,71,12,45,6,ICU,High,Moderate,0,2,0
+2608,ECG,Mindray,2,65,12,65,4,ICU,Low,Moderate,0,1,0
+2609,X-Ray,Philips,7,51,4,127,12,Lab,Medium,Moderate,0,3,1
+2610,Ultrasound,GE Healthcare,5,41,12,29,1,Ward,High,Moderate,0,3,0
+2611,Ultrasound,Fujifilm,4,64,1,378,20,Diagnostic Center,Medium,Moderate,0,2,1
+2612,CT Scanner,Mindray,9,58,12,57,9,ICU,Medium,Poor,1,2,1
+2613,Ultrasound,Fujifilm,8,82,1,385,19,Lab,Low,Good,0,2,1
+2614,MRI Scanner,Fujifilm,7,79,6,67,7,Diagnostic Center,High,Moderate,0,3,0
+2615,Ultrasound,Philips,6,11,6,85,1,Ward,Medium,Moderate,0,4,0
+2616,CT Scanner,Siemens,6,84,6,87,6,Diagnostic Center,Low,Good,0,5,0
+2617,X-Ray,Siemens,5,52,2,195,4,ICU,High,Moderate,0,4,0
+2618,MRI Scanner,GE Healthcare,4,33,4,86,5,Lab,Medium,Poor,0,3,0
+2619,Infusion Pump,Mindray,4,65,4,82,9,ICU,Medium,Good,0,1,0
+2620,Ultrasound,Mindray,9,60,6,81,9,ICU,High,Moderate,0,3,1
+2621,Ultrasound,Canon Medical,9,85,6,81,13,Ward,Medium,Poor,0,4,0
+2622,Ventilator,Medtronic,5,44,6,80,9,Operating Room,Low,Poor,0,4,0
+2623,Ventilator,GE Healthcare,5,74,4,114,10,Ward,High,Good,0,5,0
+2624,Infusion Pump,Mindray,11,95,4,87,10,Operating Room,Medium,Moderate,1,1,1
+2625,Ventilator,GE Healthcare,8,60,6,51,11,Diagnostic Center,Medium,Moderate,0,4,0
+2626,CT Scanner,Medtronic,7,69,0,365,22,ICU,Medium,Poor,1,3,1
+2627,Ventilator,Canon Medical,5,79,4,87,8,Lab,High,Good,1,2,1
+2628,MRI Scanner,Medtronic,3,60,6,53,6,ICU,Medium,Moderate,0,2,0
+2629,Infusion Pump,GE Healthcare,10,57,6,62,10,ICU,Medium,Poor,1,5,0
+2630,Infusion Pump,GE Healthcare,7,54,6,81,8,ICU,Medium,Good,0,3,0
+2631,MRI Scanner,Philips,5,62,4,107,12,Diagnostic Center,High,Poor,1,4,1
+2632,ECG,GE Healthcare,6,70,6,82,8,Diagnostic Center,Low,Moderate,0,3,0
+2633,Ventilator,GE Healthcare,11,24,4,86,4,Lab,High,Moderate,0,3,0
+2634,Ultrasound,GE Healthcare,3,47,4,129,4,Operating Room,High,Poor,0,5,0
+2635,Patient Monitor,Siemens,7,65,6,89,9,Ward,Low,Good,0,3,0
+2636,CT Scanner,GE Healthcare,4,22,4,115,2,Ward,Medium,Poor,0,3,0
+2637,MRI Scanner,GE Healthcare,8,37,6,82,10,ICU,High,Good,0,3,0
+2638,Infusion Pump,Mindray,7,50,6,96,7,Ward,High,Good,0,1,1
+2639,Ultrasound,Siemens,6,76,12,68,6,Ward,Medium,Good,0,4,0
+2640,Patient Monitor,Fujifilm,3,43,2,206,8,ICU,High,Poor,0,4,1
+2641,ECG,GE Healthcare,12,85,4,86,7,Lab,Medium,Good,0,4,0
+2642,MRI Scanner,Mindray,6,68,6,89,18,Lab,Low,Poor,0,3,1
+2643,Ultrasound,Medtronic,6,53,4,99,11,ICU,Medium,Good,1,3,1
+2644,Infusion Pump,Canon Medical,6,29,6,95,7,ICU,Medium,Good,1,2,1
+2645,Ultrasound,Philips,7,89,4,91,13,Lab,Medium,Good,0,3,1
+2646,Ultrasound,Fujifilm,8,62,12,35,5,Ward,Medium,Good,1,3,0
+2647,Infusion Pump,Mindray,3,38,6,87,6,ICU,High,Good,0,3,0
+2648,Ultrasound,Mindray,3,47,6,93,6,Diagnostic Center,Medium,Poor,0,1,0
+2649,Ventilator,Philips,5,84,12,39,9,ICU,Medium,Good,0,2,0
+2650,Infusion Pump,Siemens,4,30,12,60,3,Lab,Medium,Good,0,4,0
+2651,X-Ray,Siemens,3,85,12,61,10,Lab,Medium,Good,0,4,0
+2652,CT Scanner,GE Healthcare,9,62,6,66,10,Operating Room,Medium,Moderate,0,4,0
+2653,CT Scanner,Canon Medical,7,65,6,61,8,Diagnostic Center,High,Moderate,0,3,0
+2654,CT Scanner,Mindray,7,78,6,85,6,ICU,High,Moderate,0,3,0
+2655,Infusion Pump,Philips,5,68,4,96,11,Lab,Medium,Poor,0,3,0
+2656,Infusion Pump,Siemens,5,61,6,77,4,Lab,Medium,Poor,0,4,0
+2657,ECG,GE Healthcare,8,62,6,97,8,Operating Room,Medium,Good,0,5,0
+2658,Infusion Pump,GE Healthcare,6,63,2,218,17,ICU,High,Poor,1,3,1
+2659,Infusion Pump,Mindray,8,45,4,115,6,Ward,High,Moderate,0,2,0
+2660,X-Ray,Fujifilm,9,73,2,187,13,ICU,Medium,Poor,1,3,1
+2661,Infusion Pump,Medtronic,3,48,6,91,0,ICU,Low,Moderate,0,2,0
+2662,Ventilator,Medtronic,8,31,6,86,6,Ward,Medium,Moderate,0,2,0
+2663,Patient Monitor,Fujifilm,9,82,6,76,13,Operating Room,Medium,Poor,0,2,1
+2664,X-Ray,Fujifilm,8,90,4,82,6,Ward,Low,Good,0,2,0
+2665,Infusion Pump,Fujifilm,6,84,1,378,19,ICU,High,Good,0,4,1
+2666,Ultrasound,Fujifilm,8,67,4,118,16,Ward,High,Good,0,4,1
+2667,MRI Scanner,Siemens,7,48,4,114,1,Ward,Medium,Moderate,0,4,0
+2668,Ultrasound,Siemens,2,75,6,53,7,Ward,High,Moderate,0,4,0
+2669,Ultrasound,GE Healthcare,4,84,4,116,12,Operating Room,Medium,Poor,0,4,0
+2670,Infusion Pump,Medtronic,7,67,6,62,4,Ward,Medium,Good,0,2,0
+2671,Ventilator,Medtronic,5,66,2,199,13,Ward,High,Good,0,4,1
+2672,Infusion Pump,Fujifilm,11,57,6,63,12,Ward,Medium,Poor,1,2,1
+2673,Patient Monitor,Siemens,6,31,4,130,9,Operating Room,Medium,Moderate,0,3,0
+2674,Ultrasound,Mindray,2,69,6,50,9,Diagnostic Center,High,Good,0,2,0
+2675,Infusion Pump,Philips,6,70,6,71,10,ICU,High,Good,0,3,0
+2676,MRI Scanner,Mindray,2,58,6,54,6,Operating Room,High,Good,0,3,0
+2677,Ultrasound,Mindray,11,39,2,218,16,Diagnostic Center,High,Moderate,1,2,1
+2678,MRI Scanner,Siemens,5,49,4,130,10,Diagnostic Center,Medium,Moderate,0,5,0
+2679,MRI Scanner,Mindray,4,46,12,54,10,Ward,Low,Good,0,3,0
+2680,X-Ray,Canon Medical,6,50,4,97,3,ICU,High,Moderate,0,2,0
+2681,ECG,GE Healthcare,5,68,4,97,6,Ward,High,Moderate,0,5,0
+2682,Ventilator,Mindray,5,68,4,121,9,ICU,High,Moderate,0,1,1
+2683,X-Ray,Siemens,14,82,2,200,17,ICU,Medium,Moderate,0,4,1
+2684,MRI Scanner,Canon Medical,10,64,6,81,10,Ward,Medium,Good,0,2,1
+2685,X-Ray,Medtronic,3,64,4,83,9,Diagnostic Center,High,Good,0,4,0
+2686,Ultrasound,Siemens,4,48,6,75,10,ICU,High,Poor,0,5,0
+2687,ECG,Siemens,4,68,4,91,8,Ward,Medium,Moderate,0,3,0
+2688,CT Scanner,Philips,7,72,6,54,9,ICU,Medium,Poor,0,4,0
+2689,MRI Scanner,GE Healthcare,6,54,1,391,20,ICU,High,Poor,0,3,1
+2690,Infusion Pump,GE Healthcare,8,24,2,176,5,ICU,Medium,Poor,0,3,1
+2691,ECG,Mindray,6,64,12,57,5,Ward,High,Moderate,0,2,0
+2692,ECG,Philips,7,10,6,94,7,Ward,High,Poor,0,3,0
+2693,CT Scanner,Fujifilm,7,52,6,80,9,Diagnostic Center,Low,Poor,0,2,0
+2694,Ultrasound,GE Healthcare,9,72,4,125,12,Ward,Medium,Moderate,0,5,0
+2695,Infusion Pump,GE Healthcare,7,35,6,67,7,Operating Room,High,Good,0,4,0
+2696,Infusion Pump,Mindray,6,66,4,101,12,ICU,High,Moderate,0,3,1
+2697,Infusion Pump,GE Healthcare,9,86,6,95,7,Ward,Medium,Moderate,0,5,0
+2698,X-Ray,Philips,7,68,4,125,5,Lab,High,Moderate,0,3,1
+2699,MRI Scanner,Mindray,4,91,6,54,9,ICU,High,Poor,0,2,0
+2700,CT Scanner,Fujifilm,5,13,6,69,6,Lab,Medium,Good,1,4,0
+2701,X-Ray,Fujifilm,3,77,2,194,7,ICU,Low,Moderate,0,4,0
+2702,Infusion Pump,Siemens,10,50,2,204,17,ICU,High,Good,0,5,1
+2703,CT Scanner,Medtronic,7,61,12,55,8,ICU,High,Moderate,0,4,0
+2704,ECG,Siemens,6,52,6,74,8,Ward,Medium,Good,0,4,0
+2705,MRI Scanner,Siemens,4,87,12,35,4,Operating Room,High,Poor,0,4,0
+2706,Ventilator,GE Healthcare,3,69,6,79,9,Diagnostic Center,Low,Moderate,0,4,0
+2707,X-Ray,Philips,3,51,4,116,9,Ward,Medium,Good,0,3,0
+2708,Ultrasound,Mindray,7,32,6,62,4,Ward,Medium,Good,0,3,0
+2709,Ultrasound,GE Healthcare,3,41,0,394,17,Lab,Low,Good,0,3,1
+2710,Infusion Pump,Medtronic,4,108,12,69,12,Ward,Medium,Good,0,3,0
+2711,Ventilator,Philips,3,50,6,94,9,ICU,Low,Poor,0,3,0
+2712,Ventilator,Canon Medical,4,77,4,128,13,ICU,Medium,Good,0,2,1
+2713,MRI Scanner,Canon Medical,3,51,6,73,3,ICU,High,Poor,0,2,0
+2714,Infusion Pump,Canon Medical,10,51,2,203,15,ICU,Medium,Moderate,0,3,1
+2715,CT Scanner,Mindray,4,53,6,82,10,Operating Room,High,Moderate,0,2,0
+2716,ECG,Philips,1,46,4,117,10,Lab,Medium,Poor,0,4,0
+2717,MRI Scanner,Mindray,8,63,2,198,17,Ward,Medium,Good,0,3,1
+2718,Infusion Pump,GE Healthcare,5,82,6,95,6,Lab,Medium,Poor,0,5,0
+2719,Ventilator,GE Healthcare,13,95,4,96,13,Lab,Low,Good,0,3,1
+2720,ECG,GE Healthcare,4,46,12,48,4,Diagnostic Center,Medium,Poor,0,3,0
+2721,Ultrasound,Canon Medical,6,75,12,55,8,ICU,Medium,Good,1,2,0
+2722,MRI Scanner,Philips,11,71,2,175,16,Ward,Medium,Good,0,2,1
+2723,Ultrasound,Medtronic,8,58,12,22,9,ICU,High,Moderate,0,4,0
+2724,Infusion Pump,GE Healthcare,3,68,4,99,7,Ward,Low,Poor,1,5,0
+2725,Ventilator,Canon Medical,4,69,4,99,8,Lab,High,Good,0,2,0
+2726,Infusion Pump,Fujifilm,9,33,2,193,13,Diagnostic Center,Medium,Poor,0,3,1
+2727,X-Ray,Mindray,2,65,2,183,8,Operating Room,High,Poor,0,3,1
+2728,MRI Scanner,Siemens,7,75,0,364,20,Diagnostic Center,Medium,Good,0,5,1
+2729,Patient Monitor,GE Healthcare,5,73,1,390,17,Diagnostic Center,High,Moderate,0,5,1
+2730,CT Scanner,Canon Medical,4,69,6,97,5,Lab,Low,Moderate,0,3,0
+2731,CT Scanner,Siemens,9,65,4,105,11,Ward,Medium,Good,1,3,1
+2732,MRI Scanner,Mindray,3,41,12,64,3,Lab,Low,Good,0,1,0
+2733,Infusion Pump,Canon Medical,5,57,2,175,4,Diagnostic Center,Medium,Good,0,3,0
+2734,MRI Scanner,Medtronic,6,58,2,176,10,ICU,High,Poor,0,3,1
+2735,CT Scanner,Siemens,10,53,6,74,11,Ward,High,Poor,0,4,1
+2736,Ultrasound,Medtronic,4,53,4,89,7,ICU,Medium,Moderate,0,4,0
+2737,MRI Scanner,Medtronic,9,80,6,52,10,ICU,High,Poor,0,3,1
+2738,Infusion Pump,Medtronic,10,62,6,87,8,Diagnostic Center,Medium,Poor,0,2,1
+2739,X-Ray,GE Healthcare,6,73,4,85,8,Ward,High,Moderate,0,4,0
+2740,Infusion Pump,GE Healthcare,5,48,4,88,13,ICU,Medium,Poor,0,3,0
+2741,Ultrasound,Siemens,6,88,6,50,7,Diagnostic Center,Medium,Poor,0,3,0
+2742,ECG,Canon Medical,8,67,2,193,17,Ward,High,Good,0,4,1
+2743,ECG,Fujifilm,4,57,2,178,17,Ward,High,Poor,0,4,0
+2744,ECG,Mindray,5,72,2,194,10,Ward,Medium,Good,0,3,1
+2745,Ventilator,GE Healthcare,3,56,4,96,9,Operating Room,Medium,Poor,0,5,0
+2746,Ultrasound,Medtronic,9,71,6,76,9,Diagnostic Center,High,Good,0,3,0
+2747,CT Scanner,Medtronic,3,28,6,95,7,Lab,High,Good,0,4,0
+2748,MRI Scanner,Philips,6,24,4,130,8,ICU,Medium,Poor,1,2,1
+2749,X-Ray,Fujifilm,7,75,6,59,8,Diagnostic Center,High,Moderate,0,2,0
+2750,Ventilator,Canon Medical,10,18,12,43,4,Lab,High,Moderate,0,3,0
+2751,Ultrasound,Mindray,16,84,4,98,14,ICU,Medium,Good,1,2,1
+2752,CT Scanner,Mindray,9,52,4,95,13,Ward,High,Moderate,0,3,1
+2753,Ultrasound,Siemens,6,78,12,28,7,Lab,High,Poor,0,4,0
+2754,MRI Scanner,Mindray,6,81,12,32,10,Ward,Low,Poor,0,1,0
+2755,Ultrasound,Medtronic,8,80,4,95,14,Lab,High,Moderate,0,4,1
+2756,Ultrasound,Canon Medical,3,67,2,205,16,Lab,Low,Good,0,2,1
+2757,ECG,Canon Medical,9,30,4,90,4,Diagnostic Center,Medium,Good,2,3,0
+2758,CT Scanner,Mindray,3,36,6,90,5,Operating Room,Medium,Poor,0,3,0
+2759,Infusion Pump,Philips,4,40,12,62,1,Diagnostic Center,High,Poor,0,3,0
+2760,Ventilator,Mindray,7,65,6,54,1,Diagnostic Center,High,Poor,0,2,0
+2761,Ultrasound,GE Healthcare,7,51,6,65,9,Diagnostic Center,Medium,Moderate,0,4,0
+2762,MRI Scanner,Canon Medical,5,69,2,221,16,ICU,Medium,Moderate,0,4,1
+2763,ECG,Mindray,2,71,12,66,13,Diagnostic Center,High,Poor,0,1,0
+2764,Patient Monitor,Mindray,5,75,4,91,11,Diagnostic Center,Medium,Poor,0,3,0
+2765,Ultrasound,Mindray,10,57,4,83,13,ICU,Medium,Moderate,0,2,1
+2766,MRI Scanner,Medtronic,6,84,12,30,9,Ward,Low,Good,0,4,0
+2767,X-Ray,Canon Medical,10,44,6,79,7,ICU,High,Poor,0,3,1
+2768,CT Scanner,GE Healthcare,6,44,4,120,8,ICU,Medium,Moderate,0,5,0
+2769,Infusion Pump,Mindray,6,76,6,60,8,Diagnostic Center,High,Poor,1,3,0
+2770,MRI Scanner,Mindray,4,28,4,103,2,Diagnostic Center,Low,Poor,0,2,0
+2771,Infusion Pump,GE Healthcare,7,55,6,74,10,Diagnostic Center,Medium,Good,0,3,0
+2772,Ultrasound,Medtronic,5,69,4,110,11,ICU,Medium,Poor,0,4,0
+2773,CT Scanner,GE Healthcare,9,45,6,86,6,Operating Room,High,Good,0,3,0
+2774,ECG,Medtronic,6,24,6,60,9,Operating Room,High,Good,1,4,0
+2775,X-Ray,Philips,4,52,0,400,18,Ward,Medium,Moderate,0,2,1
+2776,Ultrasound,Philips,9,35,4,95,9,Ward,High,Good,0,4,1
+2777,Ultrasound,Siemens,9,48,4,104,8,ICU,Medium,Moderate,0,5,0
+2778,MRI Scanner,Medtronic,9,85,12,56,14,Lab,Low,Good,0,3,0
+2779,CT Scanner,Canon Medical,5,79,2,214,15,Diagnostic Center,High,Moderate,0,4,1
+2780,MRI Scanner,Medtronic,8,57,4,121,12,ICU,High,Moderate,1,2,1
+2781,CT Scanner,Canon Medical,2,83,2,212,13,ICU,Medium,Moderate,0,4,1
+2782,ECG,Siemens,5,90,12,34,6,Ward,High,Poor,0,3,0
+2783,Ventilator,Mindray,3,77,2,175,12,Diagnostic Center,Medium,Good,0,3,0
+2784,ECG,Mindray,3,55,1,384,16,Lab,High,Moderate,0,1,1
+2785,ECG,Philips,12,39,6,65,12,Operating Room,High,Moderate,0,4,1
+2786,Infusion Pump,GE Healthcare,6,46,12,37,5,Diagnostic Center,Medium,Good,0,4,0
+2787,X-Ray,GE Healthcare,5,74,2,178,16,Diagnostic Center,High,Good,0,4,1
+2788,Ultrasound,Philips,0,45,6,96,3,Ward,Low,Good,0,2,0
+2789,Ventilator,Siemens,8,70,4,96,16,Diagnostic Center,Low,Good,0,5,0
+2790,Ventilator,GE Healthcare,6,76,1,397,20,ICU,Medium,Good,0,3,1
+2791,Infusion Pump,Siemens,4,49,6,51,9,Lab,Medium,Moderate,0,4,0
+2792,Ventilator,Mindray,8,66,0,397,16,Lab,Medium,Good,0,3,1
+2793,Ventilator,GE Healthcare,6,63,6,60,8,Ward,High,Moderate,1,5,0
+2794,Patient Monitor,Mindray,2,49,2,188,5,Diagnostic Center,Medium,Moderate,0,1,0
+2795,Ultrasound,Canon Medical,4,90,1,376,25,Lab,High,Good,0,2,1
+2796,ECG,GE Healthcare,5,65,6,60,2,ICU,High,Moderate,0,5,0
+2797,CT Scanner,Philips,4,66,12,40,5,Diagnostic Center,High,Moderate,0,3,0
+2798,Ultrasound,Philips,8,56,2,195,11,ICU,Medium,Good,1,3,1
+2799,Ultrasound,Canon Medical,4,65,1,358,16,Diagnostic Center,High,Good,0,4,1
+2800,Ventilator,Philips,6,48,6,92,9,Lab,Medium,Good,1,4,0
+2801,X-Ray,GE Healthcare,9,42,1,390,17,Lab,Medium,Good,0,5,1
+2802,CT Scanner,Siemens,7,76,6,53,7,Diagnostic Center,High,Moderate,0,4,0
+2803,Infusion Pump,Mindray,5,41,2,207,8,Diagnostic Center,Medium,Good,0,1,1
+2804,MRI Scanner,Medtronic,8,59,1,399,22,Operating Room,Medium,Poor,0,3,1
+2805,Patient Monitor,Mindray,12,80,1,375,25,ICU,Medium,Poor,0,1,1
+2806,Ultrasound,Philips,3,58,4,127,5,ICU,High,Poor,0,2,0
+2807,ECG,GE Healthcare,6,67,2,211,16,Operating Room,Low,Good,0,4,1
+2808,Patient Monitor,GE Healthcare,3,38,6,98,4,Operating Room,Medium,Moderate,0,3,0
+2809,ECG,Canon Medical,7,21,1,399,19,Diagnostic Center,High,Good,0,2,1
+2810,ECG,Medtronic,4,40,6,77,12,ICU,Medium,Good,0,2,0
+2811,Ventilator,Siemens,7,80,12,49,8,ICU,Medium,Moderate,0,3,0
+2812,X-Ray,Fujifilm,4,54,6,53,3,Ward,Medium,Good,0,3,0
+2813,MRI Scanner,Mindray,6,55,2,174,10,Operating Room,Medium,Moderate,1,2,0
+2814,ECG,Philips,7,70,6,54,11,Operating Room,High,Good,1,2,1
+2815,Patient Monitor,GE Healthcare,2,93,6,84,12,ICU,Low,Poor,0,4,0
+2816,X-Ray,Mindray,7,70,6,50,7,ICU,High,Good,0,1,0
+2817,X-Ray,Mindray,9,82,6,99,10,Lab,High,Poor,0,2,1
+2818,ECG,Fujifilm,11,37,2,196,17,Operating Room,High,Moderate,0,2,1
+2819,MRI Scanner,GE Healthcare,4,50,2,221,14,Diagnostic Center,Medium,Good,0,5,1
+2820,Ultrasound,Siemens,5,44,4,98,4,ICU,Medium,Good,0,3,0
+2821,Ultrasound,Mindray,6,79,4,100,9,Ward,Medium,Good,0,1,0
+2822,MRI Scanner,Siemens,3,69,4,123,8,ICU,Medium,Good,0,5,0
+2823,Ultrasound,Philips,5,62,12,20,1,Lab,Medium,Poor,0,3,0
+2824,ECG,Canon Medical,11,50,6,61,10,Lab,Low,Poor,0,3,0
+2825,Ultrasound,Philips,6,81,4,96,4,Operating Room,Medium,Poor,1,3,0
+2826,CT Scanner,GE Healthcare,7,28,2,178,9,ICU,Medium,Poor,0,5,0
+2827,X-Ray,GE Healthcare,9,57,6,91,11,Ward,High,Moderate,0,5,1
+2828,MRI Scanner,Siemens,10,40,4,93,7,ICU,Low,Poor,0,4,0
+2829,Ultrasound,Siemens,5,40,6,98,8,Diagnostic Center,High,Poor,0,4,0
+2830,CT Scanner,Mindray,8,66,6,55,3,Diagnostic Center,Low,Poor,0,2,0
+2831,X-Ray,Siemens,3,84,12,56,9,Diagnostic Center,High,Good,0,4,0
+2832,Infusion Pump,Mindray,8,37,6,80,5,ICU,Medium,Poor,0,2,0
+2833,Infusion Pump,Canon Medical,5,71,1,386,20,Ward,Medium,Poor,0,2,1
+2834,Ventilator,Siemens,3,46,4,102,8,Ward,Medium,Poor,0,3,0
+2835,MRI Scanner,Canon Medical,8,59,6,51,9,Ward,High,Moderate,0,3,0
+2836,X-Ray,Medtronic,5,49,6,70,8,Ward,Medium,Good,1,4,0
+2837,Ventilator,Philips,3,46,4,128,9,Ward,Medium,Poor,0,3,0
+2838,Infusion Pump,Canon Medical,5,67,4,103,6,Ward,Low,Moderate,0,4,0
+2839,X-Ray,Mindray,10,77,6,97,5,Operating Room,High,Good,0,1,1
+2840,CT Scanner,Mindray,7,68,4,108,14,Diagnostic Center,High,Poor,0,2,1
+2841,ECG,GE Healthcare,6,76,4,86,14,Lab,High,Good,0,4,0
+2842,Ventilator,Mindray,7,49,12,32,6,Ward,Medium,Moderate,0,3,0
+2843,Infusion Pump,GE Healthcare,6,65,12,27,4,Operating Room,Medium,Poor,0,5,0
+2844,X-Ray,Siemens,5,61,1,381,15,ICU,Low,Poor,0,4,1
+2845,Ventilator,Fujifilm,2,61,4,124,8,Lab,Medium,Moderate,0,2,0
+2846,MRI Scanner,Mindray,8,78,4,95,10,Operating Room,Medium,Moderate,0,2,1
+2847,Ventilator,Fujifilm,7,116,12,32,4,Ward,High,Moderate,0,4,0
+2848,Ventilator,Canon Medical,10,41,4,103,8,Lab,Medium,Moderate,0,3,0
+2849,Ventilator,Fujifilm,5,73,4,103,5,Operating Room,High,Good,0,4,0
+2850,CT Scanner,Siemens,0,58,4,94,0,Ward,High,Poor,0,4,0
+2851,X-Ray,Mindray,8,48,6,58,7,Operating Room,High,Poor,0,3,0
+2852,Ultrasound,Mindray,10,44,6,79,6,Operating Room,Low,Moderate,0,1,0
+2853,Infusion Pump,Mindray,9,44,6,98,13,ICU,Low,Poor,0,3,1
+2854,Patient Monitor,Mindray,2,66,6,51,3,Ward,High,Good,0,2,0
+2855,ECG,Philips,6,24,12,66,8,Ward,High,Moderate,0,3,0
+2856,Ventilator,Medtronic,8,39,6,69,9,ICU,High,Poor,0,2,0
+2857,Ultrasound,Mindray,6,50,4,90,4,Diagnostic Center,High,Moderate,0,1,0
+2858,MRI Scanner,Fujifilm,2,79,1,365,13,Lab,Low,Poor,0,4,1
+2859,MRI Scanner,Siemens,11,73,6,75,14,Operating Room,Low,Poor,0,4,0
+2860,Patient Monitor,Mindray,3,31,6,75,0,Operating Room,Medium,Poor,0,2,0
+2861,Ventilator,Mindray,5,59,6,61,6,Operating Room,High,Moderate,0,1,0
+2862,Infusion Pump,Fujifilm,2,98,4,125,10,Operating Room,High,Good,0,3,0
+2863,Patient Monitor,Canon Medical,3,77,4,107,9,ICU,Medium,Poor,1,3,1
+2864,Ultrasound,Philips,9,80,2,186,14,ICU,High,Moderate,0,3,1
+2865,CT Scanner,Fujifilm,4,49,12,65,5,Lab,Medium,Moderate,0,2,0
+2866,Ultrasound,Philips,6,23,6,60,3,Ward,High,Good,0,4,0
+2867,Infusion Pump,Canon Medical,5,57,6,73,12,Diagnostic Center,Medium,Good,0,4,0
+2868,CT Scanner,GE Healthcare,6,79,4,129,14,Lab,Low,Poor,0,5,1
+2869,Patient Monitor,GE Healthcare,6,62,4,90,6,Diagnostic Center,Medium,Good,0,3,0
+2870,Infusion Pump,Canon Medical,4,52,6,68,3,ICU,High,Poor,0,4,0
+2871,Ventilator,Medtronic,6,24,4,90,2,Ward,Low,Moderate,0,4,0
+2872,CT Scanner,Mindray,9,62,2,180,15,Ward,High,Moderate,0,3,1
+2873,X-Ray,Canon Medical,4,46,4,112,4,ICU,High,Poor,0,4,0
+2874,MRI Scanner,Medtronic,6,53,6,68,2,ICU,Low,Good,0,2,0
+2875,Infusion Pump,Siemens,6,58,2,210,12,Ward,High,Poor,0,5,1
+2876,X-Ray,Philips,4,56,6,60,2,Lab,Medium,Moderate,0,2,0
+2877,Infusion Pump,GE Healthcare,1,34,2,192,10,Ward,Medium,Poor,0,5,0
+2878,Patient Monitor,GE Healthcare,3,75,2,173,11,Ward,High,Moderate,0,5,0
+2879,Ventilator,Siemens,4,44,4,95,9,Diagnostic Center,Low,Good,0,3,0
+2880,MRI Scanner,GE Healthcare,12,69,6,86,11,Diagnostic Center,Medium,Poor,0,4,1
+2881,Ventilator,Fujifilm,9,54,6,78,10,ICU,Medium,Poor,1,2,1
+2882,Ventilator,Medtronic,9,68,6,81,9,Diagnostic Center,High,Poor,0,2,1
+2883,ECG,GE Healthcare,7,50,12,21,2,Operating Room,High,Moderate,1,4,0
+2884,Ultrasound,GE Healthcare,4,60,6,98,7,Ward,High,Moderate,0,3,0
+2885,Infusion Pump,GE Healthcare,9,63,0,398,21,Lab,Medium,Poor,1,3,1
+2886,Patient Monitor,Philips,8,72,12,51,4,Ward,Low,Good,0,2,0
+2887,Ventilator,Mindray,4,71,4,82,4,Lab,Low,Moderate,1,3,0
+2888,Patient Monitor,Canon Medical,4,73,12,41,9,Diagnostic Center,High,Poor,0,3,0
+2889,CT Scanner,Philips,2,39,2,177,8,Operating Room,Medium,Good,0,4,0
+2890,Infusion Pump,Siemens,10,70,1,355,21,Ward,Medium,Good,1,5,1
+2891,Infusion Pump,Canon Medical,5,74,6,76,8,Operating Room,High,Poor,1,2,1
+2892,X-Ray,Fujifilm,6,35,4,82,8,Ward,High,Good,0,2,0
+2893,Ultrasound,Siemens,3,64,6,54,9,ICU,Medium,Moderate,0,5,0
+2894,Ventilator,Mindray,3,80,6,53,4,Diagnostic Center,High,Good,0,3,0
+2895,Ultrasound,Medtronic,4,62,12,20,1,ICU,High,Good,0,3,0
+2896,X-Ray,GE Healthcare,9,64,12,31,15,ICU,Low,Moderate,0,3,0
+2897,CT Scanner,Siemens,4,46,6,51,4,ICU,Medium,Poor,0,5,0
+2898,Infusion Pump,Fujifilm,7,52,6,92,7,Diagnostic Center,High,Poor,1,2,1
+2899,Ventilator,Philips,4,47,4,89,5,ICU,Medium,Poor,0,2,0
+2900,CT Scanner,GE Healthcare,9,65,4,104,11,ICU,Medium,Moderate,1,3,1
+2901,X-Ray,Philips,8,65,4,102,13,Diagnostic Center,Medium,Good,0,3,0
+2902,Infusion Pump,Canon Medical,9,72,12,39,12,ICU,Low,Poor,0,3,0
+2903,Patient Monitor,GE Healthcare,5,63,4,116,5,ICU,High,Good,0,5,0
+2904,Ventilator,Mindray,8,63,2,217,16,Ward,Low,Poor,0,3,1
+2905,ECG,Philips,6,43,4,109,6,Ward,High,Good,1,4,0
+2906,Ultrasound,Siemens,5,81,4,115,10,ICU,High,Poor,0,5,0
+2907,CT Scanner,Siemens,10,55,6,62,13,Operating Room,High,Moderate,0,4,1
+2908,Infusion Pump,GE Healthcare,9,62,6,92,9,Lab,Medium,Poor,0,3,1
+2909,Infusion Pump,Mindray,3,46,4,118,3,Diagnostic Center,Low,Good,0,2,0
+2910,CT Scanner,Siemens,7,72,2,212,13,Lab,Medium,Good,0,4,1
+2911,CT Scanner,Mindray,9,44,12,52,9,Ward,Medium,Moderate,0,3,0
+2912,MRI Scanner,Medtronic,5,87,6,77,9,ICU,High,Good,0,2,0
+2913,Ventilator,Canon Medical,12,44,2,182,18,Diagnostic Center,High,Moderate,0,3,1
+2914,Ventilator,GE Healthcare,6,39,6,67,7,Ward,High,Poor,0,5,0
+2915,ECG,Fujifilm,7,72,2,185,12,ICU,Low,Good,0,4,1
+2916,CT Scanner,Canon Medical,8,84,4,118,17,Lab,Medium,Good,0,4,1
+2917,Patient Monitor,Canon Medical,5,27,6,61,5,Diagnostic Center,High,Moderate,0,4,0
+2918,Patient Monitor,Mindray,4,71,2,221,10,ICU,Medium,Good,0,3,0
+2919,X-Ray,GE Healthcare,6,66,6,73,8,Diagnostic Center,High,Good,0,4,0
+2920,MRI Scanner,Canon Medical,10,60,4,103,13,ICU,High,Good,0,2,1
+2921,Ventilator,Fujifilm,6,61,1,404,20,Diagnostic Center,Medium,Moderate,0,2,1
+2922,Infusion Pump,Medtronic,3,79,4,104,12,Ward,High,Moderate,0,3,0
+2923,Ultrasound,Mindray,8,76,6,75,8,Ward,High,Good,0,2,1
+2924,X-Ray,Mindray,10,47,1,394,22,Ward,High,Good,0,1,1
+2925,Ventilator,Philips,6,26,6,65,7,ICU,High,Poor,0,4,0
+2926,CT Scanner,Mindray,8,68,12,58,5,Ward,High,Poor,0,2,0
+2927,MRI Scanner,Philips,12,49,4,102,13,ICU,Medium,Moderate,0,4,1
+2928,ECG,Philips,8,32,4,112,10,Diagnostic Center,Low,Moderate,0,2,1
+2929,Ultrasound,GE Healthcare,5,65,12,26,5,Diagnostic Center,High,Moderate,0,4,0
+2930,Ventilator,Fujifilm,12,49,6,83,16,Ward,Medium,Good,0,2,1
+2931,Ultrasound,Mindray,4,96,1,369,14,Diagnostic Center,High,Moderate,0,3,1
+2932,X-Ray,Philips,5,79,4,102,7,Diagnostic Center,High,Poor,0,2,0
+2933,Infusion Pump,Mindray,6,80,2,199,10,Ward,Low,Moderate,0,1,1
+2934,CT Scanner,Canon Medical,5,50,6,81,3,Diagnostic Center,Medium,Moderate,1,2,0
+2935,Ventilator,Mindray,10,57,6,74,16,Ward,Medium,Good,0,1,1
+2936,Ventilator,Medtronic,4,47,6,70,8,Ward,Medium,Moderate,1,2,0
+2937,Ultrasound,Fujifilm,4,67,4,116,6,Ward,Medium,Moderate,1,3,0
+2938,X-Ray,Medtronic,13,83,1,388,24,Ward,High,Poor,0,3,1
+2939,Ultrasound,Mindray,5,87,12,45,11,Diagnostic Center,Medium,Poor,0,3,0
+2940,Patient Monitor,Canon Medical,7,27,2,215,15,ICU,Low,Good,0,4,1
+2941,Ultrasound,Mindray,8,34,4,104,7,Operating Room,High,Poor,0,3,1
+2942,Infusion Pump,Mindray,8,65,6,85,11,ICU,Medium,Moderate,0,1,1
+2943,Ventilator,Fujifilm,7,56,2,196,7,Lab,Medium,Moderate,1,3,1
+2944,X-Ray,GE Healthcare,7,25,6,58,6,Operating Room,Medium,Moderate,1,5,0
+2945,Ventilator,Mindray,11,40,6,51,12,Diagnostic Center,High,Good,0,3,1
+2946,ECG,Canon Medical,5,79,1,357,16,Diagnostic Center,High,Good,0,4,1
+2947,Ultrasound,Fujifilm,8,56,6,99,7,Diagnostic Center,Medium,Poor,0,2,1
+2948,X-Ray,GE Healthcare,8,38,2,181,14,Operating Room,High,Good,0,4,1
+2949,Ultrasound,Canon Medical,6,74,2,197,13,Lab,High,Poor,0,4,0
+2950,Infusion Pump,Siemens,5,37,6,91,10,Ward,Medium,Good,0,5,0
+2951,X-Ray,GE Healthcare,3,79,6,61,3,Ward,Medium,Poor,0,4,0
+2952,CT Scanner,Philips,13,76,4,114,12,ICU,Medium,Moderate,1,3,1
+2953,X-Ray,Medtronic,5,41,6,50,2,Ward,Medium,Moderate,0,2,0
+2954,Infusion Pump,Siemens,6,62,6,52,5,Operating Room,High,Good,0,3,0
+2955,Ultrasound,Mindray,5,76,4,92,16,Ward,High,Poor,0,3,1
+2956,CT Scanner,Siemens,2,58,6,72,0,Diagnostic Center,Medium,Poor,0,3,0
+2957,Ventilator,Philips,10,70,6,72,6,ICU,Medium,Good,0,2,0
+2958,Infusion Pump,Canon Medical,5,63,4,83,9,ICU,Medium,Good,0,4,0
+2959,Ultrasound,Fujifilm,5,78,12,30,9,Ward,Medium,Moderate,0,3,0
+2960,MRI Scanner,Canon Medical,5,68,6,82,5,ICU,High,Good,0,4,0
+2961,X-Ray,Medtronic,6,81,6,51,8,Operating Room,Medium,Poor,0,3,0
+2962,Infusion Pump,Medtronic,7,72,1,364,15,Ward,Medium,Good,0,3,1
+2963,Ultrasound,GE Healthcare,7,53,2,177,9,Lab,Low,Good,0,3,0
+2964,Ventilator,Canon Medical,8,76,4,108,12,ICU,High,Moderate,0,4,1
+2965,Patient Monitor,Canon Medical,5,33,2,176,7,Ward,High,Poor,0,4,0
+2966,Ventilator,Philips,9,63,2,187,17,Operating Room,High,Poor,0,3,1
+2967,Ventilator,Philips,2,50,4,91,5,Ward,Medium,Good,0,4,0
+2968,Ventilator,Siemens,8,41,2,203,16,Diagnostic Center,High,Poor,0,3,1
+2969,Ultrasound,Medtronic,8,78,4,88,9,Lab,Medium,Poor,0,4,0
+2970,Ventilator,GE Healthcare,6,68,12,63,7,Operating Room,High,Poor,0,5,0
+2971,MRI Scanner,Canon Medical,6,45,6,61,8,Ward,High,Good,0,2,0
+2972,ECG,Fujifilm,5,74,4,82,8,Ward,Medium,Moderate,0,3,0
+2973,X-Ray,Fujifilm,9,69,2,182,16,Diagnostic Center,High,Moderate,0,4,1
+2974,Infusion Pump,Canon Medical,4,74,2,206,17,Diagnostic Center,Medium,Moderate,0,4,1
+2975,Patient Monitor,Medtronic,4,58,4,120,10,Ward,High,Good,0,2,1
+2976,CT Scanner,GE Healthcare,5,65,4,97,9,Diagnostic Center,Medium,Poor,0,4,0
+2977,X-Ray,GE Healthcare,5,48,6,78,6,Ward,Medium,Good,0,5,0
+2978,Patient Monitor,Canon Medical,5,43,4,126,8,ICU,Low,Moderate,1,2,1
+2979,Ultrasound,Siemens,3,70,4,103,6,ICU,High,Moderate,0,5,0
+2980,X-Ray,Siemens,3,38,2,218,9,Diagnostic Center,High,Moderate,0,5,0
+2981,Ultrasound,GE Healthcare,8,51,4,103,10,Diagnostic Center,High,Moderate,0,4,1
+2982,Ventilator,Fujifilm,4,70,2,206,13,Diagnostic Center,Low,Poor,0,2,1
+2983,X-Ray,Mindray,2,35,4,121,5,Diagnostic Center,High,Good,1,1,0
+2984,ECG,Philips,6,40,2,196,11,Ward,High,Moderate,1,3,1
+2985,Infusion Pump,Mindray,9,47,4,110,12,Ward,Medium,Good,0,2,1
+2986,MRI Scanner,Siemens,4,72,1,373,18,Operating Room,High,Good,0,3,1
+2987,X-Ray,Canon Medical,9,18,1,366,20,ICU,High,Moderate,0,3,1
+2988,Infusion Pump,Philips,4,69,4,82,5,Ward,High,Good,0,2,0
+2989,Infusion Pump,Fujifilm,4,50,4,121,9,Operating Room,High,Good,0,3,0
+2990,Ultrasound,Mindray,4,63,12,24,3,ICU,High,Poor,1,3,0
+2991,Patient Monitor,Mindray,6,48,2,193,13,Operating Room,High,Moderate,0,2,1
+2992,ECG,Philips,6,31,6,74,9,Operating Room,Medium,Good,0,4,0
+2993,CT Scanner,Canon Medical,7,83,2,214,16,Operating Room,Medium,Poor,0,2,1
+2994,Patient Monitor,Fujifilm,5,79,4,99,12,Ward,High,Good,0,2,1
+2995,X-Ray,GE Healthcare,6,48,2,190,11,Diagnostic Center,Medium,Moderate,1,5,1
+2996,Ventilator,GE Healthcare,6,42,4,121,10,ICU,High,Poor,1,5,1
+2997,Ultrasound,Mindray,5,53,12,28,5,Ward,Low,Moderate,0,1,0
+2998,Infusion Pump,Fujifilm,3,29,0,403,20,Diagnostic Center,High,Good,0,4,1
+2999,Ultrasound,Siemens,6,66,6,84,7,Operating Room,Medium,Good,0,3,0
+3000,ECG,Mindray,10,54,6,67,5,Ward,High,Moderate,0,3,0
