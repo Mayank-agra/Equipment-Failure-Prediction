@@ -1,9 +1,11 @@
-# app.py (Flask version) - corrected: all routes defined BEFORE app.run()
+# app.py - Flask backend with React frontend served
+
 import joblib
 import pandas as pd
 import traceback
 import logging
-from flask import Flask, request, jsonify
+import os
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 
 # ---------- load artifacts once ----------
@@ -12,11 +14,12 @@ FEATURE_ORDER = art["feature_order"]
 MODEL = art["model_bin"]
 IMPUTER = art.get("imputer", None)   # SimpleImputer or Series/dict or None
 SCALER  = art.get("scaler", None)    # likely None for RF
+MODEL_PATH = art.get("model_path", "risk_model_artifacts.joblib")
 
-app = Flask(__name__)
+# ---------- Flask setup ----------
+app = Flask(__name__, static_folder="build/assets")
 
-# Development-friendly CORS: allow common local dev origins
-# In production, restrict to your real frontend origins
+# CORS for development; adjust in production
 CORS(app, origins=[
     "http://localhost:5173", "http://127.0.0.1:5173",
     "http://localhost:3000", "http://127.0.0.1:3000"
@@ -28,20 +31,15 @@ app.logger.setLevel(logging.INFO)
 
 # ---------- helper functions ----------
 def _impute(df: pd.DataFrame) -> pd.DataFrame:
-    # sklearn SimpleImputer
     if hasattr(IMPUTER, "transform") and type(IMPUTER).__name__ == "SimpleImputer":
         return pd.DataFrame(IMPUTER.transform(df), columns=FEATURE_ORDER, index=df.index)
-    # pandas Series medians
     if isinstance(IMPUTER, pd.Series):
         return df.fillna(IMPUTER.reindex(FEATURE_ORDER))
-    # dict of medians
     if isinstance(IMPUTER, dict):
         return df.fillna(pd.Series(IMPUTER).reindex(FEATURE_ORDER))
-    # fallback
     return df.fillna(0)
 
 def _validate_payload(json_data):
-    # minimal validation similar to your Pydantic model
     expected = {
         "classification": str,
         "action_classification": str,
@@ -66,11 +64,8 @@ def _validate_payload(json_data):
     return missing, bad_types
 
 # ---------------- Metadata extraction endpoint ----------------
-import inspect
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
-
-MODEL_PATH = art.get("model_path", "risk_model_artifacts.joblib")
 
 def _get_transformers_from_column_transformer(ct: ColumnTransformer):
     transformers = getattr(ct, "transformers", None) or getattr(ct, "transformers_", None) or []
@@ -174,8 +169,6 @@ def metadata():
             candidate = MODEL
 
         meta = extract_metadata_from_pipeline(candidate)
-
-        # ensure expected keys exist for frontend
         categorical_values = meta.get("categorical_values", {})
         for k in ("classification", "action_classification", "type", "implanted", "determined_cause"):
             categorical_values.setdefault(k, [])
@@ -191,7 +184,6 @@ def metadata():
         app.logger.exception("Failed to build metadata")
         return jsonify({"error": str(e)}), 500
 
-# Debug stub you can use to verify frontend quickly
 @app.route("/_debug_metadata_stub", methods=["GET"])
 def _debug_metadata_stub():
     return jsonify({
@@ -219,16 +211,10 @@ def predict():
         if missing or bad_types:
             return jsonify({"error": "invalid payload", "missing": missing, "type_errors": bad_types}), 400
 
-        # 1) to DataFrame
         row = pd.DataFrame([json_data])
-
-        # 2) one-hot like training + column align
         X = pd.get_dummies(row).reindex(columns=FEATURE_ORDER, fill_value=0)
-
-        # 3) impute (and optional scale if you saved a scaler for numeric cols)
         X = _impute(X)
 
-        # 4) predict
         try:
             proba_high = float(MODEL.predict_proba(X)[:, 1][0])
         except Exception:
@@ -248,14 +234,21 @@ def predict():
         tb = traceback.format_exc()
         return jsonify({"error": "internal_server_error", "trace": tb}), 500
 
-# root route: lists available routes for sanity/debugging
-@app.route("/", methods=["GET"])
-def root():
+# ---------- Serve React frontend ----------
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_frontend(path):
+    if path != "" and os.path.exists(os.path.join("build", path)):
+        return send_from_directory("build", path)
+    else:
+        return send_from_directory("build", "index.html")
+
+# root route (optional, for debugging)
+@app.route("/routes", methods=["GET"])
+def root_routes():
     routes = sorted([rule.rule for rule in app.url_map.iter_rules()])
     return "Flask running - available routes:\n" + "\n".join(routes)
 
 # ---------- run server ----------
 if __name__ == "__main__":
-    import os
-    # Development server (debug True prints routes on startup)
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
