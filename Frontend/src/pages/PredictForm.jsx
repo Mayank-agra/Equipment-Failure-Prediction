@@ -51,7 +51,7 @@ export default function PredictForm() {
       setMetaLoading(true);
       setMetaError(null);
       try {
-        const res = await fetch("http://localhost:8000/metadata");
+        const res = await fetch("https://equipment-failure-prediction.onrender.com/metadata");
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
@@ -111,7 +111,7 @@ export default function PredictForm() {
       // ensure year is integer
       const payload = { ...form, year_initiated: Number(form.year_initiated) };
 
-      const res = await fetch("http://localhost:8000/predict-risk", {
+      const res = await fetch("https://equipment-failure-prediction.onrender.com/predict-risk", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
