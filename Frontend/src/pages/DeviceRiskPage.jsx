@@ -41,7 +41,7 @@ const DeviceRiskPage = () => {
       setMetaLoading(true);
       setMetaError(null);
       try {
-        const res = await fetch("http://localhost:5000/metadata");
+        const res = await fetch("https://equipment-failure-prediction.onrender.com/metadata");
         const json = await res.json();
         if (!res.ok) {
           throw new Error(json.error || "Failed to fetch metadata");
