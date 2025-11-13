@@ -1,5 +1,5 @@
 // src/api.js
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://equipment-failure-prediction.onrender.com";
 
 // Call backend for a single device prediction
 export async function predictSingle(device) {
