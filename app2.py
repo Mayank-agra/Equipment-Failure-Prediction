@@ -45,6 +45,9 @@ def extract_metadata_from_pipeline(pipeline):
         pass
     return meta
 
+@app.route('/')
+def home():
+    return "Equipment Failure Prediction API is running successfully!"
 
 @app.route("/metadata", methods=["GET"])
 def metadata():
